@@ -1,5 +1,5 @@
 #NewZenLetter 
-#####.......
+#####Février 2015
 ---
 
 *Distribution mensuelle de stimulus techniques* 
