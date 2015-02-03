@@ -14,7 +14,9 @@
  
 ##Conférences
 
- * [*Descritpif du lien*](Lien) 
+ * [*Spring IO*](http://www.springio.net/cfp/) - Barcelona, 29 et 30 avril !
+ 
+
  
 
 ##LoL
