@@ -1,5 +1,5 @@
-#NewZenLetter 
-#####.......
+#NewZLetter 
+#####Février 2015
 ---
 
 *Distribution mensuelle de stimulus techniques* 
@@ -19,8 +19,6 @@
  * [*Spring IO*](http://www.springio.net/cfp/) - Barcelona, 29 et 30 avril !
  
 
- 
-
 ##LoL
 
- * [*Descritpif du lien*](Lien) - !!!Commentaire!!!
+ * [*Concours Hash Code 2015*](https://sites.google.com/site/hashcode2015/home) - Google relance le Hash Code 2015 !
