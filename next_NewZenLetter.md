@@ -82,6 +82,12 @@ Si certains d'entre vous sont intéressés, on continuera à faire des révision
 ###Tribu Web
  **To be completed**
 
+###Tribu Innovation
+L'innovation est au coeur de notre domaine technologique. Par exemple, les objets communicants par internet nous ouvrent des portes sur de nombreux cas d'usage dans dans différents domaines métiers (l'automobile, la pharmacie, la santé, la grande distribution, etc).
+L'objectif de cette tribu est d'être au plus près de l'innovation de nos clients, mais également de favoriser l'innovation collaborative de vous tous.
+
+La recherche de partenaires et des réunions de cadrage avec des intervenant extérieurs sont déjà planifiées, pour structurer le contenu de cette Tribu.
+Et de prochaines dates de réunions en interne seront communiquées très prochainement.
 
 ##Les stats du Blog
 #####Janvier 2015
