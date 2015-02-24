@@ -30,7 +30,8 @@
  * [*Devoxx FR*](http://www.devoxx.fr/) - Paris 8-10 avril ! 
  * [*Mix-IT*](http://www.mix-it.fr/) - Lyon 16-17 avril ! 
 
-  
+ 
+
 ##La Direction Technique
 
 ### Les langages 2015
@@ -67,6 +68,7 @@ Lors de la prochaine réunion, nous parlerons livrables, Livre Blanc, conférenc
 
 N'hésitez pas à vous joindre à nous :) [**drive**]( https://drive.google.com/open?id=0B06CWNDTTalffmgyWjFGdUtfSnR2ZXJiVzB0emd2Q2tVdGdFdG9BZ3VtSDNHcGtPUEJ1X1E&authuser=0)
 
+---
 ###Tribu BigData/NoSQL
 *Inscriptions pour les certifications Dev et Admin afin de les passer mois avril*.
 
@@ -75,19 +77,68 @@ D'une manière générale, il faut essayer de privilégier la certification Admi
 
 Si certains d'entre vous sont intéressés, on continuera à faire des révision collégiales...
 
+---
+
 ###Tribu Software Craftsmanship
 
- **To be completed**
+ Selon le dernier recensement une vingtaine de craftZmen sont à Paris les autres (une dixaine) sont éparpillés dans le reste de la France. On s’est donc lancé pour la première fois dans une réunion vidéo inter-agences (Paris et Lyon pour l'instant). Dans le même style, le 11 mars, nous tenterons un coding dojo inter-agences.
 
-###Tribu Web
- **To be completed**
+Un groupe de 10 volontaires s'est lancé dans le chantier de refonte de la formation TDD. Le chantier avance. La vieille formation (Tests) a été migré sur Github. La nouvelle est en cours de création et Ludovic lead le chantier. Des Lego Mindstorm ont été commandé et arriveront bientôt au siège parisien et nous aimerons les utiliser pour un TP de cette nouvelle formation.
+
+Khaled Souf va partir à Chicago pour le craftswap avec la société 8Light. Dans la prochaine NewZLetter on vous racontera comment ça s’est passé.
+
+Ludovic Fernandez a lancé le meetup Software Craftsmanship Lyon. Gwenaël co-organise celui de Lyon qui vient d’être bootstrappé. Des craftsman d'autres agences seront surement impliqués dans le lancement de ces meetup. Et, pourquoi pas, nous proposerons une collaboration avec le meetup Software Craftsmanship Paris (e.g. un dojo à distance).
+
+Alban, Christophe A., Guillaume L. et Xavier D. travaillent sur un jeu sur les code review. Nous n'en dirons pas plus pour l’instant mais le jeu s’inspire dess bad smells décrits dans le livre Refactoring de Martin Fowler.
+
+***
 
 ###Tribu Innovation
+
 L'innovation est au coeur de notre domaine technologique. Par exemple, les objets communicants par internet nous ouvrent des portes sur de nombreux cas d'usage dans dans différents domaines métiers (l'automobile, la pharmacie, la santé, la grande distribution, etc).
 L'objectif de cette tribu est d'être au plus près de l'innovation de nos clients, mais également de favoriser l'innovation collaborative de vous tous.
 
 La recherche de partenaires et des réunions de cadrage avec des intervenant extérieurs sont déjà planifiées, pour structurer le contenu de cette Tribu.
 Et de prochaines dates de réunions en interne seront communiquées très prochainement.
+ 
+---
+
+###Tribu Agilité
+ **To be completed**
+
+--- 
+
+###Tribu Devops
+ **To be completed**
+
+---
+
+###Tribu Web
+
+#### Angular
+Ca bosse sur la V2...
+- [Première preview concrète d'Angular 2](https://www.youtube.com/watch?v=uD6Okha_Yj0)
+
+- [Le nouveau router qui sera compatible à la fois pour Angular 1 et 2 avance](http://angularjs.blogspot.fr/2015/02/preview-of-new-angular-router.html?m=1)
+
+#### React
+Avoir une représentation virtuelle de la page permet de faire des miracles
+- [React Native ou rendre les vues en appli mobile native]
+(https://code.facebook.com/videos/786462671439502/react-js-conf-2015-keynote-introducing-react-native-/)
+
+- React Canvas ou rendre les vues dans un canvas parce que le dom c'est lent
+	
+	[link 1](http://engineering.flipboard.com/2015/02/mobile-web/)
+
+	[link 2](https://github.com/flipboard/react-canvas)
+
+#### Actualité de la tribu
+
+- [Lancement d'un repo GitHub pour le suivi](https://github.com/Zenika/tribu-web)
+- [Conférences dans le scope : React Europe](http://www.react-europe.org/) & 
+	[dotJS](http://www.dotjs.io)
+- Beta réussie d'un meetup à Lyon, le premier à Paris est à venir
+
 
 ##Les stats du Blog
 #####Janvier 2015
@@ -144,6 +195,7 @@ Formation Docker avec Jérôme Petazzoni le 12 mars à Paris et le 16 mars à Ly
 A Full Javascript Architecture, Part Two - Chrome Extension - Zenika|147|122
 Conférence Microservices 101, le 10 février au zlocalhost - Zenika|145|109
 Storm - Ajouter du temps réel à votre BigData - Zenika|145|127
+
 
 
 ##LoL
