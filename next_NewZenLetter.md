@@ -87,9 +87,9 @@ Un groupe de 10 volontaires s'est lancé dans le chantier de refonte de la forma
 
 Khaled Souf va partir à Chicago pour le craftswap avec la société 8Light. Dans la prochaine NewZLetter on vous racontera comment ça s’est passé.
 
-Ludovic Fernandez a lancé le meetup Software Craftsmanship Lyon. Gwenaël co-organise celui de Lyon qui vient d’être bootstrappé. Des craftsman d'autres agences seront surement impliqués dans le lancement de ces meetup. Et, pourquoi pas, nous proposerons une collaboration avec le meetup Software Craftsmanship Paris (e.g. un dojo à distance).
+Ludovic Fernandez a lancé le meetup Software Craftsmanship Lyon. Gwenaël co-organise celui de Lille qui vient d’être bootstrappé. Des craftsman d'autres agences seront surement impliqués dans le lancement de ces meetup. Et, pourquoi pas, nous proposerons une collaboration avec le meetup Software Craftsmanship Paris (e.g. un dojo à distance).
 
-Alban, Christophe A., Guillaume L. et Xavier D. travaillent sur un jeu sur les code review. Nous n'en dirons pas plus pour l’instant mais le jeu s’inspire dess bad smells décrits dans le livre Refactoring de Martin Fowler.
+Alban, Christophe A., Guillaume L. et Xavier D. travaillent sur un jeu sur les code review. Nous n'en dirons pas plus pour l’instant mais le jeu s’inspire des bad smells décrits dans le livre Refactoring de Martin Fowler.
 
 ***
 
