@@ -103,13 +103,14 @@ Et de prochaines dates de réunions en interne seront communiquées très procha
  
 ---
 
-###Tribu Agilité
- **To be completed**
-
---- 
-
 ###Tribu Devops
- **To be completed**
+Rebootée le mardi 24, la tribu Devops compte trois jours plus tard 9 nouveaux membres, portant le total à 18 personnes, répartis sur les différentes régions : **bienvenue à tous!**
+
+C'est le démarrage et tout reste à faire, mais l'effervescence autour des sujets DevOps est palpable : les chantiers sont nombreux, les nouveaux membres sont motivés et déjà impliqués, les demandes fusent... tout ça présage du meilleur pour la suite au sein d'une tribu qui s'annonce dynamique!
+
+Alex et moi renouvellons ici l'invitation : toutes et tous sont conviés à intégrer la tribu. DevOps recouvre bien sûr un ensemble d'outils et de techniques, mais c'est aussi une culture, qui implique souvent des changements profonds pour les organisations qui se lancent dans l'aventure. La participation de tous, sysdamins, devs et agilistes, sera utile pour nous permettre d'embrasser toute la richesse de l'univers Devops.
+
+A très bientôt pour les premières rencontres des DevOps et le lancement des premières actions!
 
 ---
 
@@ -139,7 +140,10 @@ Avoir une représentation virtuelle de la page permet de faire des miracles
 	[dotJS](http://www.dotjs.io)
 - Beta réussie d'un meetup à Lyon, le premier à Paris est à venir
 
-
+--- 
+###Tribu Agilité
+--- 
+ 
 ##Les stats du Blog
 #####Janvier 2015
 
