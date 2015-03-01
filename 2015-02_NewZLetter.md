@@ -71,7 +71,7 @@ N'hésitez pas à vous joindre à nous :) [**drive**]( https://drive.google.com/
 ###Tribu BigData/NoSQL
 *Inscriptions pour les certifications Dev et Admin afin de les passer mois avril*.
 
-Nous espérons être suivi par certains d'entre vous, en effet, il faut savoir que pour pouvoir délivrer la formation en interne chez Zenika et en plus par nos consultants, **MongoDB nous demande d'avoir 4 consultant certifiés**. 
+Nous espérons être suivi par certains d'entre vous, en effet, il faut savoir que pour pouvoir délivrer la formation en interne chez Zenika et en plus par nos consultants, **MongoDB nous demande d'avoir 4 consultants certifiés**. 
 D'une manière générale, il faut essayer de privilégier la certification Admin, bien que la certification développeur passe également.
 
 Si certains d'entre vous sont intéressés, on continuera à faire des révision collégiales...
@@ -80,7 +80,7 @@ Si certains d'entre vous sont intéressés, on continuera à faire des révision
 
 ###Tribu Software Craftsmanship
 
-Selon le dernier recensement une vingtaine de craftZmen sont à Paris;les autres (une dizaine) sont éparpillés dans le reste de la France. On s’est donc lancé pour la première fois dans une réunion vidéo inter-agences (Paris et Lyon pour l'instant). Dans le même style, le 11 mars, nous tenterons un **coding dojo inter-agences**.
+Selon le dernier recensement une vingtaine de craftZmen sont à Paris;les autres (une dizaine) sont éparpillés dans le reste de la France. On s’est donc lancé pour la première fois dans une réunion vidéo inter-agences (Paris et Lyon pour l'instant). Dans le même style, le 11 mars, nous tenterons **un coding dojo inter-agences**.
 
 Un groupe de 10 volontaires c'est lancés dans le chantier de refonte de la formation TDD. Le chantier avance. L'ancienne formation (Tests) a été migrée sur Github. La nouvelle est en cours de création, **Ludovic** lead le chantier. Des Lego Mindstorm ont été commandés et arriveront bientôt au siège parisien, nous aimerions les utiliser pour un TP de cette nouvelle formation.
 
@@ -88,7 +88,7 @@ Un groupe de 10 volontaires c'est lancés dans le chantier de refonte de la form
 
 **Ludovic Fernandez** a lancé le meetup Software Craftsmanship Lyon. **Gwenaël** co-organise celui de Lille qui vient d’être bootstrappé. Des craftsmen d'autres agences seront surement impliqués dans le lancement de ces meetups. Et, pourquoi pas, nous proposerons une collaboration avec le meetup Software Craftsmanship Paris (e.g. un dojo à distance).
 
-**Alban, Christophe A., Guillaume L. et Xavier D.** travaillent sur un jeu sur le code review. Nous n'en dirons pas plus pour l’instant mais le jeu s’inspire des bad smells décrits dans le livre Refactoring de Martin Fowler.
+**Alban, Christophe A., Guillaume L. et Xavier D.** travaillent sur un jeu sur de code review. Nous n'en dirons pas plus pour l’instant mais le jeu s’inspire des bad smells décrits dans le livre Refactoring de Martin Fowler.
 
 ***
 
