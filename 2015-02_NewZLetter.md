@@ -72,7 +72,7 @@ N'hésitez pas à vous joindre à nous :) [**drive**]( https://drive.google.com/
 ###Tribu BigData/NoSQL
 *Inscriptions pour les certifications Dev et Admin afin de les passer mois avril*.
 
-Nous espérons être suivi par certains d'entre vous, en effet, il faut savoir que pour pouvoir délivrer la formation en interne chez Zenika et en plus par nos consultants, **MongoDB nous demande d'avoir 4 consultant certifiés** 
+Nous espérons être suivi par certains d'entre vous, en effet, il faut savoir que pour pouvoir délivrer la formation en interne chez Zenika et en plus par nos consultants, **MongoDB nous demande d'avoir 4 consultant certifiés**. 
 D'une manière générale, il faut essayer de privilégier la certification Admin, bien que la certification développeur passe également.
 
 Si certains d'entre vous sont intéressés, on continuera à faire des révision collégiales...
