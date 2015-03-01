@@ -84,7 +84,7 @@ Selon le dernier recensement une vingtaine de craftZmen sont à Paris;les autres
 
 Un groupe de 10 volontaires c'est lancés dans le chantier de refonte de la formation TDD. Le chantier avance. L'ancienne formation (Tests) a été migrée sur Github. La nouvelle est en cours de création, **Ludovic** lead le chantier. Des Lego Mindstorm ont été commandés et arriveront bientôt au siège parisien, nous aimerions les utiliser pour un TP de cette nouvelle formation.
 
-**Khaled Souf** va partir à Chicago pour le **craftswap avec la société 8Light**. Dans la prochaine NewZLetter on vous racontera comment ça c’est passé.
+**Khaled Souf** va partir à Chicago pour **le craftswap avec la société 8Light**. Dans la prochaine NewZLetter on vous racontera comment ça c’est passé.
 
 **Ludovic Fernandez** a lancé le meetup Software Craftsmanship Lyon. **Gwenaël** co-organise celui de Lille qui vient d’être bootstrappé. Des craftsmen d'autres agences seront surement impliqués dans le lancement de ces meetups. Et, pourquoi pas, nous proposerons une collaboration avec le meetup Software Craftsmanship Paris (e.g. un dojo à distance).
 
