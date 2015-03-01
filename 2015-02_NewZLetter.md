@@ -124,8 +124,7 @@ Ca bosse sur la V2...
 
 #### React
 Avoir une représentation virtuelle de la page permet de faire des miracles
-- [React Native ou rendre les vues en appli mobile native]
-	- (https://code.facebook.com/videos/786462671439502/react-js-conf-2015-keynote-introducing-react-native-/)
+- [React Native ou rendre les vues en appli mobile native](https://code.facebook.com/videos/786462671439502/react-js-conf-2015-keynote-introducing-react-native-/)
 
 - React Canvas ou rendre les vues dans un canvas parce que le dom c'est lent
 	- [link 1](http://engineering.flipboard.com/2015/02/mobile-web/)
