@@ -1,36 +1,35 @@
-#NewZLetter 
+#NewZLetter
 #####Février 2015
 ---
 
-*Distribution mensuelle de stimulus techniques* 
+*Distribution mensuelle de stimulus techniques*
 
 ##MOOCs & challenges
 
-  * [*Google Code Jam*](https://code.google.com/codejam) - challenge organisé par Google    
-  * [*Code Chef*](http://www.codechef.com/) - cuisiner votre code aux petits oignons    
-  * [*Exercism.io*](http://exercism.io/) - platform d'exercices de programmation très ludique
-  * [*Scalable Machine Learning*](https://www.edx.org/course/scalable-machine-learning-uc-berkeleyx-cs190-1x#.VOZsYVOG-Uc) - début Q2 2015  
-  * [*Mobile Cloud computing specialization*](https://www.coursera.org/specialization/mobilecloudcomputing2/36?utm_medium=listingPage) - début 25 mars  
-  
+* [*Google Code Jam*](https://code.google.com/codejam) - challenge organisé par Google
+* [*Code Chef*](http://www.codechef.com/) - cuisiner votre code aux petits oignons
+* [*Exercism.io*](http://exercism.io/) - platform d'exercices de programmation très ludique
+* [*Scalable Machine Learning*](https://www.edx.org/course/scalable-machine-learning-uc-berkeleyx-cs190-1x#.VOZsYVOG-Uc) - début Q2 2015
+* [*Mobile Cloud computing specialization*](https://www.coursera.org/specialization/mobilecloudcomputing2/36?utm_medium=listingPage) - début 25 mars
+
 
 ##Revue de presse
 
- * [*Docker cheat sheet*](https://github.com/wsargent/docker-cheat-sheet) - pour apprendre ou comme référence 
- * [*Les langages sur github*](http://githut.info/) - mise en perspectives des langages sur Github
- * [*Bibliothèque numérique*](http://stackoverflow.com/revisions/392926/175) - des livres, des livres, des livres.... 
- * [*7 choses à savoir sur le Machine Learning*](http://www.bigdataexaminer.com/i-thought-of-sharing-these-7-machine-learning-concepts-with-you/#more-991
-) - Machine Learning 
+* [*Docker cheat sheet*](https://github.com/wsargent/docker-cheat-sheet) - pour apprendre ou comme référence
+* [*Les langages sur github*](http://githut.info/) - mise en perspectives des langages sur Github
+* [*Bibliothèque numérique*](http://stackoverflow.com/revisions/392926/175) - des livres, des livres, des livres...
+* [*7 choses à savoir sur le Machine Learning*](http://www.bigdataexaminer.com/i-thought-of-sharing-these-7-machine-learning-concepts-with-you/#more-991
+) - Machine Learning
 
- 
+
 ##Conférences
 
- * [*Spring IO*](http://www.springio.net/cfp/) - Barcelona, 29-30 avril !
- * [*BigData Paris*](http://www.bigdataparis.com/) - Paris 10-11 mars !
- * [*NoSql matters*](http://2015.nosql-matters.org/par/) - Paris 26-27 mars ! 
- * [*Devoxx FR*](http://www.devoxx.fr/) - Paris 8-10 avril ! 
- * [*Mix-IT*](http://www.mix-it.fr/) - Lyon 16-17 avril ! 
+* [*Spring IO*](http://www.springio.net/cfp/) - Barcelona, 29-30 avril !
+* [*BigData Paris*](http://www.bigdataparis.com/) - Paris 10-11 mars !
+* [*NoSql matters*](http://2015.nosql-matters.org/par/) - Paris 26-27 mars !
+* [*Devoxx FR*](http://www.devoxx.fr/) - Paris 8-10 avril !
+* [*Mix-IT*](http://www.mix-it.fr/) - Lyon 16-17 avril !
 
- 
 
 ##La Direction Technique
 
@@ -42,6 +41,7 @@ La 1ère table ronde Zenika aura lieu le 18 mars au soir au showroom de Paris.
 * **Lieu :** ZLocalhost ou retransmission en agence, demandez à votre DT ou RA local. 
 
 * **Date et horaire :** 18/03/2015 à 19h pétante
+
 N'hésitez pas à venir et à poser vos questions avant et pendant la soirée.
 
 ###Formations
@@ -72,7 +72,7 @@ N'hésitez pas à vous joindre à nous :) [**drive**]( https://drive.google.com/
 ###Tribu BigData/NoSQL
 *Inscriptions pour les certifications Dev et Admin afin de les passer mois avril*.
 
-Nous espérons être suivi par certains d'entre vous, en effet, il faut savoir que pour pouvoir délivrer la formation en interne chez Zenika et en plus par nos consultants, **MongoDB nous demande d'avoir 4 consultant certifiés**. 
+Nous espérons être suivi par certains d'entre vous, en effet, il faut savoir que pour pouvoir délivrer la formation en interne chez Zenika et en plus par nos consultants, **MongoDB nous demande d'avoir 4 consultant certifiés** 
 D'une manière générale, il faut essayer de privilégier la certification Admin, bien que la certification développeur passe également.
 
 Si certains d'entre vous sont intéressés, on continuera à faire des révision collégiales...
@@ -81,7 +81,7 @@ Si certains d'entre vous sont intéressés, on continuera à faire des révision
 
 ###Tribu Software Craftsmanship
 
- Selon le dernier recensement une vingtaine de craftZmen sont à Paris les autres (une dixaine) sont éparpillés dans le reste de la France. On s’est donc lancé pour la première fois dans une réunion vidéo inter-agences (Paris et Lyon pour l'instant). Dans le même style, le 11 mars, nous tenterons un coding dojo inter-agences.
+Selon le dernier recensement une vingtaine de craftZmen sont à Paris les autres (une dixaine) sont éparpillés dans le reste de la France. On s’est donc lancé pour la première fois dans une réunion vidéo inter-agences (Paris et Lyon pour l'instant). Dans le même style, le 11 mars, nous tenterons un coding dojo inter-agences.
 
 Un groupe de 10 volontaires s'est lancé dans le chantier de refonte de la formation TDD. Le chantier avance. La vieille formation (Tests) a été migré sur Github. La nouvelle est en cours de création et **Ludovic** lead le chantier. Des Lego Mindstorm ont été commandé et arriveront bientôt au siège parisien et nous aimerons les utiliser pour un TP de cette nouvelle formation.
 
@@ -100,7 +100,7 @@ L'innovation est au coeur de notre domaine technologique. Par exemple, les objet
 
 La recherche de partenaires et des réunions de cadrage avec des intervenant extérieurs sont déjà planifiées, pour structurer le contenu de cette Tribu.
 Et de prochaines dates de réunions en interne seront communiquées très prochainement.
- 
+
 ---
 
 ###Tribu Devops
@@ -108,7 +108,7 @@ Rebootée le mardi 24, la tribu Devops compte trois jours plus tard 9 nouveaux m
 
 C'est le démarrage et tout reste à faire, mais l'effervescence autour des sujets DevOps est palpable : les chantiers sont nombreux, les nouveaux membres sont motivés et déjà impliqués, les demandes fusent... tout ça présage du meilleur pour la suite au sein d'une tribu qui s'annonce dynamique!
 
-Alex et moi renouvellons ici l'invitation : **toutes et tous sont conviés à intégrer la tribu** . DevOps recouvre bien sûr un ensemble d'outils et de techniques, mais c'est aussi une culture, qui implique souvent des changements profonds pour les organisations qui se lancent dans l'aventure. La participation de tous, sysdamins, devs et agilistes, sera utile pour nous permettre d'embrasser toute la richesse de l'univers Devops.
+Alex et moi renouvellons ici l'invitation : **toutes et tous sont conviés à intégrer la tribu** . DevOps recouvre bien sûr un ensemble d'outils et de techniques, mais c'est aussi une culture, qui implique souvent des changements profonds pour les organisations qui se lancent dans l'aventure. La participation de tous, sysadmins, devs et agilistes, sera utile pour nous permettre d'embrasser toute la richesse de l'univers Devops.
 
 A très bientôt pour les premières rencontres des DevOps et le lancement des premières actions!
 
@@ -125,19 +125,16 @@ Ca bosse sur la V2...
 #### React
 Avoir une représentation virtuelle de la page permet de faire des miracles
 - [React Native ou rendre les vues en appli mobile native]
-(https://code.facebook.com/videos/786462671439502/react-js-conf-2015-keynote-introducing-react-native-/)
+	- (https://code.facebook.com/videos/786462671439502/react-js-conf-2015-keynote-introducing-react-native-/)
 
 - React Canvas ou rendre les vues dans un canvas parce que le dom c'est lent
-	
-	[link 1](http://engineering.flipboard.com/2015/02/mobile-web/)
-
-	[link 2](https://github.com/flipboard/react-canvas)
+	- [link 1](http://engineering.flipboard.com/2015/02/mobile-web/)
+	- [link 2](https://github.com/flipboard/react-canvas)
 
 #### Actualité de la tribu
 
 - [Lancement d'un repo GitHub pour le suivi](https://github.com/Zenika/tribu-web)
-- [Conférences dans le scope : React Europe](http://www.react-europe.org/) & 
-	[dotJS](http://www.dotjs.io)
+- [Conférences dans le scope : React Europe](http://www.react-europe.org/) & [dotJS](http://www.dotjs.io)
 - Beta réussie d'un meetup à Lyon, le premier à Paris est à venir
 
 ---
@@ -208,6 +205,3 @@ Storm - Ajouter du temps réel à votre BigData - Zenika|145|127
 
  * [*Concours Hash Code 2015*](https://sites.google.com/site/hashcode2015/home) - Google relance le Hash Code 2015 !
  * [*L'humour du programmeur*](http://www.buzzfeed.com/lukelewis/28-things-only-developers-will-find-funny#.pmvAgZXe3r) - Sens de l'humour... d'un dev
- 
-
- 
