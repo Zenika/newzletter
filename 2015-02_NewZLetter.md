@@ -37,9 +37,7 @@
 La 1ère table ronde Zenika aura lieu le 18 mars au soir au showroom de Paris.
 
 * **Sujet :** Les langages 2015.
-
 * **Lieu :** ZLocalhost ou retransmission en agence, demandez à votre DT ou RA local. 
-
 * **Date et horaire :** 18/03/2015 à 19h pétante
 
 N'hésitez pas à venir et à poser vos questions avant et pendant la soirée.
@@ -202,5 +200,5 @@ Storm - Ajouter du temps réel à votre BigData - Zenika|145|127
 
 ##LoL
 
- * [*Concours Hash Code 2015*](https://sites.google.com/site/hashcode2015/home) - Google relance le Hash Code 2015 !
- * [*L'humour du programmeur*](http://www.buzzfeed.com/lukelewis/28-things-only-developers-will-find-funny#.pmvAgZXe3r) - Sens de l'humour... d'un dev
+* [*Concours Hash Code 2015*](https://sites.google.com/site/hashcode2015/home) - Google relance le Hash Code 2015 !
+* [*L'humour du programmeur*](http://www.buzzfeed.com/lukelewis/28-things-only-developers-will-find-funny#.pmvAgZXe3r) - Sens de l'humour... d'un dev
