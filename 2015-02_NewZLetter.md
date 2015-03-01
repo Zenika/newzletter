@@ -37,7 +37,7 @@
 La 1ère table ronde Zenika aura lieu le 18 mars au soir au showroom de Paris.
 
 * **Sujet :** Les langages 2015.
-* **Lieu :** ZLocalhost ou retransmission en agence, demandez à votre DT ou RA local. 
+* **Lieu :** ZLocalhost ou retransmission en agence, demandez à votre DT ou RA local.
 * **Date et horaire :** 18/03/2015 à 19h pétante
 
 N'hésitez pas à venir et à poser vos questions avant et pendant la soirée.
@@ -49,8 +49,9 @@ Affaire à suivre...
 
 ###Industrialisation des projets
 La DT est en train de réfléchir à l'industrialisation de nos projets :
- * Normes de codage pour nos langages préférés à utiliser sur nos projets pour assurer une uniformisation de la qualité
- * Projets starter (?)
+* Normes de codage pour nos langages préférés à utiliser sur nos projets pour assurer une uniformisation de la qualité
+* Projets starter (?)
+
 Toute aide est la bienvenue :)
 
 D'autres sujets sont en cours, plus d'infos dans les newZletters suivantes :)
