@@ -13,16 +13,27 @@
 
 ### Spécialisation Data Science  sur Coursera
 
-Je suis depuis début janvier les cours de la formation en ligne **Data Science** disponible sur Coursera. Je viens de terminer le 3 modules (sur 9). 
+Aujourd'hui on entend souvent parler pas mal de mot clef comme BigData, data scientist, Data Engineer, Machine Learning.
+En règles générales, ils sont associés à des outils comme Hadoop, Spark, storm, Kafka et bien d'autres encore. D'ailleurs pas mal de meetups leurs sont consacrés. Connaitre et maitriser ces outils est une chose importante mais je pense que ce n'est pas une fin en soit.
 
-Aujourd'hui pas mal de mot clef comme bigdata, data scientist, Data Engineer, Machine Learning, etc.
-Derrière ces mots on sous-entend la récupération et l'analyse de gros volume de données.
+Exploiter des sources de données diverses, nettoyer un jeu de données approximatifs, savoir corréler des informations en elles ne sont pas des choses forcément intuitives. 
+Ce dont je veux parler, c'est l'aspect théorique qui se cache derrière les mots clefs évoqués un peu plus haut.
 
-Sur ce sujet, ce que l'on retrouve en règle générale 
-
-
+Je suis depuis début janvier les cours de la formation en ligne **Data Science** disponible sur Coursera. Je viens de terminer le troisième module (sur 9). Cette formation se concentre principalement, sur les techniques à mettre en oeuvre exploiter des données et en faire ressortir 
 
 
+
+
+#A INTEGRER 
+
+http://blog.adrianbolboaca.ro Sur un classique du refactoring: Extact Class (Vincent Daviet)
+http://eclipse.dzone.com/articles/overview-technical-debt sur la dette technque (Alexandre Jacob)
+http://34cross.in/zero-to-haskell-in-production Haskell en production, un retour d'xp (Mario) 
+http://www.sleepeasysoftware.com/interesting-things-about-the-tests-in-the-junit-project/ Démistification du TDD en se basant sur le code source de Junit (Mario)
+http://exercism.io/ Plateforme d'exercie de progammation ça a l'air très cool (Mario)
+http://blog.confluent.io/2015/01/29/making-sense-of-stream-processing/ Long article très bien fait sur Event Sourcing et CQRS (Mario)
+
+#A INTEGRER 
 
 
 ##Revue de presse
