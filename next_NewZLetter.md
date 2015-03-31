@@ -13,13 +13,47 @@
 
 ### Spécialisation Data Science  sur Coursera
 
-Aujourd'hui on entend souvent parler pas mal de mot clef comme BigData, data scientist, Data Engineer, Machine Learning.
-En règles générales, ils sont associés à des outils comme Hadoop, Spark, storm, Kafka et bien d'autres encore. D'ailleurs pas mal de meetups leurs sont consacrés. Connaitre et maitriser ces outils est une chose importante mais je pense que ce n'est pas une fin en soit.
+Aujourd'hui on entend souvent parler des mots clef suivants comme : 
+ * BigData, 
+ * data scientist, 
+ * Data Engineer, 
+ * Machine Learning,
+ * NoSQL
+ * ...
 
-Exploiter des sources de données diverses, nettoyer un jeu de données approximatifs, savoir corréler des informations en elles ne sont pas des choses forcément intuitives. 
-Ce dont je veux parler, c'est l'aspect théorique qui se cache derrière les mots clefs évoqués un peu plus haut.
+En règles générales, ils sont associés à des outils comme : 
+ * Hadoop, 
+ * Spark, 
+ * storm, 
+ * Kafka, 
+ * Cassandra,
+ * MongoDB,
+ * et bien d'autres encore. 
+ 
+Un grand nombre de meetups ou de users groups sont consacrés à ces outils. Les Connaitre et maitriser est une chose importante mais je pense que ce n'est pas une fin en soit.
 
-Je suis depuis début janvier les cours de la formation en ligne **Data Science** disponible sur Coursera. Je viens de terminer le troisième module (sur 9). Cette formation se concentre principalement, sur les techniques à mettre en oeuvre exploiter des données et en faire ressortir 
+Exploiter des sources de données, nettoyer un jeu de données approximatifs, savoir corréler des informations entre elles ne sont pas des choses forcément intuitives. 
+Je veux parler de l'aspect théorique qui se cache derrière les mots clefs et outils évoqués ci-dessus.
+
+Je suis depuis début janvier les cours de la formation en ligne [**Data Science**](https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage) disponible sur **Coursera**.
+Cette formation se décompose en 9 modules : 
+ * The Data Scientist’s Toolbox
+ * R Programming
+ * Getting and Cleaning Data
+ * Exploratory Data Analysis
+ * Reproducible Research
+ * Statistical Inference
+ * Regression Models
+ * Practical Machine Learning
+ * Developing Data Products
+ 
+et se finalise par la réalisation d'un projet permettant de valider le cursus. 
+
+Les thèmes abordés se focalisent sur des aspects théoriques (analyse,statistique). Ces outils théoriques  permettent de travailler plus efficacement et surtout de manière plus formelle face un jeu de données (quelque soit son volume).
+
+Je pense que ces connaissances apporteront une plus grande pertinence dans une situation réelle de projet. 
+
+Je viens de terminer le troisième module. Cette formation se concentre principalement, sur les techniques à mettre en oeuvre exploiter des données et en faire ressortir 
 
 
 
