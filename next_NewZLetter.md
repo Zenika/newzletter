@@ -46,6 +46,7 @@ http://blog.confluent.io/2015/01/29/making-sense-of-stream-processing/ Long arti
  
 ##Conférences
 
+ * [*AWSome Day*](https://aws.amazon.com/fr/AWSome-Days/avril-2015/) - Paris 07 avril
  * [*DevopsDay*](http://www.devopsdays.org/events/2015-paris/) - Paris 14-15 avril
  * [*Google I/O*](https://events.google.com/io2015/) - San Francisco 28-29 mai 
  * [*BreizhCamp*](http://www.breizhcamp.org/) - Rennes 10-11-12 juin
