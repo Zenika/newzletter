@@ -265,6 +265,5 @@ Introduction à la programmation concurrente en Java (2/2) - Zenika	|147|	136|
  * [*Parrot et sa soucoupe volante*](http://www.smartdrones.fr/lincroyable-drone-soucoupe-volante-de-parrot/003799)
  * [*L'existence de la force*](http://www.journaldugeek.com/2015/04/01/quand-le-cern-confirme-lexistence-de-la-force/)
  * [*AirBnB et les sixties*](https://www.airbnb.com/past/index.html)
- * 
 
  
