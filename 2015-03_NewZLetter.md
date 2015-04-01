@@ -96,7 +96,7 @@ Si vous êtes intéressé par le sujet de la data, je vous recommande vivement c
 ### Table Ronde : Les langages
 
 Le 18 Mars, nous étions 12 (13 à la toute fin) autour de la 1ère table ronde dédiée aux langages.
-Tout le monde à pu participer et donner ses avis et convictions.
+Tout le monde a pu participer et donner ses avis et convictions.
 
 **Rappel des règles :** 
  - S'il y a du monde : 5 participants principaux autour d'une table, un animateur et un public qui participe et pose des questions/convictions pour relancer les débats.
@@ -105,9 +105,9 @@ Tout le monde à pu participer et donner ses avis et convictions.
 Dans les 2 cas c'est la même chose, seule la disposition de la salle change.
 
 **La soirée à démarré avec le sujet principale : les langages fonctionnels : lesquels, pourquoi, lequel ?**
-Le sujet à beaucoup fait discuter. Les principaux langages abordés ont été Scala, Haskell et F#.
+Le sujet a beaucoup fait discuter. Les principaux langages abordés ont été Scala, Haskell et F#.
 De nombreux arguments ont émergés sur chacun des 3 langages principaux, sans réussir à faire pencher la balance.
-Je pourrai résumer par : *Tous les langages se valent, même si certains sont plus vendeurs et d'autres plus stable.*
+Je pourrai résumer par : *Tous les langages se valent, même si certains sont plus vendeurs et d'autres plus stables.*
 
 **Et .Net ?**
 La grande question de l'intégration de .Net dans le radar technologique Zenika a été ré-ouverte.
@@ -116,16 +116,16 @@ Un vrai intérêt à été remonté et il est fort possible que Zenika s'y inté
 **Comment peut-on apprendre tout ça chez ZNK ?**
 Une "université des langages" chez Zenika a été proposée. L'université permettrait d'échanger autour de langages (1 même langage pendant 2 ou 3 mois).
 L'idée est déjà bien réfléchie par nos très chers passionnés :)
-**Peut-on chez Zenika avoir un peu plus de temps dégagé pour travailler ces sujets de veille techno en journée aulieu de la soirée et du Week-end ?**
+**Peut-on chez Zenika avoir un peu plus de temps dégagé pour travailler ces sujets de veille techno en journée au lieu de la soirée et du week-end ?**
 
-Les TechnoZaures et Nightclazz pourraient être un bon moyen de lancer les sujets, mais est-il possible de dégager du temps des collaborateurs pour les faire monter en compétence non seulement sur des langages, mais aussi sur les cultures des langages ? A voir avec le board...
+Les TechnoZaures et Nightclazz pourraient être un bon moyen de lancer les sujets, mais est-il possible de dégager du temps aux collaborateurs pour les faire monter en compétence non seulement sur des langages, mais aussi sur les cultures des langages ? A voir avec le board...
 
 **1er retour 8thLight**
 Khaled Souf est arrivé en toute fin de soirée pour nous présenter son retour sur 8thLight. 8thLight organise un technozaure tous les vendredi après midi.
 Peut-on faire ça chez Zenika ? Comment peut-on s'en approcher ?
 
 **Conclusion**
-Un grand merci aux participants. Pas de réponses universelle apportée mais c'était bien l'idée, et de très bons échanges très constructifs !
+Un grand merci aux participants. Pas de réponse universelle apportée mais le concept de la table ronde était respecté et a permis d'aboutir à de très bons échanges très constructifs !
 **N'hésitez pas à proposer des sujets de réflexion pour une prochaine table ronde. Les débats sont toujours très intéressants !**
 
 
@@ -253,6 +253,18 @@ Introduction à la programmation concurrente en Java (2/2) - Zenika	|147|	136|
 
  * [*The Google Graveyard*](http://www.wordstream.com/articles/retired-google-projects) - L'hécatombe...
  * [*L'humour du programmeur*](http://www.buzzfeed.com/lukelewis/28-things-only-developers-will-find-funny#.pmvAgZXe3r) - Sens de l'humour... d'un dev
- 
+
+##April Fool
+
+ * [*PacMan dans Maps*](http://techcrunch.com/2015/03/31/google-maps-easter-egg-sets-pac-man-loose-on-city-streets/)
+ * [*Google Actual Cloud Platform*](http://googlecloudplatform.blogspot.fr/2015/04/introducing-Google-Actual-Cloud-Platform.html)
+ * [*Auto Food Identification by Samsung*](https://plus.google.com/u/0/+SamsungMobile/posts/fNG1uTCgwpD)
+ * [*Playstation Flow*](https://www.youtube.com/watch?v=9bPUaLpNcMY&feature=youtu.be)
+ * [*Smartbox by Inbox*](https://www.youtube.com/watch?v=hydLZJXG3Tk&feature=youtu.be)
+ * [*com.google*](https://www.youtube.com/watch?v=hydLZJXG3Tk&feature=youtu.be)
+ * [*Parrot et sa soucoupe volante*](http://www.smartdrones.fr/lincroyable-drone-soucoupe-volante-de-parrot/003799)
+ * [*L'existence de la force*](http://www.journaldugeek.com/2015/04/01/quand-le-cern-confirme-lexistence-de-la-force/)
+ * [*AirBnB et les sixties*](https://www.airbnb.com/past/index.html)
+ * 
 
  
