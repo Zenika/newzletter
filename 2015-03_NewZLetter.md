@@ -4,6 +4,7 @@
 
 *Distribution mensuelle de stimulus techniques* 
 
+---
    
 ##Retour d'expérience by F.Sznajderman  
 
@@ -65,6 +66,7 @@ Si vous êtes intéressé par le sujet de la data, je vous recommande vivement c
 
 *Je suis disponible si vous aviez des questions par rapport à cette formation*
 
+ ---
 
 ##MOOCs & challenges
 
@@ -72,6 +74,7 @@ Si vous êtes intéressé par le sujet de la data, je vous recommande vivement c
   * [*Hacker Rank*](https://www.hackerrank.com/) - Faire ressortir le meilleur en vous développeur  
   * [*Exercism.io*](http://exercism.io/) - Platforme d'exercice de programmation
 
+---
 
 ##Revue de presse
 
@@ -79,7 +82,7 @@ Si vous êtes intéressé par le sujet de la data, je vous recommande vivement c
  * [*Meld*](http://meldmerge.org/) - Faite la différence
  * [*Reactive programming with Java8*](https://medium.com/@johnmcclean/reactive-programming-with-java-8-and-simple-react-the-tutorial-3634f512eeb1) - Simple react & Java8 
   
-
+---
  
 ##Conférences
 
@@ -90,7 +93,7 @@ Si vous êtes intéressé par le sujet de la data, je vous recommande vivement c
  * [*BreizhCamp*](http://www.breizhcamp.org/) - Rennes 10-11-12 juin
  * [*React-Europe*](http://www.react-europe.org/) - Paris 2-3 juillet  
  
-
+---
 ## Events Internes
 
 ### Table Ronde : Les langages
@@ -128,6 +131,7 @@ Peut-on faire ça chez Zenika ? Comment peut-on s'en approcher ?
 Un grand merci aux participants. Pas de réponses universelle apportée mais c'était bien l'idée, et de très bons échanges très constructifs !
 **N'hésitez pas à proposer des sujets de réflexion pour une prochaine table ronde. Les débats sont toujours très intéressants !**
 
+---
 
 ##Le mot des tribus
 
@@ -152,7 +156,6 @@ Nous sommes en réflexion sur la manière s'impliquer dans deux conférences fra
 La prochaine réunion mensuelle des craftsmen aura lieu le 1er Avril 2015.
 
 ---
-
 ###Tribu Innovation 
 Zenika a pu rencontrer les fondateurs de la société [Eura Nova](http://euranova.eu/).
 
