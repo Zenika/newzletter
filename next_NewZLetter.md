@@ -1,70 +1,38 @@
 #NewZLetter 
-#####Mars 2015
+#####Avril 2015
 ---
 
 *Distribution mensuelle de stimulus techniques* 
 
    
-##Retour d'expérience by F.Sznajderman  
+##Premier meetup craftsmanship by G. Lhermitte
 
-### Spécialisation Data Science  sur Coursera
+Ca fait quelque temps déjà que la tribu Craftsmanship peaufine un moyen ludique de former et motiver les développeurs aux bonnes pratiques.
+Le **médium** est un jeu de société encore en évolution dont un des pans est la reconnaissance des [Code Smells](https://en.wikipedia.org/wiki/Code_smell).
 
-Aujourd'hui on entend souvent parler des mots clef suivants : 
+###Principe
 
- * BigData, 
- * data scientist, 
- * Data Engineer, 
- * Machine Learning,
- * NoSQL
- * ...
+Le principe est simple.
+On présente des code smells au gens parmi une liste qu'on a spécialement "[pimp](https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fpocketchange.become.com%2Fwp-content%2Fuploads%2F2010%2F05%2FPimp-My-Ride.jpg&f=1)"-ée (actuellement on a [Feature Envy](https://github.com/Zenika/refactoringame/blob/master/smells/feature-envy.md), [Inapropriate Intimacy](https://github.com/Zenika/refactoringame/blob/master/smells/inappropriate-intimacy.md), [Primitive Obsession](https://github.com/Zenika/refactoringame/blob/master/smells/primitive-obsession.md) et [Refused Bequest](https://github.com/Zenika/refactoringame/blob/master/smells/refused-bequest.md)(oui ça s'écrit comme ça).
 
-En règles générales, ils sont associés à des outils comme : 
- * Hadoop, 
- * Spark, 
- * storm, 
- * Kafka, 
- * Cassandra,
- * MongoDB,
- * et bien d'autres encore. 
- 
-Un grand nombre de meetups ou de users groups sont consacrés à ces outils. Les connaitre et les maitriser est une chose importante mais je pense que ce n'est pas une fin en soi.
+Ensuite on montre du code *dégueu* et deux équipes armées de ["buzzers"](http://www.amazon.com/Despicable-Me-Exclusive-Banana-Scented/dp/B00BYA34P8) doivent détecter au plus vite des smells.
+L'équipe qui a buzzé doit justifier, les adversaires doivent défendre (de préférence en y mettant de la mauvaise foi).
 
-Exploiter des sources de données, nettoyer un jeu de données approximatif, savoir corréler des informations entre elles ne sont pas des choses forcément intuitives. 
-Je veux parler de l'aspect théorique qui se cache derrière les mots clefs et outils évoqués ci-dessus.
+###Comment Tester ça ?
 
-Je suis depuis début janvier les cours de la formation en ligne [**Data Science**](https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage) disponible sur **Coursera**.
-Cette formation se décompose en 9 modules : 
- * The Data Scientist’s Toolbox
- * R Programming
- * Getting and Cleaning Data
- * Exploratory Data Analysis
- * Reproducible Research
- * Statistical Inference
- * Regression Models
- * Practical Machine Learning
- * Developing Data Products
- 
-et se finalise par la réalisation d'un projet permettant de valider le cursus. 
+Pour reprendre un vieil adage : "nos utilisateurs sont nos meilleurs testeurs". On a donc décidé de présenter et de faire tester le concept par les membres du [MeetUp Software Craftsmanship Paris](http://www.meetup.com/fr/paris-software-craftsmanship) lors de la réunion du [23 avril dernier ](http://www.meetup.com/fr/paris-software-craftsmanship/events/221510421/)  dans les locaux de Sfeir.
 
-Les thèmes abordés se focalisent sur des aspects théoriques (analyse, statistique). Ces outils théoriques  permettent de travailler plus efficacement et surtout de manière plus formelle face à un jeu de données (quel que soit son volume).
+###Et ils en ont pensé quoi ?
 
-Je viens de terminer le troisième module. La progression au travers des différents modules est facile. Les concepts sont introduits au fur et à mesure. Ils sont accompagnés d'exercices pratiques tirés de use cases concrets. 
+Les gens nous très bien accueillis. Les retours, suite à cette session, étaient très enthousiastes, bons et constructifs :)
+Pendant le meetup, nous avons évoqué l'idée de faire un BBL. Les personnes présentes étaient enthousiastes par rapport à cette idée (même si aucune date n'est encore fixée).
 
-L'ensemble des exercices se basent sur le langage R. Ce langage, orienté manipulation de data, propose un environnement de développement très complet permettant de travailler dans de bonnes conditions. La prise en main est très aisée pour un développeur. 
+L'idée de mettre les smells sur un dépôt public a servi car on a eue, déjà, plusieurs demandes de partage des articles.
 
-Aussi les ressources par rapport à cette plateforme sont très nombreuses.
+###Conclusion
 
-Chaque module se décompose en 4 semaines de cours + exercices. Le temps consacré pour travailler doit être d'environ 4h à 5h par semaine.
-
-Cette formation peut être suivie soit gratuitement ou bien en payant 43Euros/module ce qui permet d'obtenir un certificat vérifié. 
-
-Aujourd'hui j'ai déjà le sentiment d'avoir acquis des bases solides dans ce domaine. Je projette de finaliser le cursus (encore 6 modules + le projet).
-
-
-Si vous êtes intéressé par le sujet de la data, je vous recommande vivement cette formation en ligne.
-
-*Je suis disponible si vous aviez des questions par rapport à cette formation*
-
+En conclusion, c'était hyper sympa et ça a bien plu donc il faut renouveler l'expérience!
+D'autant que le prochain Meetup Craftsmanship Paris sera hébergé par Zenika. Alors plus d'excuses!
 
 ##MOOCs & challenges
 
