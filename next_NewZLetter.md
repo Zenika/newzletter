@@ -60,65 +60,123 @@ D'autant que le prochain Meetup Craftsmanship Paris sera hébergé par Zenika. A
  * [*ncrafts.io*](http://ncrafts.io/) - Paris 21-22 mai 
  * [*Socrates*](https://www.socrates-conference.de/ ) - Soltau 27-30 juin 
  
+---
+
+##Le mot des tribus
+
+###Tribu Big Data / NoSQL
+Les dernières nouvelles de ce mois d'avril : 
+
+- Conférences :
+  - Le NoSQL Matters Paris à lieu fin mars : le compte-rendu est sur le [blog Zenika](http://blog.zenika.com/index.php?post/2015/04/01/Retour-sur-le-NoSQL-matters-Paris-2015)
+
+  - L'Hadoop Summit Europe a eu lieu à Bruxelles :
+
+    - Gros événement avec plus de 1300 personnes et quelques 60 sessions
+    
+    - Quelques premières présentations à se mettre sous la dent :
+      - [Beyond the tweeting toaster](https://speakerdeck.com/ptgoetz/beyond-the-tweeting-toaster-iot-analytics-with-apache-storm-kafka-and-arduino-1) : IoT streaming analytics with Apache Storm, Kafka and Arduino par [P.Taylor Goetz](https://twitter.com/ptgoetz) (Hortonworks)
+      - [Real-time stream processing with Apache Flink](http://fr.slideshare.net/GyulaFra/flink-streaming-hadoopsummit) par Marton Balassi (Data Artisans) et Gyula Fora (SICS)
+      - [How (the Internet of) Things are turning the Internet upside down](http://fr.slideshare.net/tdunning/how-the-internet-of-things-is-turning-the-internet-upside-down) par [Ted Dunning](https://twitter.com/ted_dunning) (MapR)  
+
+    - Des Zenikéens étaient présents, le CR est disponible sur [blog Zenika](https://blog.zenika.com/index.php?post/2015/04/27/Retour-sur-Hadoop-Summit-Bruxelles-2015)
+
+    - Le prochain summit à Nantes ? C'est quand même la seule ville en Europe avec [un éléphant qui se promène dans la rue](http://www.lesmachines-nantes.fr/fichier/p_image/4265/image_fichier_fr_van.mac.07.13.jdb.ge.008.jpg) toute l'année ! 
+
+- Technologies :
+  - Hadoop :
+    - [ODP (Open Data Platform)](http://opendataplatform.org/) : initiative de Hortonworks/Pivotal/IBM (entre autres)
+      - Les points de vue divergent (selon le camp !) :
+        - Celui de [MapR](https://www.mapr.com/blog/our-view-open-data-platform)
+        - [Hadoop Wars: The Hype, and Anti-Hype around ODP](https://www.linkedin.com/pulse/hadoop-wars-hype-anti-hype-around-odp-michael-wood)
+        - [ODP is the real deal](http://www.cmswire.com/cms/big-data/hey-cloudera-mapr-open-data-platform-is-the-real-deal-028787.php)
+        - [L'ODP se met en place](http://mobile.lemondeinformatique.fr/actualites/lire-hadoop-summit-europe-2015-l-open-data-platform-se-met-en-place-le-monde-informatique-60865.html)
+
+    - Annonce du 1er avril : [Cloudera to Release First Recursive Hadoop Stack](http://vision.cloudera.com/cloudera-to-release-first-recursive-hadoop-stack/)
+ 
+  - NoSQL :
+    - MongoDB : un risque sur la cohérence des données ?
+      - Le [post de Kyle Kingsbury](https://aphyr.com/posts/322-call-me-maybe-mongodb-stale-reads) (il faut lire les commentaires !)
+      - Une [réponse intéressante au post](http://smalldatum.blogspot.fr/2015/04/much-ado-about-nothing.html)
+
+    - La guéguerre sur les tests de perfs des bases de données NoSQL continue ! Quelques communiqués...
+      - [DataStax](http://www.datastax.com/2015/04/apache-cassandra-leads-all-others-in-latest-nosql-benchmark)
+      - [MongoDB](http://www.informationweek.com/big-data/software-platforms/mongodb-counters-couchbase-performance-claims/a/d-id/1319696)
+      - [Couchbase](http://www.informationweek.com/big-data/big-data-analytics/couchbase-claims-performance-gains-against-nosql-rivals/d/d-id/1319572)
+
+- Stream processing :
+
+  - [The Future Of Big Data Looks Like Streaming](http://readwrite.com/2015/04/02/big-data-streaming-no-more-batch-processing)
+
+  - [Data Streaming avec Tibco / Hadoop / Impala](http://vision.cloudera.com/tibco-streambase-hadoop-impala-fast-data-streaming-analytics/)
+  
+  - Apache Flink : 
+    - [Framework à suivre](https://flink.apache.org/)
+    - Google cloud dataflow est [disponible sur Flink](http://mobile.eweek.com/cloud/google-cloud-dataflow-now-available-on-apache-flink.html)
+
+  - Exemple de [monitoring de stream processing](http://blog.sematext.com/2015/04/22/monitoring-stream-processing-tools-cassandra-kafka-and-spark/) avec des morceaux de Kafka et de Spark (forcément!) dedans
+
+
+**Mail de la tribu : bigdata@zenika.com**
 
 
 ---
  
 ##Les stats du Blog
-#####février 2015
+#####mars 2015
 
 Titre de page |	Pages vues	| Consultations uniques
 --------------|-------------|--------------------
-Setting up a development environment using Docker and Vagrant - Zenika	|10484|	9137|
-Documenting a REST API with Swagger and Spring MVC - Zenika	|4928|	4527|
-Premiers pas avec ElasticSearch (Partie 1) - Zenika	|2462|	2113|
-Using Tomcat JDBC connection pool in a standalone environment - Zenika	|1540	|1453|
-REST Web Services testing with Spring MVC - Zenika	|1530	|1411|
-Zenika - Home Blog|	1455|	1175|
-Tutoriel sur l'installation et la configuration d'ElasticSearch (partie 1)|	1426|	1276|
-Tutoriel sur Spring Cache|	1290	|1214|
-A Full Javascript Architecture, Part One - NodeJS - Zenika|	995|	881|
-AngularJS : Les directives - Zenika	|986	|898|
-Using Thymeleaf with Spring MVC - Zenika|	977	|923|
-Pourquoi pas ReactJS ? - Zenika|	812|	716|
-Introducing Spring MVC test framework - Zenika|	706	|667|
-Passer d'une application Angular-Bootstrap à Angular-Material Design - Zenika|	682|	644|
-Java 8 et les Lambda - Zenika	|641	|597|
-Introducing the Thymeleaf template engine - Zenika|	571|	542|
-Testing SQL queries with Spring and DbUnit, part 1 - Zenika|	570|	524|
-Introduction à la programmation concurrente en Java (1/2) - Zenika|	461|	402|
-Error handling with REST - Zenika	|448|	432|
-HATEOAS with Spring MVC REST - Zenika|	422|	397|
-Premier aperçu d'AngularJS 2.0 - Zenika|	416|	377|
-HTML5 et les WebSockets - Zenika	|409|	369|
-Introduction à Spark - Zenika	|409	|343|
-Intégrer ElasticSearch dans une application Java - Zenika|	391	|341|
-HATEOAS paging with Spring MVC and Spring Data JPA - Zenika|	352|	328|
-A Full Javascript Architecture, Part Three - MongoDB - Zenika|	310	|290|
-AngularJS : Getting Started - Zenika	|297	|278|
-Testing SQL queries with Spring and DbUnit, part 2 - Zenika	|249|	228|
-Edition de maquettes IHM avec Balsamiq Mockups - Zenika|	227	|169|
-Spark et Cassandra - Zenika	|225|	186|
-HTML5: le mode Offline - Zenika	|223	|196|
-Quelques patterns d'implémentation avec les enums java - Zenika|	216|	200|
-Failover with RabbitMQ, the sender's story - Zenika	|200	|178|
-Overview of Spring Data MongoDB - Zenika|	199	|194|
-Relevez le challenge "The Great Escape" sur CodinGame - Zenika	|198|	181|
-Introducing the ElasticSearch View Plugin - Zenika|	196|	183|
-Gestion de session avancée avec Hibernate - Zenika	|195|	161|
-AngularJS : la philosophie - Zenika|	191|	179|
-Hadoop, première partie : Le système de fichier et le MapReduce au service des gros volumes de données - Zenika	|190|	165|
-Introduction à RabbitMQ - RabbitMQ, le vif du sujet - Zenika|	188	|170|
-Book review: Mastering lambdas - Zenika	|183|	169|
-Java : @SuppressWarnings démystifié - Zenika	|177	|171|
-Un peu plus loin avec Quartz - Zenika|	174	|166|
-HawtIO, la console web polyvalente - Zenika	|170|	103|
-Neo4j la base de données graphe - Zenika	|168	|156|
-Les WebSockets en pratique - Zenika	|166|	155|
-Repenser la propagation des exceptions avec Java 8 - Zenika	|151|	137|
-Rex - AngularJS et les Fuites mémoires - Zenika	|151|	140|
-Spring Cache - Zenika	|149|	141|
-Introduction à la programmation concurrente en Java (2/2) - Zenika	|147|	136|
+Documenting a REST API with Swagger and Spring MVC - Zenika|3041|2742
+Premiers pas avec ElasticSearch (Partie 1) - Zenika|2160|1859
+Using Tomcat JDBC connection pool in a standalone environment - Zenika|1501|1399
+Zenika - Home Blog|1350|1135
+REST Web Services testing with Spring MVC - Zenika|1088|1001
+A Full Javascript Architecture, Part One - NodeJS - Zenika|986|891
+Using Thymeleaf with Spring MVC - Zenika|885|833
+Testing SQL queries with Spring and DbUnit, part 1 - Zenika|713|653
+Passer d'une application Angular-Bootstrap à Angular-Material Design - Zenika|683|606
+AngularJS : Les directives - Zenika|682|614
+HTML5 et les WebSockets - Zenika|565|513
+Introducing Spring MVC test framework - Zenika|554|510
+Introducing the Thymeleaf template engine - Zenika|537|498
+Java 8 et les Lambda - Zenika|502|476
+Error handling with REST - Zenika|492|478
+HATEOAS paging with Spring MVC and Spring Data JPA - Zenika|464|409
+Testing SQL queries with Spring and DbUnit, part 2 - Zenika|353|305
+A Full Javascript Architecture, Part Three - MongoDB - Zenika|346|321
+DevOps : les résultats de notre enquête - Zenika|328|307
+Retour sur le Docker Paris avec Jérôme Petazzoni - Zenika|322|290
+Introduction à RabbitMQ - RabbitMQ, le vif du sujet - Zenika|317|290
+HATEOAS with Spring MVC REST - Zenika|308|291
+Premier aperçu d'AngularJS 2.0 - Zenika|261|212
+Intégrer ElasticSearch dans une application Java - Zenika|253|232
+Lancement du BPM Professional Group France - Zenika|240|143
+Introduction à la programmation concurrente en Java (1/2) - Zenika|231|211
+Overview of Spring Data MongoDB - Zenika|230|222
+Failover with RabbitMQ, the sender's story - Zenika|219|195
+Le Docker Paris Meetup et le Jenkins User Meetup au zlocalhost - Zenika|214|158
+HawtIO, la console web polyvalente - Zenika|208|136
+Introducing the ElasticSearch View Plugin - Zenika|203|196
+HTML5: le mode Offline - Zenika|202|187
+AngularJS : Getting Started - Zenika|188|169
+Java : @SuppressWarnings démystifié - Zenika|177|171
+AngularJS : la philosophie - Zenika|173|161
+Rest with Scala and Vert.x - Zenika|171|151
+Gestion de session avancée avec Hibernate - Zenika|159|138
+Cloud Platform Roadshow de Pivotal au zlocalhost, le 25 septembre - Zenika|152|139
+Introduction à RabbitMQ - AMQP Partie I - Zenika|152|137
+Hadoop, première partie : Le système de fichier et le MapReduce au service des gros volumes de données - Zenika|151|125
+Quelques patterns d'implémentation avec les enums java - Zenika|151|139
+Sencha Touch : un framework HTML5 pour Mobile - Zenika|151|122
+Spring Batch and MongoDB: cursor-based item reader - Zenika|151|140
+Creating a Varnish 4 module - Zenika|148|136
+Edition de maquettes IHM avec Balsamiq Mockups - Zenika|147|128
+Un peu plus loin avec Quartz - Zenika|134|121
+Spring 3.1 - Profils et environments (partie 1) - Zenika|131|122
+Mixing Ant and Gradle scripts - Zenika|129|127
+Premiers pas dans la création d'une extension Chrome - Zenika|127|115
+A Full Javascript Architecture, Part Two - Chrome Extension - Zenika|123|117
 
 
 ##LoL
