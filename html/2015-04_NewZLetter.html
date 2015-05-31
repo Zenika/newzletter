@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generated-by" content="Markdown PRO, http://markdownpro.com"/>
+<title></title>
+<style type="text/css">
+html,body{margin:0;padding:0;}
+body {padding: 20px}
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none;}
+q:before,q:after,blockquote:before,blockquote:after{content:"";}
+html{overflow-y:scroll;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+a:focus{outline:thin dotted;}
+a:hover,a:active{outline:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
+audio:not([controls]){display:none;}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+img{border:0;-ms-interpolation-mode:bicubic;}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle;}
+button,input{line-height:normal;*overflow:visible;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;}
+input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+textarea{overflow:auto;vertical-align:top;}
+html,body{background-color:#ffffff;}
+body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:18px;color:#404040;}
+.container{width:940px;margin-left:auto;margin-right:auto;zoom:1;}.container:before,.container:after{display:table;content:"";zoom:1;*display:inline;}
+.container:after{clear:both;}
+.container-fluid{position:relative;min-width:940px;padding-left:20px;padding-right:20px;zoom:1;}.container-fluid:before,.container-fluid:after{display:table;content:"";zoom:1;*display:inline;}
+.container-fluid:after{clear:both;}
+.container-fluid>.sidebar{float:left;width:220px;}
+.container-fluid>.content{margin-left:240px;}
+a{color:#0069d6;text-decoration:none;line-height:inherit;font-weight:inherit;}a:hover{color:#00438a;text-decoration:underline;}
+.pull-right{float:right;}
+.pull-left{float:left;}
+.hide{display:none;}
+.show{display:block;}
+.row{zoom:1;margin-left:-20px;}.row:before,.row:after{display:table;content:"";zoom:1;*display:inline;}
+.row:after{clear:both;}
+p{font-size:13px;font-weight:normal;line-height:18px;margin-bottom:9px;}p small{font-size:11px;color:#bfbfbf;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;color:#404040;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{color:#bfbfbf;}
+h1{margin-bottom:18px;font-size:30px;line-height:36px;}h1 small{font-size:18px;}
+h2{font-size:24px;line-height:36px;}h2 small{font-size:14px;}
+h3,h4,h5,h6{line-height:36px;}
+h3{font-size:18px;}h3 small{font-size:14px;}
+h4{font-size:16px;}h4 small{font-size:12px;}
+h5{font-size:14px;}
+h6{font-size:13px;color:#bfbfbf;text-transform:uppercase;}
+ul,ol{margin:0 0 18px 25px;}
+ul ul,ul ol,ol ol,ol ul{margin-bottom:0;}
+ul{list-style:disc;}
+ol{list-style:decimal;}
+li{line-height:18px;color:#808080;}
+ul.unstyled{list-style:none;margin-left:0;}
+dl{margin-bottom:18px;}dl dt,dl dd{line-height:18px;}
+dl dt{font-weight:bold;}
+dl dd{margin-left:9px;}
+hr{margin:20px 0 19px;border:0;border-bottom:1px solid #eee;}
+strong{font-style:inherit;font-weight:bold;}
+em{font-style:italic;font-weight:inherit;line-height:inherit;}
+.muted{color:#bfbfbf;}
+blockquote{margin-bottom:18px;border-left:5px solid #eee;padding-left:15px;}blockquote p{font-size:14px;font-weight:300;line-height:18px;margin-bottom:0;}
+blockquote small{display:block;font-size:12px;font-weight:300;line-height:18px;color:#bfbfbf;}blockquote small:before{content:'\2014 \00A0';}
+address{display:block;line-height:18px;margin-bottom:18px;}
+code,pre{padding:0 3px 2px;font-family:Monaco, Andale Mono, Courier New, monospace;font-size:12px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+code{padding:1px 3px;}
+pre{background-color:#f5f5f5;display:block;padding:8.5px;margin:0 0 18px;line-height:18px;font-size:12px;border:1px solid #ccc;border:1px solid rgba(0, 0, 0, 0.15);-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
+form{margin-bottom:18px;}
+fieldset{margin-bottom:18px;padding-top:18px;}fieldset legend{display:block;padding-left:150px;font-size:19.5px;line-height:1;color:#404040;*padding:0 0 5px 145px;*line-height:1.5;}
+form .clearfix{margin-bottom:18px;zoom:1;}form .clearfix:before,form .clearfix:after{display:table;content:"";zoom:1;*display:inline;}
+form .clearfix:after{clear:both;}
+label,input,select,textarea{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:normal;}
+label{padding-top:6px;font-size:13px;line-height:18px;float:left;width:130px;text-align:right;color:#404040;}
+form .input{margin-left:150px;}
+input[type=checkbox],input[type=radio]{cursor:pointer;}
+input,textarea,select,.uneditable-input{display:inline-block;width:210px;height:18px;padding:4px;font-size:13px;line-height:18px;color:#808080;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+input[type=checkbox],input[type=radio]{width:auto;height:auto;padding:0;margin:3px 0;*margin-top:0;line-height:normal;border:none;}
+input[type=file]{background-color:#ffffff;padding:initial;border:initial;line-height:initial;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+input[type=button],input[type=reset],input[type=submit]{width:auto;height:auto;}
+select,input[type=file]{height:27px;line-height:27px;*margin-top:4px;}
+select[multiple]{height:inherit;}
+textarea{height:auto;}
+.uneditable-input{background-color:#ffffff;display:block;border-color:#eee;-webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);-moz-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);cursor:not-allowed;}
+:-moz-placeholder{color:#bfbfbf;}
+::-webkit-input-placeholder{color:#bfbfbf;}
+input,textarea{-webkit-transition:border linear 0.2s,box-shadow linear 0.2s;-moz-transition:border linear 0.2s,box-shadow linear 0.2s;-ms-transition:border linear 0.2s,box-shadow linear 0.2s;-o-transition:border linear 0.2s,box-shadow linear 0.2s;transition:border linear 0.2s,box-shadow linear 0.2s;-webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);-moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);}
+input:focus,textarea:focus{outline:0;border-color:rgba(82, 168, 236, 0.8);-webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);-moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);}
+input[type=file]:focus,input[type=checkbox]:focus,select:focus{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:1px dotted #666;}
+form div.clearfix.error{background:#fae5e3;padding:10px 0;margin:-10px 0 10px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}form div.clearfix.error>label,form div.clearfix.error span.help-inline,form div.clearfix.error span.help-block{color:#9d261d;}
+form div.clearfix.error input,form div.clearfix.error textarea{border-color:#c87872;-webkit-box-shadow:0 0 3px rgba(171, 41, 32, 0.25);-moz-box-shadow:0 0 3px rgba(171, 41, 32, 0.25);box-shadow:0 0 3px rgba(171, 41, 32, 0.25);}form div.clearfix.error input:focus,form div.clearfix.error textarea:focus{border-color:#b9554d;-webkit-box-shadow:0 0 6px rgba(171, 41, 32, 0.5);-moz-box-shadow:0 0 6px rgba(171, 41, 32, 0.5);box-shadow:0 0 6px rgba(171, 41, 32, 0.5);}
+form div.clearfix.error .input-prepend span.add-on,form div.clearfix.error .input-append span.add-on{background:#f4c8c5;border-color:#c87872;color:#b9554d;}
+table{width:100%;margin-bottom:18px;padding:0;border-collapse:separate;*border-collapse:collapse;font-size:13px;border:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left;}
+table th{padding-top:9px;font-weight:bold;vertical-align:middle;border-bottom:1px solid #ddd;}
+table td{vertical-align:top;}
+table th+th,table td+td{border-left:1px solid #ddd;}
+table tr+tr td{border-top:1px solid #ddd;}
+table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0;}
+table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0;}
+table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px;}
+table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0;}
+.zebra-striped tbody tr:nth-child(odd) td{background-color:#f9f9f9;}
+.zebra-striped tbody tr:hover td{background-color:#f5f5f5;}
+.zebra-striped .header{cursor:pointer;}.zebra-striped .header:after{content:"";float:right;margin-top:7px;border-width:0 4px 4px;border-style:solid;border-color:#000 transparent;visibility:hidden;}
+.zebra-striped .header:hover:after{visibility:visible;}
+footer{margin-top:17px;padding-top:17px;border-top:1px solid #eee;}
+.page-header{margin-bottom:17px;border-bottom:1px solid #ddd;-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);-moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);}.page-header h1{margin-bottom:8px;}
+.close{float:right;color:#000000;font-size:20px;font-weight:bold;line-height:13.5px;text-shadow:0 1px 0 #ffffff;filter:alpha(opacity=20);-khtml-opacity:0.2;-moz-opacity:0.2;opacity:0.2;}.close:hover{color:#000000;text-decoration:none;filter:alpha(opacity=40);-khtml-opacity:0.4;-moz-opacity:0.4;opacity:0.4;}
+
+pre {
+	padding: 0;
+	margin: 10px 0px 10px;
+	overflow: auto; /*--If the Code exceeds the width, a scrolling is available--*/
+	overflow-Y: hidden;  /*--Hides vertical scroll created by IE--*/
+}
+pre code {
+	margin: 5px;  /*--Left Margin--*/
+	padding: 0px;
+	display: block;
+    line-height: 18px;
+}
+.center { text-align:center}
+.left {text-align:left}
+.right {text-align:right}
+
+</style><style type="text/css">
+body {
+	font-family: "Geneva", Arial, sans-serif;
+	font-size: 13px;
+	margin: 10px;
+}
+
+a, a:visited {
+	color: #09c;
+}
+
+a:hover {
+	color: #336699;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0px 0px 10px;	
+	font-weight: bold;
+}
+
+h2 {
+	border-bottom: 2px dotted #ccc;
+	margin: 5px 0px 15px;	
+}
+
+h6 {
+	color: #09c;
+}
+
+blockquote {
+	font-family: "Georgia", Courier New, courier, sans-serif;
+	background: #efefef;
+	padding: 5px 10px;
+	border: solid 1px #ddd;
+	margin: 15px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	color:  #333;
+	
+}
+
+ul, ol {
+	margin-bottom: 15px;
+}
+
+li {
+	padding: 3px;
+}
+
+
+
+code {
+	background-color: #f1f1f1;
+    color: #336699;
+}
+
+pre {
+	background-color: #f1f1f1;
+}
+
+pre > code {
+	margin: 0px;
+	padding: 5px;
+	border: 0px;
+	background-color: #f1f1f1;
+}
+
+
+</style></head>
+<body>
+<h1 id="toc_0">NewZLetter</h1>
+
+<h5 id="toc_1">Avril 2015</h5>
+
+<hr/>
+
+<p><em>Distribution mensuelle de stimulus techniques</em> </p>
+
+<h2 id="toc_2">Premier meetup craftsmanship by G. Lhermitte</h2>
+
+<p>Ca fait quelque temps déjà que la tribu Craftsmanship peaufine un moyen ludique de former et motiver les développeurs aux bonnes pratiques.
+Le <strong>médium</strong> est un jeu de société encore en évolution dont un des pans est la reconnaissance des <a href="https://en.wikipedia.org/wiki/Code_smell">Code Smells</a>.</p>
+
+<h3 id="toc_3">Principe</h3>
+
+<p>Le principe est simple.
+On présente des code smells au gens parmi une liste qu&#39;on a spécialement &quot;<a href="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fpocketchange.become.com%2Fwp-content%2Fuploads%2F2010%2F05%2FPimp-My-Ride.jpg&amp;f=1">pimp</a>&quot;-ée (actuellement on a <a href="https://github.com/Zenika/refactoringame/blob/master/smells/feature-envy.md">Feature Envy</a>, <a href="https://github.com/Zenika/refactoringame/blob/master/smells/inappropriate-intimacy.md">Inapropriate Intimacy</a>, <a href="https://github.com/Zenika/refactoringame/blob/master/smells/primitive-obsession.md">Primitive Obsession</a> et <a href="https://github.com/Zenika/refactoringame/blob/master/smells/refused-bequest.md">Refused Bequest</a>(oui ça s&#39;écrit comme ça).</p>
+
+<p>Ensuite on montre du code <em>dégueu</em> et deux équipes armées de <a href="http://www.amazon.com/Despicable-Me-Exclusive-Banana-Scented/dp/B00BYA34P8">&quot;buzzers&quot;</a> doivent détecter au plus vite des smells.
+L&#39;équipe qui a buzzé doit justifier, les adversaires doivent défendre (de préférence en y mettant de la mauvaise foi).</p>
+
+<h3 id="toc_4">Comment Tester ça ?</h3>
+
+<p>Pour reprendre un vieil adage : &quot;nos utilisateurs sont nos meilleurs testeurs&quot;. On a donc décidé de présenter et de faire tester le concept par les membres du <a href="http://www.meetup.com/fr/paris-software-craftsmanship">MeetUp Software Craftsmanship Paris</a> lors de la réunion du <a href="http://www.meetup.com/fr/paris-software-craftsmanship/events/221510421/">23 avril dernier </a>  dans les locaux de Sfeir.</p>
+
+<h3 id="toc_5">Et ils en ont pensé quoi ?</h3>
+
+<p>Les gens nous très bien accueillis. Les retours, suite à cette session, étaient très enthousiastes, bons et constructifs :)
+Pendant le meetup, nous avons évoqué l&#39;idée de faire un BBL. Les personnes présentes étaient enthousiastes par rapport à cette idée (même si aucune date n&#39;est encore fixée).</p>
+
+<p>L&#39;idée de mettre les smells sur un dépôt public a servi car on a eue, déjà, plusieurs demandes de partage des articles.</p>
+
+<h3 id="toc_6">Conclusion</h3>
+
+<p>En conclusion, c&#39;était hyper sympa et ça a bien plu donc il faut renouveler l&#39;expérience!
+D&#39;autant que le prochain Meetup Craftsmanship Paris sera hébergé par Zenika. Alors plus d&#39;excuses!</p>
+
+<h2 id="toc_7">MOOCs &amp; challenges</h2>
+
+<ul>
+<li><a href="https://www.coursera.org/learn/machine-learning/"><em>Coursera Machine Learning</em></a> - Apprendre sans contrainte de temps<br/></li>
+<li><a href="https://www.kaggle.com/"><em>Kaggle</em></a> - Utiliser et décortiquer les données</li>
+<li><a href="https://www.coursera.org/learn/learning-how-to-learn"><em>Coursera Learning How to learn</em></a> - Apprendre à apprendre</li>
+</ul>
+
+<h2 id="toc_8">Revue de presse</h2>
+
+<ul>
+<li><a href="http://www.infoq.com/fr/news/2015/04/aws-launches-machine-learning?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global"><em>Amazon lance un service de Machine Learning</em></a> - Nouveaux projets en phase béta<br/></li>
+<li><a href="https://stackedit.io"><em>StackEdit</em></a> - Notes en markdown dans le cloud</li>
+<li><a href="http://leandromoreira.com.br/2015/04/26/fifa-2014-world-cup-live-stream-architecture/"><em>FIFA 2014 World Cup live stream architecture</em></a> - les dessous du foot</li>
+<li><a href="http://www.webactus.net/reseaux-sociaux/twitter/13191-messages-prives-twitter-changement-des-regles/?utm_source=NL%2027%20Avril&amp;utm_medium=e-mail&amp;utm_term=NL%2027%20Avril&amp;utm_content=NL%2027%20Avril&amp;utm_campaign=NL%2027%20Avril"><em>Messages privés Twitter</em></a> - Changement de règles</li>
+</ul>
+
+<h2 id="toc_9">Conférences</h2>
+
+<ul>
+<li><a href="http://www.kanbanday.fr/"><em>Kanban day</em></a> - Paris 28 mai 2015</li>
+<li><a href="http://devoxx.ma/fr/"><em>Devoxx Maroc</em></a> - Casablanca CFP ouvert le 1er mai</li>
+<li><a href="http://2015.conference-agile.fr/"><em>Agile France</em></a> - Paris 18-19 juin</li>
+<li><a href="http://ncrafts.io/"><em>ncrafts.io</em></a> - Paris 21-22 mai </li>
+<li><a href="https://www.socrates-conference.de/"><em>Socrates</em></a> - Soltau 27-30 juin </li>
+</ul>
+
+<hr/>
+
+<h2 id="toc_10">Le mot des tribus</h2>
+
+<h3 id="toc_11">Tribu Big Data / NoSQL</h3>
+
+<p>Les dernières nouvelles de ce mois d&#39;avril : </p>
+
+<ul>
+<li><p>Conférences :</p>
+
+<ul>
+<li>Le NoSQL Matters Paris était fin mars : le compte-rendu est sur le <a href="http://blog.zenika.com/index.php?post/2015/04/01/Retour-sur-le-NoSQL-matters-Paris-2015">blog Zenika</a></li>
+<li>L&#39;Hadoop Summit Europe a eu lieu à Bruxelles :</li>
+<li>Gros événement avec plus de 1300 personnes et quelques 60 sessions</li>
+<li>Quelques premières présentations à se mettre sous la dent :
+
+<ul>
+<li><a href="https://speakerdeck.com/ptgoetz/beyond-the-tweeting-toaster-iot-analytics-with-apache-storm-kafka-and-arduino-1">Beyond the tweeting toaster</a> : IoT streaming analytics with Apache Storm, Kafka and Arduino par <a href="https://twitter.com/ptgoetz">P.Taylor Goetz</a> (Hortonworks)</li>
+<li><a href="http://fr.slideshare.net/GyulaFra/flink-streaming-hadoopsummit">Real-time stream processing with Apache Flink</a> par Marton Balassi (Data Artisans) et Gyula Fora (SICS)</li>
+<li><a href="http://fr.slideshare.net/tdunning/how-the-internet-of-things-is-turning-the-internet-upside-down">How (the Internet of) Things are turning the Internet upside down</a> par <a href="https://twitter.com/ted_dunning">Ted Dunning</a> (MapR)<br/></li>
+</ul></li>
+<li>Des Zenikéens étaient présents, le CR est disponible sur <a href="https://blog.zenika.com/index.php?post/2015/04/27/Retour-sur-Hadoop-Summit-Bruxelles-2015">blog Zenika</a></li>
+<li>Le prochain summit à Nantes ? C&#39;est quand même la seule ville en Europe avec <a href="http://www.lesmachines-nantes.fr/fichier/p_image/4265/image_fichier_fr_van.mac.07.13.jdb.ge.008.jpg">un éléphant qui se promène dans la rue</a> toute l&#39;année ! </li>
+</ul></li>
+<li><p>Technologies :</p>
+
+<ul>
+<li>Hadoop :</li>
+<li><a href="http://opendataplatform.org/">ODP (Open Data Platform)</a> : initiative de Hortonworks/Pivotal/IBM (entre autres)
+
+<ul>
+<li>Les points de vue divergent (selon le camp !) :</li>
+<li>Celui de <a href="https://www.mapr.com/blog/our-view-open-data-platform">MapR</a></li>
+<li><a href="https://www.linkedin.com/pulse/hadoop-wars-hype-anti-hype-around-odp-michael-wood">Hadoop Wars: The Hype, and Anti-Hype around ODP</a></li>
+<li><a href="http://www.cmswire.com/cms/big-data/hey-cloudera-mapr-open-data-platform-is-the-real-deal-028787.php">ODP is the real deal</a></li>
+<li><a href="http://mobile.lemondeinformatique.fr/actualites/lire-hadoop-summit-europe-2015-l-open-data-platform-se-met-en-place-le-monde-informatique-60865.html">L&#39;ODP se met en place</a></li>
+</ul></li>
+<li>Annonce du 1er avril : <a href="http://vision.cloudera.com/cloudera-to-release-first-recursive-hadoop-stack/">Cloudera to Release First Recursive Hadoop Stack</a></li>
+<li>NoSQL :</li>
+<li>MongoDB : un risque sur la cohérence des données ?
+
+<ul>
+<li>Le <a href="https://aphyr.com/posts/322-call-me-maybe-mongodb-stale-reads">post de Kyle Kingsbury</a> (il faut lire les commentaires !)</li>
+<li>Une <a href="http://smalldatum.blogspot.fr/2015/04/much-ado-about-nothing.html">réponse intéressante au post</a></li>
+</ul></li>
+<li>La guéguerre sur les tests de perfs des bases de données NoSQL continue ! Quelques communiqués...
+
+<ul>
+<li><a href="http://www.datastax.com/2015/04/apache-cassandra-leads-all-others-in-latest-nosql-benchmark">DataStax</a></li>
+<li><a href="http://www.informationweek.com/big-data/software-platforms/mongodb-counters-couchbase-performance-claims/a/d-id/1319696">MongoDB</a></li>
+<li><a href="http://www.informationweek.com/big-data/big-data-analytics/couchbase-claims-performance-gains-against-nosql-rivals/d/d-id/1319572">Couchbase</a></li>
+</ul></li>
+</ul></li>
+<li><p>Stream processing :</p>
+
+<ul>
+<li><a href="http://readwrite.com/2015/04/02/big-data-streaming-no-more-batch-processing">The Future Of Big Data Looks Like Streaming</a></li>
+<li><a href="http://vision.cloudera.com/tibco-streambase-hadoop-impala-fast-data-streaming-analytics/">Data Streaming avec Tibco / Hadoop / Impala</a></li>
+<li>Apache Flink : </li>
+<li><a href="https://flink.apache.org/">Framework à suivre</a></li>
+<li>Google cloud dataflow est <a href="http://mobile.eweek.com/cloud/google-cloud-dataflow-now-available-on-apache-flink.html">disponible sur Flink</a></li>
+<li>Exemple de <a href="http://blog.sematext.com/2015/04/22/monitoring-stream-processing-tools-cassandra-kafka-and-spark/">monitoring de stream processing</a> avec des morceaux de Kafka et de Spark (forcément!) dedans</li>
+</ul></li>
+</ul>
+
+<p><strong>Mail de la tribu : <a href="mailto:bigdata@zenika.com">bigdata@zenika.com</a></strong></p>
+
+<hr/>
+
+<h2 id="toc_12">Les stats du Blog</h2>
+
+<h5 id="toc_13">mars 2015</h5>
+
+<table><thead>
+<tr>
+<th>Titre de page</th>
+<th>Pages vues</th>
+<th>Consultations uniques</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Setting up a development environment using Docker and Vagrant - Zenika</td>
+<td>11608</td>
+<td>10003</td>
+</tr>
+<tr>
+<td>Documenting a REST API with Swagger and Spring MVC - Zenika</td>
+<td>5655</td>
+<td>5156</td>
+</tr>
+<tr>
+<td>Premiers pas avec ElasticSearch (Partie 1) - Zenika</td>
+<td>2939</td>
+<td>2545</td>
+</tr>
+<tr>
+<td>Tutoriel sur le développement Java avec Cassandra 2</td>
+<td>2252</td>
+<td>2176</td>
+</tr>
+<tr>
+<td>Tutoriel sur l&#39;installation et la configuration d&#39;ElasticSearch (partie 1)</td>
+<td>1879</td>
+<td>1700</td>
+</tr>
+<tr>
+<td>Using Tomcat JDBC connection pool in a standalone environment - Zenika</td>
+<td>1848</td>
+<td>1731</td>
+</tr>
+<tr>
+<td>REST Web Services testing with Spring MVC - Zenika</td>
+<td>1644</td>
+<td>1543</td>
+</tr>
+<tr>
+<td>Tutoriel sur l&#39;exploitation de l&#39;API Date and Time de Java 8</td>
+<td>1632</td>
+<td>1561</td>
+</tr>
+<tr>
+<td>Zenika - Home Blog</td>
+<td>1378</td>
+<td>1178</td>
+</tr>
+<tr>
+<td>A Full Javascript Architecture, Part One - NodeJS - Zenika</td>
+<td>1159</td>
+<td>1045</td>
+</tr>
+<tr>
+<td>Using Thymeleaf with Spring MVC - Zenika</td>
+<td>1146</td>
+<td>1066</td>
+</tr>
+<tr>
+<td>AngularJS : Les directives - Zenika</td>
+<td>933</td>
+<td>883</td>
+</tr>
+<tr>
+<td>Testing SQL queries with Spring and DbUnit, part 1 - Zenika</td>
+<td>754</td>
+<td>681</td>
+</tr>
+<tr>
+<td>Introducing Spring MVC test framework - Zenika</td>
+<td>722</td>
+<td>689</td>
+</tr>
+<tr>
+<td>Java 8 et les Lambda - Zenika</td>
+<td>720</td>
+<td>678</td>
+</tr>
+<tr>
+<td>Introducing the Thymeleaf template engine - Zenika</td>
+<td>691</td>
+<td>659</td>
+</tr>
+<tr>
+<td>Passer d&#39;une application Angular-Bootstrap à Angular-Material Design - Zenika</td>
+<td>670</td>
+<td>633</td>
+</tr>
+<tr>
+<td>HTML5 et les WebSockets - Zenika</td>
+<td>494</td>
+<td>461</td>
+</tr>
+<tr>
+<td>Error handling with REST - Zenika</td>
+<td>482</td>
+<td>462</td>
+</tr>
+<tr>
+<td>HATEOAS paging with Spring MVC and Spring Data JPA - Zenika</td>
+<td>451</td>
+<td>419</td>
+</tr>
+<tr>
+<td>Intégrer ElasticSearch dans une application Java - Zenika</td>
+<td>445</td>
+<td>393</td>
+</tr>
+<tr>
+<td>Introduction à la programmation concurrente en Java (1/2) - Zenika</td>
+<td>442</td>
+<td>411</td>
+</tr>
+<tr>
+<td>HATEOAS with Spring MVC REST - Zenika</td>
+<td>432</td>
+<td>404</td>
+</tr>
+<tr>
+<td>AngularJS : Getting Started - Zenika</td>
+<td>390</td>
+<td>352</td>
+</tr>
+<tr>
+<td>Premier aperçu d&#39;AngularJS 2.0 - Zenika</td>
+<td>365</td>
+<td>325</td>
+</tr>
+<tr>
+<td>HTML5: le mode Offline - Zenika</td>
+<td>284</td>
+<td>235</td>
+</tr>
+<tr>
+<td>Testing SQL queries with Spring and DbUnit, part 2 - Zenika</td>
+<td>275</td>
+<td>252</td>
+</tr>
+<tr>
+<td>A Full Javascript Architecture, Part Three - MongoDB - Zenika</td>
+<td>271</td>
+<td>248</td>
+</tr>
+<tr>
+<td>HawtIO, la console web polyvalente - Zenika</td>
+<td>248</td>
+<td>133</td>
+</tr>
+<tr>
+<td>Edition de maquettes IHM avec Balsamiq Mockups - Zenika</td>
+<td>245</td>
+<td>188</td>
+</tr>
+<tr>
+<td>L’équipe Zenika au Meilleur Dev de France - Zenika</td>
+<td>240</td>
+<td>213</td>
+</tr>
+<tr>
+<td>Pourquoi pas ReactJS ? - Zenika</td>
+<td>239</td>
+<td>224</td>
+</tr>
+<tr>
+<td>Java : @SuppressWarnings démystifié - Zenika</td>
+<td>233</td>
+<td>217</td>
+</tr>
+<tr>
+<td>AngularJS : la philosophie - Zenika</td>
+<td>231</td>
+<td>208</td>
+</tr>
+<tr>
+<td>Lancement du site recrutement de Zenika - Zenika</td>
+<td>231</td>
+<td>189</td>
+</tr>
+<tr>
+<td>Introducing the ElasticSearch View Plugin - Zenika</td>
+<td>230</td>
+<td>216</td>
+</tr>
+<tr>
+<td>Apache Zookeeper: facilitez vous les systèmes distribués - Zenika</td>
+<td>227</td>
+<td>196</td>
+</tr>
+<tr>
+<td>Failover with RabbitMQ, the sender&#39;s story - Zenika</td>
+<td>227</td>
+<td>201</td>
+</tr>
+<tr>
+<td>Introduction à RabbitMQ - RabbitMQ, le vif du sujet - Zenika</td>
+<td>225</td>
+<td>199</td>
+</tr>
+<tr>
+<td>Repenser la propagation des exceptions avec Java 8 - Zenika</td>
+<td>222</td>
+<td>206</td>
+</tr>
+<tr>
+<td>Retour sur la 13e cérémonie de remise de prix des « Best Workplaces France 2015 » - Zenika</td>
+<td>221</td>
+<td>161</td>
+</tr>
+<tr>
+<td>Spark et Cassandra - Zenika</td>
+<td>219</td>
+<td>202</td>
+</tr>
+<tr>
+<td>Gestion de session avancée avec Hibernate - Zenika</td>
+<td>218</td>
+<td>192</td>
+</tr>
+<tr>
+<td>Storm - Ajouter du temps réel à votre BigData - Zenika</td>
+<td>209</td>
+<td>185</td>
+</tr>
+<tr>
+<td>Tutoriel sur Spring Cache</td>
+<td>209</td>
+<td>188</td>
+</tr>
+<tr>
+<td>Quelques patterns d&#39;implémentation avec les enums java - Zenika</td>
+<td>195</td>
+<td>183</td>
+</tr>
+<tr>
+<td>Un peu plus loin avec Quartz - Zenika</td>
+<td>190</td>
+<td>178</td>
+</tr>
+<tr>
+<td>Introduction à Spark - Zenika</td>
+<td>185</td>
+<td>158</td>
+</tr>
+<tr>
+<td>Mixing Ant and Gradle scripts - Zenika</td>
+<td>182</td>
+<td>175</td>
+</tr>
+<tr>
+<td>Tester une application JavaEE avec Arquillian - Zenika</td>
+<td>178</td>
+<td>166</td>
+</tr>
+</tbody></table>
+
+<h2 id="toc_14">LoL</h2>
+
+<ul>
+<li><a href="https://image-store.slidesharecdn.com/abfb804a-95dc-44e0-a83e-1324a3d867ed-original.jpeg"><em>Basic human needs</em></a> - tout évolue...</li>
+<li><a href="https://lh6.googleusercontent.com/-NhWkpGbK2Z4/VR_wnYGcukI/AAAAAAAA34c/f-ONU8MZDCs/s267-no/11133949_1625123217717190_4124850521141570587_n.jpg"><em>640Kb</em></a> - Qui l&#39;eu cru? </li>
+</ul>
+
+</body>
+</html>

@@ -68,7 +68,7 @@ D'autant que le prochain Meetup Craftsmanship Paris sera hébergé par Zenika. A
 Les dernières nouvelles de ce mois d'avril : 
 
 - Conférences :
-  - Le NoSQL Matters Paris à lieu fin mars : le compte-rendu est sur le [blog Zenika](http://blog.zenika.com/index.php?post/2015/04/01/Retour-sur-le-NoSQL-matters-Paris-2015)
+  - Le NoSQL Matters Paris était fin mars : le compte-rendu est sur le [blog Zenika](http://blog.zenika.com/index.php?post/2015/04/01/Retour-sur-le-NoSQL-matters-Paris-2015)
 
   - L'Hadoop Summit Europe a eu lieu à Bruxelles :
 
@@ -127,56 +127,56 @@ Les dernières nouvelles de ce mois d'avril :
 
 Titre de page |	Pages vues	| Consultations uniques
 --------------|-------------|--------------------
-Documenting a REST API with Swagger and Spring MVC - Zenika|3041|2742
-Premiers pas avec ElasticSearch (Partie 1) - Zenika|2160|1859
-Using Tomcat JDBC connection pool in a standalone environment - Zenika|1501|1399
-Zenika - Home Blog|1350|1135
-REST Web Services testing with Spring MVC - Zenika|1088|1001
-A Full Javascript Architecture, Part One - NodeJS - Zenika|986|891
-Using Thymeleaf with Spring MVC - Zenika|885|833
-Testing SQL queries with Spring and DbUnit, part 1 - Zenika|713|653
-Passer d'une application Angular-Bootstrap à Angular-Material Design - Zenika|683|606
-AngularJS : Les directives - Zenika|682|614
-HTML5 et les WebSockets - Zenika|565|513
-Introducing Spring MVC test framework - Zenika|554|510
-Introducing the Thymeleaf template engine - Zenika|537|498
-Java 8 et les Lambda - Zenika|502|476
-Error handling with REST - Zenika|492|478
-HATEOAS paging with Spring MVC and Spring Data JPA - Zenika|464|409
-Testing SQL queries with Spring and DbUnit, part 2 - Zenika|353|305
-A Full Javascript Architecture, Part Three - MongoDB - Zenika|346|321
-DevOps : les résultats de notre enquête - Zenika|328|307
-Retour sur le Docker Paris avec Jérôme Petazzoni - Zenika|322|290
-Introduction à RabbitMQ - RabbitMQ, le vif du sujet - Zenika|317|290
-HATEOAS with Spring MVC REST - Zenika|308|291
-Premier aperçu d'AngularJS 2.0 - Zenika|261|212
-Intégrer ElasticSearch dans une application Java - Zenika|253|232
-Lancement du BPM Professional Group France - Zenika|240|143
-Introduction à la programmation concurrente en Java (1/2) - Zenika|231|211
-Overview of Spring Data MongoDB - Zenika|230|222
-Failover with RabbitMQ, the sender's story - Zenika|219|195
-Le Docker Paris Meetup et le Jenkins User Meetup au zlocalhost - Zenika|214|158
-HawtIO, la console web polyvalente - Zenika|208|136
-Introducing the ElasticSearch View Plugin - Zenika|203|196
-HTML5: le mode Offline - Zenika|202|187
-AngularJS : Getting Started - Zenika|188|169
-Java : @SuppressWarnings démystifié - Zenika|177|171
-AngularJS : la philosophie - Zenika|173|161
-Rest with Scala and Vert.x - Zenika|171|151
-Gestion de session avancée avec Hibernate - Zenika|159|138
-Cloud Platform Roadshow de Pivotal au zlocalhost, le 25 septembre - Zenika|152|139
-Introduction à RabbitMQ - AMQP Partie I - Zenika|152|137
-Hadoop, première partie : Le système de fichier et le MapReduce au service des gros volumes de données - Zenika|151|125
-Quelques patterns d'implémentation avec les enums java - Zenika|151|139
-Sencha Touch : un framework HTML5 pour Mobile - Zenika|151|122
-Spring Batch and MongoDB: cursor-based item reader - Zenika|151|140
-Creating a Varnish 4 module - Zenika|148|136
-Edition de maquettes IHM avec Balsamiq Mockups - Zenika|147|128
-Un peu plus loin avec Quartz - Zenika|134|121
-Spring 3.1 - Profils et environments (partie 1) - Zenika|131|122
-Mixing Ant and Gradle scripts - Zenika|129|127
-Premiers pas dans la création d'une extension Chrome - Zenika|127|115
-A Full Javascript Architecture, Part Two - Chrome Extension - Zenika|123|117
+Setting up a development environment using Docker and Vagrant - Zenika|11608|10003
+Documenting a REST API with Swagger and Spring MVC - Zenika|5655|5156
+Premiers pas avec ElasticSearch (Partie 1) - Zenika|2939|2545
+Tutoriel sur le développement Java avec Cassandra 2|2252|2176
+Tutoriel sur l'installation et la configuration d'ElasticSearch (partie 1)|1879|1700
+Using Tomcat JDBC connection pool in a standalone environment - Zenika|1848|1731
+REST Web Services testing with Spring MVC - Zenika|1644|1543
+Tutoriel sur l'exploitation de l'API Date and Time de Java 8|1632|1561
+Zenika - Home Blog|1378|1178
+A Full Javascript Architecture, Part One - NodeJS - Zenika|1159|1045
+Using Thymeleaf with Spring MVC - Zenika|1146|1066
+AngularJS : Les directives - Zenika|933|883
+Testing SQL queries with Spring and DbUnit, part 1 - Zenika|754|681
+Introducing Spring MVC test framework - Zenika|722|689
+Java 8 et les Lambda - Zenika|720|678
+Introducing the Thymeleaf template engine - Zenika|691|659
+Passer d'une application Angular-Bootstrap à Angular-Material Design - Zenika|670|633
+HTML5 et les WebSockets - Zenika|494|461
+Error handling with REST - Zenika|482|462
+HATEOAS paging with Spring MVC and Spring Data JPA - Zenika|451|419
+Intégrer ElasticSearch dans une application Java - Zenika|445|393
+Introduction à la programmation concurrente en Java (1/2) - Zenika|442|411
+HATEOAS with Spring MVC REST - Zenika|432|404
+AngularJS : Getting Started - Zenika|390|352
+Premier aperçu d'AngularJS 2.0 - Zenika|365|325
+HTML5: le mode Offline - Zenika|284|235
+Testing SQL queries with Spring and DbUnit, part 2 - Zenika|275|252
+A Full Javascript Architecture, Part Three - MongoDB - Zenika|271|248
+HawtIO, la console web polyvalente - Zenika|248|133
+Edition de maquettes IHM avec Balsamiq Mockups - Zenika|245|188
+L’équipe Zenika au Meilleur Dev de France - Zenika|240|213
+Pourquoi pas ReactJS ? - Zenika|239|224
+Java : @SuppressWarnings démystifié - Zenika|233|217
+AngularJS : la philosophie - Zenika|231|208
+Lancement du site recrutement de Zenika - Zenika|231|189
+Introducing the ElasticSearch View Plugin - Zenika|230|216
+Apache Zookeeper: facilitez vous les systèmes distribués - Zenika|227|196
+Failover with RabbitMQ, the sender's story - Zenika|227|201
+Introduction à RabbitMQ - RabbitMQ, le vif du sujet - Zenika|225|199
+Repenser la propagation des exceptions avec Java 8 - Zenika|222|206
+Retour sur la 13e cérémonie de remise de prix des « Best Workplaces France 2015 » - Zenika|221|161
+Spark et Cassandra - Zenika|219|202
+Gestion de session avancée avec Hibernate - Zenika|218|192
+Storm - Ajouter du temps réel à votre BigData - Zenika|209|185
+Tutoriel sur Spring Cache|209|188
+Quelques patterns d'implémentation avec les enums java - Zenika|195|183
+Un peu plus loin avec Quartz - Zenika|190|178
+Introduction à Spark - Zenika|185|158
+Mixing Ant and Gradle scripts - Zenika|182|175
+Tester une application JavaEE avec Arquillian - Zenika|178|166
 
 
 ##LoL
