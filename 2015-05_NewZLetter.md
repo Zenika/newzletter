@@ -93,7 +93,7 @@ On prévoit d'organiser une rétro pour échanger sur la formation et partager l
 
 ##Conférences Zenika
 
-###Les technozaures sont de retour
+###Les technozaures parisiennes sont de retour
 Le 22 juin prochain se tiendra la prochaine Technozaure. 
 Pour rappel, la technozaure est est un évènement interne à Zenika. L'objectif est de se réunir pendant une journée au zlocahost pour partager 
 
