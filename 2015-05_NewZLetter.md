@@ -115,7 +115,7 @@ Aujourd'hui, il n'est plus possible de soumettre un sujet, par contre les votes 
 * [Monitoring check smells](http://benjiweber.co.uk/blog/2015/03/02/monitoring-check-smells/), via @PriscaPolyte — un peu à la manière *craftmanship*, des smells pour le monitoring.
 * [5 Ways to Keep DevOps from Becoming Dev-Oops](http://www.biztechmagazine.com/article/2015/05/5-ways-keep-devops-becoming-dev-oops), via @PriscaPolyte — Encore un bel article sur les défis rencontrés dans la mise en place d'une démarche Devops.
 * [A git horror story: faking provenance with a loose nonce](https://developer.atlassian.com/blog/2015/05/git-horror-story-loose-nonces/) — où comment une fonctionnalité codé pour améliorer la sécurité peu se retourner contre vous :smile: (au final c'est pas une grosse faille, mais c'est rigolo et intéressant à lire).
-* [Microservice Minmap](http://www.ivoverberk.nl/microservices-mindmap/) — tout est dans le titre :smirk_cat:.
+* [Microservice Mindmap](http://www.ivoverberk.nl/microservices-mindmap/) — tout est dans le titre :smirk_cat:.
 * [Use git the lean way](http://boynux.com/how-to-use-git-lean-way/) — quelques principes / conseils pour utiliser Git de façon *Lean* (on aime ou on aime pas, on prend ou on prend pas mais toujours intéressant de lire)
 * [Use supervisord for your deploy pipelines](http://devo.ps/blog/using-supervisord-for-your-deploy-pipelines/)
 
@@ -215,8 +215,7 @@ Storm - Ajouter du temps réel à votre BigData - Zenika|156|139
 
 ##LoL
 
- * [Du « loser » au super-héros, trente ans de hackeurs au cinéma
-](http://www.lemonde.fr/pixels/article/2015/03/21/du-loser-au-super-heros-trente-ans-de-hackeurs-au-cinema_4598074_4408996.html#56CiF5crFbBWMoi3.99*](http://www.lemonde.fr/pixels/article/2015/03/21/du-loser-au-super-heros-trente-ans-de-hackeurs-au-cinema_4598074_4408996.html?xtref=http://plus.url.google.com/url&utm_source=dlvr.it&utm_medium=gplus#no_mobile) - Et oui on est de héros maintenant
+ * [Du « loser » au super-héros, trente ans de hackeurs au cinéma](http://www.lemonde.fr/pixels/article/2015/03/21/du-loser-au-super-heros-trente-ans-de-hackeurs-au-cinema_4598074_4408996.html#56CiF5crFbBWMoi3.99*](http://www.lemonde.fr/pixels/article/2015/03/21/du-loser-au-super-heros-trente-ans-de-hackeurs-au-cinema_4598074_4408996.html?xtref=http://plus.url.google.com/url&utm_source=dlvr.it&utm_medium=gplus#no_mobile) - Et oui on est de héros maintenant
  * [*Condition*](http://hmm-la-bd.eu/259/) - On l'a tous vu un jour... 
 
  
