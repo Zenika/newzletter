@@ -1,3 +1,7 @@
+
+![Zenika](http://www.zenika.com/images/signature/simple.png)
+
+
 #NewZLetter 
 #####Mai 2015
 ---
@@ -42,7 +46,7 @@ Les points importants que l'on peut retirer de cette formation:
 
 Les pré-requis pour suivre ce cours ne sont pas nombreux, selon moi : 
 
-	* Avoir un vernis sur le langage Scala
+ * Avoir un vernis sur le langage Scala
 	
 Je pense que c'est à peu près tout.
 
@@ -52,156 +56,167 @@ On prévoit d'organiser une rétro pour échanger sur la formation et partager l
 
 [Lien vers la formation](https://class.coursera.org/reactive-002)
 
+*N'hésitez pas à proposer vos retours d'expériences sur différents sujets. Ils seront publiés et pourront être partagés avec tous les Zenikéens.*
+
+
+##Dernière minute!!
+
+**Lundi 1er juin 2015** commence la formation en ligne **Introduction to Big Data with Apache Spark**. Plusieurs Zenikas se sont inscrit. N'hésitez pas à rejoindre le groupe.
 
 
 ##MOOCs & challenges
 
-  * [*Coursera Machine Learning*](https://www.coursera.org/learn/machine-learning/) - Apprendre sans contrainte de temps       
-  * [*Kaggle*](https://www.kaggle.com/) - Utiliser et décortiquer les données
-  * [*Coursera Learning How to learn*](https://www.coursera.org/learn/learning-how-to-learn) - Apprendre à apprendre
+  * [*Introduction to Big Data with Apache Spark*](https://www.edx.org/course/introduction-big-data-apache-spark-uc-berkeleyx-cs100-1x) - Démarrer sur le Big Data       
+  * [*Mobile Cloud Computing with Android*](https://www.coursera.org/specialization/mobilecloudcomputing2/36?utm_medium=listingPage) - Android, le cloud.. tout un programme
+  * [*Human Computer Interaction: User Experience and User Interface Design*](https://www.coursera.org/specialization/humancomputerinteraction/28?utm_medium=listingPage) - l'UX, c'est toujours compliqué
 
 
 ##Revue de presse
 
- * [*Amazon lance un service de Machine Learning*](http://www.infoq.com/fr/news/2015/04/aws-launches-machine-learning?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global) - Nouveaux projets en phase béta  
- * [*StackEdit*](https://stackedit.io) - Notes en markdown dans le cloud
- * [*FIFA 2014 World Cup live stream architecture*](http://leandromoreira.com.br/2015/04/26/fifa-2014-world-cup-live-stream-architecture/) - les dessous du foot
- * [*Messages privés Twitter*](http://www.webactus.net/reseaux-sociaux/twitter/13191-messages-prives-twitter-changement-des-regles/?utm_source=NL%2027%20Avril&utm_medium=e-mail&utm_term=NL%2027%20Avril&utm_content=NL%2027%20Avril&utm_campaign=NL%2027%20Avril
-) - Changement de règles
+ * [*10 types of regressions. Which one to use?*](http://www.datavizualization.com/blog/10-types-of-regressions-which-one-to-use) - Analyse de données, quel modèle choisir?  
+ * [*New technologies for the new LinkedIn home page*](http://engineering.linkedin.com/frontend/new-technologies-new-linkedin-home-page) - Retour d'expérience
+ * [*Reactive programming with Java 8 and simple-react : The Tutorial*](https://medium.com/@johnmcclean/reactive-programming-with-java-8-and-simple-react-the-tutorial-3634f512eeb1) - Tutorial
+ * [*3 simple reasons why you need to learn Scala*](http://radar.oreilly.com/2015/03/3-simple-reasons-why-you-need-to-learn-scala.html
+) - Non, je ne suis pas fan de Scala ;)
  
   
 
  
 ##Conférences
 
- * [*Kanban day*](http://www.kanbanday.fr/) - Paris 28 mai 2015
- * [*Devoxx Maroc*](http://devoxx.ma/fr/) - Casablanca CFP ouvert le 1er mai
- * [*Agile France*](http://2015.conference-agile.fr/) - Paris 18-19 juin
- * [*ncrafts.io*](http://ncrafts.io/) - Paris 21-22 mai 
- * [*Socrates*](https://www.socrates-conference.de/ ) - Soltau 27-30 juin 
+ * [*Code Mesh 2015*](http://www.codemesh.io/) - Londre 2-4 novembre 2015
+ * [*Cassandra Summit 2015*](http://www.cassandrasummit-datastax.com/) - Santa Clara 22-24 septembre 2015
+ * [*EclipseCon France 2015*](https://www.eclipsecon.org/france2015/) - Toulouse 24-25 juin 2015
+ * [*AWS Summit PARIS*](http://aws.amazon.com/fr/summits/paris/inscriptions/) - Paris-La défense 24-25 juin 2015
  
 ---
 
+##Conférences Zenika
+
+###Les technozaures sont de retour
+Le 22 juin prochain se tiendra la prochaine Technozaure. 
+Pour rappel, la technozaure est est un évènement interne à Zenika. L'objectif est de se réunir pendant une journée au zlocahost pour partager 
+
+* Des retours d'expériences, 
+* Des présentations,
+* Un moment entre Zenikéens.
+
+L'édition à venir innove et propose un CFP (Call For Paper) pour choisir les sujets présenter pendant cette journée. 
+La chose intéressante est que ce CFP est intéractif, c'est-à-dire que chaque sujet proposé est soumis au vote de l'ensemble des Zenikéens! 
+Aujourd'hui, il n'est plus possible de soumettre un sujet, par contre les votes sont encore ouverts (jusqu'au 2 juin). [Profitez-en!](http://app.zenika.com/#/conferences/93441) 
+
+
 ##Le mot des tribus
 
-###Tribu Big Data / NoSQL
-Les dernières nouvelles de ce mois d'avril : 
 
-- Conférences :
-  - Le NoSQL Matters Paris était fin mars : le compte-rendu est sur le [blog Zenika](http://blog.zenika.com/index.php?post/2015/04/01/Retour-sur-le-NoSQL-matters-Paris-2015)
+![Tribu Devops](http://www.zenika.com/images/signature/devops.png)
+#### Liens
 
-  - L'Hadoop Summit Europe a eu lieu à Bruxelles :
+* [Monitoring check smells](http://benjiweber.co.uk/blog/2015/03/02/monitoring-check-smells/), via @PriscaPolyte — un peu à la manière *craftmanship*, des smells pour le monitoring.
+* [5 Ways to Keep DevOps from Becoming Dev-Oops](http://www.biztechmagazine.com/article/2015/05/5-ways-keep-devops-becoming-dev-oops), via @PriscaPolyte — Encore un bel article sur les défis rencontrés dans la mise en place d'une démarche Devops.
+* [A git horror story: faking provenance with a loose nonce](https://developer.atlassian.com/blog/2015/05/git-horror-story-loose-nonces/) — où comment une fonctionnalité codé pour améliorer la sécurité peu se retourner contre vous :smile: (au final c'est pas une grosse faille, mais c'est rigolo et intéressant à lire).
+* [Microservice Minmap](http://www.ivoverberk.nl/microservices-mindmap/) — tout est dans le titre :smirk_cat:.
+* [Use git the lean way](http://boynux.com/how-to-use-git-lean-way/) — quelques principes / conseils pour utiliser Git de façon *Lean* (on aime ou on aime pas, on prend ou on prend pas mais toujours intéressant de lire)
+* [Use supervisord for your deploy pipelines](http://devo.ps/blog/using-supervisord-for-your-deploy-pipelines/)
 
-    - Gros événement avec plus de 1300 personnes et quelques 60 sessions
-    
-    - Quelques premières présentations à se mettre sous la dent :
-      - [Beyond the tweeting toaster](https://speakerdeck.com/ptgoetz/beyond-the-tweeting-toaster-iot-analytics-with-apache-storm-kafka-and-arduino-1) : IoT streaming analytics with Apache Storm, Kafka and Arduino par [P.Taylor Goetz](https://twitter.com/ptgoetz) (Hortonworks)
-      - [Real-time stream processing with Apache Flink](http://fr.slideshare.net/GyulaFra/flink-streaming-hadoopsummit) par Marton Balassi (Data Artisans) et Gyula Fora (SICS)
-      - [How (the Internet of) Things are turning the Internet upside down](http://fr.slideshare.net/tdunning/how-the-internet-of-things-is-turning-the-internet-upside-down) par [Ted Dunning](https://twitter.com/ted_dunning) (MapR)  
+---
 
-    - Des Zenikéens étaient présents, le CR est disponible sur [blog Zenika](https://blog.zenika.com/index.php?post/2015/04/27/Retour-sur-Hadoop-Summit-Bruxelles-2015)
+![Tribu Craftmanship](http://www.zenika.com/images/signature/craftsmanship.png)  
+#### Liens
 
-    - Le prochain summit à Nantes ? C'est quand même la seule ville en Europe avec [un éléphant qui se promène dans la rue](http://www.lesmachines-nantes.fr/fichier/p_image/4265/image_fichier_fr_van.mac.07.13.jdb.ge.008.jpg) toute l'année ! 
-
-- Technologies :
-  - Hadoop :
-    - [ODP (Open Data Platform)](http://opendataplatform.org/) : initiative de Hortonworks/Pivotal/IBM (entre autres)
-      - Les points de vue divergent (selon le camp !) :
-        - Celui de [MapR](https://www.mapr.com/blog/our-view-open-data-platform)
-        - [Hadoop Wars: The Hype, and Anti-Hype around ODP](https://www.linkedin.com/pulse/hadoop-wars-hype-anti-hype-around-odp-michael-wood)
-        - [ODP is the real deal](http://www.cmswire.com/cms/big-data/hey-cloudera-mapr-open-data-platform-is-the-real-deal-028787.php)
-        - [L'ODP se met en place](http://mobile.lemondeinformatique.fr/actualites/lire-hadoop-summit-europe-2015-l-open-data-platform-se-met-en-place-le-monde-informatique-60865.html)
-
-    - Annonce du 1er avril : [Cloudera to Release First Recursive Hadoop Stack](http://vision.cloudera.com/cloudera-to-release-first-recursive-hadoop-stack/)
+* [Use the option type effectively](http://blog.8thlight.com/uku-taht/2015/04/29/using-the-option-type-effectively.html) — un article intéressant sur l'utilisation du type ``Option`` (en Rust mais applicable ailleurs).
+* Java 8 Concurrency Tutorial : [Threads and Executors](http://winterbe.com/posts/2015/04/07/java8-concurrency-tutorial-thread-executor-examples/) and [Synchronization and Locks](http://winterbe.com/posts/2015/04/30/java8-concurrency-tutorial-synchronized-locks-examples/) — intréressant.
+* [End-of-Life of Java 7](https://www.java.com/en/download/faq/java_7.xml) — Java 7 est *déjà* en fin de vie :cat:.
+* [A Open letter from an Ignored test](https://developer.atlassian.com/blog/2015/05/open-letter-from-an-ignored-test/) — la lettre d'un test annoté avec ``@Ignored`` aux developpeurs (Rigolo et intéressant, *made my day*)
+* [Act like a Senior developer](http://isagoksu.com/2009/act-like-a-senior-developer/) — vieux mais intéressant
+* [How to avoid NPE](http://isagoksu.com/2009/how-to-avoid-nullpointerexceptions-npe/) — Vieux également (surtout avec *l'avenement* des ``Optionnals``) mais des *tips* pour traiter (ou pas) les NPE.
  
-  - NoSQL :
-    - MongoDB : un risque sur la cohérence des données ?
-      - Le [post de Kyle Kingsbury](https://aphyr.com/posts/322-call-me-maybe-mongodb-stale-reads) (il faut lire les commentaires !)
-      - Une [réponse intéressante au post](http://smalldatum.blogspot.fr/2015/04/much-ado-about-nothing.html)
+* [9 anti-patterns every programmer should be aware of](http://sahandsaba.com/nine-anti-patterns-every-programmer-should-be-aware-of-with-examples.html?utm_source=hackernewsletter&utm_medium=email&utm_term=fav) – un peu à la sauce *smells*.
 
-    - La guéguerre sur les tests de perfs des bases de données NoSQL continue ! Quelques communiqués...
-      - [DataStax](http://www.datastax.com/2015/04/apache-cassandra-leads-all-others-in-latest-nosql-benchmark)
-      - [MongoDB](http://www.informationweek.com/big-data/software-platforms/mongodb-counters-couchbase-performance-claims/a/d-id/1319696)
-      - [Couchbase](http://www.informationweek.com/big-data/big-data-analytics/couchbase-claims-performance-gains-against-nosql-rivals/d/d-id/1319572)
+* [Build the ‘Right’ Regression Suite Using Behavior Driven Testing (BDT)](http://www.thoughtworks.com/insights/blog/build-right-regression-suite-using-behavior-driven-testing-bdt?utm_campaign=software-testing&utm_medium=social&utm_source=twitter) — Un article du blog ThoughtWorks sur les stratégies pour les tests de non régression.
 
-- Stream processing :
+* [Modern Extreme Programming](http://benjiweber.co.uk/blog/2015/04/17/modern-extreme-programming/) — Un super article qui explique comment le Extreme Programming, tel qu'il est pratiqué aujourd'hui, est encore plus performant que celui conçu par Kent Beck 1999.
 
-  - [The Future Of Big Data Looks Like Streaming](http://readwrite.com/2015/04/02/big-data-streaming-no-more-batch-processing)
+* [Code Review Best Practices](http://kevinlondon.com/2015/05/05/code-review-best-practices.html)  — Une liste plutot exhaustive de conseils et bonnes pratiques pour la mise en place des code reviews
 
-  - [Data Streaming avec Tibco / Hadoop / Impala](http://vision.cloudera.com/tibco-streambase-hadoop-impala-fast-data-streaming-analytics/)
-  
-  - Apache Flink : 
-    - [Framework à suivre](https://flink.apache.org/)
-    - Google cloud dataflow est [disponible sur Flink](http://mobile.eweek.com/cloud/google-cloud-dataflow-now-available-on-apache-flink.html)
-
-  - Exemple de [monitoring de stream processing](http://blog.sematext.com/2015/04/22/monitoring-stream-processing-tools-cassandra-kafka-and-spark/) avec des morceaux de Kafka et de Spark (forcément!) dedans
+* [Outside In TDD](https://www.youtube.com/watch?v=XHnuMjah6ps&feature=youtu.be) — Une série de trois vidéo de Sandro Mancuso sur le TDD dans la vraie vie.
 
 
-**Mail de la tribu : bigdata@zenika.com**
+#### Tools
+
+* [ngrok](https://ngrok.com/) — Créer un/des tunnel(s) sécurisé vers votre poste ; en gros une façon cool de pouvoir partager/faire des démos d'une code pas déjà en production.
+
+#### Events
+
+* Devops days Paris 2015, 14-15 Avril 2015 : [Retour sur le blog](http://blog.zenika.com/index.php?post/2015/04/30/Devopsdays-Paris-Jour-1) — [Vidéos](http://www.dailymotion.com/playlist/x3rht6_paris-devops_devopsdays-paris-2015/1#video=x2nt24o).
+* Git Merge 2015, à Paris, 08-09 Avril 2015 : [Retour sur le blog](http://blog.zenika.com/index.php?post/2015/05/04/Git-Merge-2015)
+* Cloudbees CD Summit, 22-23 juin, London, https://www.cloudbees.com/cdsummit-2015/europe
+
 
 
 ---
  
 ##Les stats du Blog
-#####mars 2015
+#####Avril 2015
 
 Titre de page |	Pages vues	| Consultations uniques
 --------------|-------------|--------------------
-Setting up a development environment using Docker and Vagrant - Zenika|11608|10003
-Documenting a REST API with Swagger and Spring MVC - Zenika|5655|5156
-Premiers pas avec ElasticSearch (Partie 1) - Zenika|2939|2545
-Tutoriel sur le développement Java avec Cassandra 2|2252|2176
-Tutoriel sur l'installation et la configuration d'ElasticSearch (partie 1)|1879|1700
-Using Tomcat JDBC connection pool in a standalone environment - Zenika|1848|1731
-REST Web Services testing with Spring MVC - Zenika|1644|1543
-Tutoriel sur l'exploitation de l'API Date and Time de Java 8|1632|1561
-Zenika - Home Blog|1378|1178
-A Full Javascript Architecture, Part One - NodeJS - Zenika|1159|1045
-Using Thymeleaf with Spring MVC - Zenika|1146|1066
-AngularJS : Les directives - Zenika|933|883
-Testing SQL queries with Spring and DbUnit, part 1 - Zenika|754|681
-Introducing Spring MVC test framework - Zenika|722|689
-Java 8 et les Lambda - Zenika|720|678
-Introducing the Thymeleaf template engine - Zenika|691|659
-Passer d'une application Angular-Bootstrap à Angular-Material Design - Zenika|670|633
-HTML5 et les WebSockets - Zenika|494|461
-Error handling with REST - Zenika|482|462
-HATEOAS paging with Spring MVC and Spring Data JPA - Zenika|451|419
-Intégrer ElasticSearch dans une application Java - Zenika|445|393
-Introduction à la programmation concurrente en Java (1/2) - Zenika|442|411
-HATEOAS with Spring MVC REST - Zenika|432|404
-AngularJS : Getting Started - Zenika|390|352
-Premier aperçu d'AngularJS 2.0 - Zenika|365|325
-HTML5: le mode Offline - Zenika|284|235
-Testing SQL queries with Spring and DbUnit, part 2 - Zenika|275|252
-A Full Javascript Architecture, Part Three - MongoDB - Zenika|271|248
-HawtIO, la console web polyvalente - Zenika|248|133
-Edition de maquettes IHM avec Balsamiq Mockups - Zenika|245|188
-L’équipe Zenika au Meilleur Dev de France - Zenika|240|213
-Pourquoi pas ReactJS ? - Zenika|239|224
-Java : @SuppressWarnings démystifié - Zenika|233|217
-AngularJS : la philosophie - Zenika|231|208
-Lancement du site recrutement de Zenika - Zenika|231|189
-Introducing the ElasticSearch View Plugin - Zenika|230|216
-Apache Zookeeper: facilitez vous les systèmes distribués - Zenika|227|196
-Failover with RabbitMQ, the sender's story - Zenika|227|201
-Introduction à RabbitMQ - RabbitMQ, le vif du sujet - Zenika|225|199
-Repenser la propagation des exceptions avec Java 8 - Zenika|222|206
-Retour sur la 13e cérémonie de remise de prix des « Best Workplaces France 2015 » - Zenika|221|161
-Spark et Cassandra - Zenika|219|202
-Gestion de session avancée avec Hibernate - Zenika|218|192
-Storm - Ajouter du temps réel à votre BigData - Zenika|209|185
-Tutoriel sur Spring Cache|209|188
-Quelques patterns d'implémentation avec les enums java - Zenika|195|183
-Un peu plus loin avec Quartz - Zenika|190|178
-Introduction à Spark - Zenika|185|158
-Mixing Ant and Gradle scripts - Zenika|182|175
-Tester une application JavaEE avec Arquillian - Zenika|178|166
+Setting up a development environment using Docker and Vagrant - Zenika|9675|8345
+Documenting a REST API with Swagger and Spring MVC - Zenika|5677|5205
+Premiers pas avec ElasticSearch (Partie 1) - Zenika|2500|2216
+Tutoriel sur Pattern Command : Undo, variations Compensation/Replay/Memento|2382|2260
+Using Tomcat JDBC connection pool in a standalone environment - Zenika|1830|1716
+REST Web Services testing with Spring MVC - Zenika|1703|1582
+Tutoriel sur l'installation et la configuration d'ElasticSearch (partie 1)|1425|1269
+A Full Javascript Architecture, Part One - NodeJS - Zenika|1312|1172
+Zenika Home|1191|950
+Tutoriel sur des patterns d'implémentation avec les enums Java|957|814
+Using Thymeleaf with Spring MVC - Zenika|910|857
+Introducing Spring MVC test framework - Zenika|823|768
+Testing SQL queries with Spring and DbUnit, part 1 - Zenika|673|622
+AngularJS : Les directives - Zenika|655|607
+Java 8 et les Lambda - Zenika|578|547
+Introducing the Thymeleaf template engine - Zenika|577|548
+HATEOAS paging with Spring MVC and Spring Data JPA - Zenika|544|503
+HTML5 et les WebSockets - Zenika|518|475
+Passer d'une application Angular-Bootstrap à Angular-Material Design - Zenika|495|456
+Error handling with REST - Zenika|481|463
+Mix-IT 2015 - Jour 1 - Zenika|461|282
+Pourquoi pas ReactJS ? - Zenika|414|382
+Premier aperçu d'AngularJS 2.0 - Zenika|395|354
+HATEOAS with Spring MVC REST - Zenika|375|349
+Intégrer ElasticSearch dans une application Java - Zenika|362|333
+Introduction à la programmation concurrente en Java (1/2) - Zenika|336|317
+A Full Javascript Architecture, Part Three - MongoDB - Zenika|331|309
+Edition de maquettes IHM avec Balsamiq Mockups - Zenika|252|209
+Mix-IT 2015 - Jour 2 - Zenika|235|196
+Overview of Spring Data MongoDB - Zenika|232|222
+AngularJS : Getting Started - Zenika|229|212
+Introduction à RabbitMQ - RabbitMQ, le vif du sujet - Zenika|225|210
+Git-Merge 2015 - Zenika|217|200
+Tutoriel sur le développement Java avec Cassandra 2|210|199
+Quelques patterns d'implémentation avec les enums java - Zenika|206|187
+Testing SQL queries with Spring and DbUnit, part 2 - Zenika|205|184
+HTML5: le mode Offline - Zenika|195|173
+Java : @SuppressWarnings démystifié - Zenika|194|185
+Failover with RabbitMQ, the sender's story - Zenika|192|175
+Introducing the ElasticSearch View Plugin - Zenika|191|184
+A Full Javascript Architecture, Part Two - Chrome Extension - Zenika|189|165
+AngularJS : la philosophie - Zenika|181|166
+Gestion de session avancée avec Hibernate - Zenika|170|141
+Google I/O Extended 2015 - Zenika|169|145
+Repenser la propagation des exceptions avec Java 8 - Zenika|164|154
+Premiers pas dans la création d'une extension Chrome - Zenika|159|134
+Les WebSockets en pratique - Zenika|156|149
+Sencha Touch : un framework HTML5 pour Mobile - Zenika|156|140
+Spring Batch and MongoDB: cursor-based item reader - Zenika|156|147
+Storm - Ajouter du temps réel à votre BigData - Zenika|156|139
 
 
 ##LoL
 
- * [*Basic human needs*](https://image-store.slidesharecdn.com/abfb804a-95dc-44e0-a83e-1324a3d867ed-original.jpeg) - tout évolue...
- * [*640Kb*](https://lh6.googleusercontent.com/-NhWkpGbK2Z4/VR_wnYGcukI/AAAAAAAA34c/f-ONU8MZDCs/s267-no/11133949_1625123217717190_4124850521141570587_n.jpg) - Qui l'eu cru? 
+ * [Du « loser » au super-héros, trente ans de hackeurs au cinéma
+](http://www.lemonde.fr/pixels/article/2015/03/21/du-loser-au-super-heros-trente-ans-de-hackeurs-au-cinema_4598074_4408996.html#56CiF5crFbBWMoi3.99*](http://www.lemonde.fr/pixels/article/2015/03/21/du-loser-au-super-heros-trente-ans-de-hackeurs-au-cinema_4598074_4408996.html?xtref=http://plus.url.google.com/url&utm_source=dlvr.it&utm_medium=gplus#no_mobile) - Et oui on est de héros maintenant
+ * [*Condition*](http://hmm-la-bd.eu/259/) - On l'a tous vu un jour... 
 
  
