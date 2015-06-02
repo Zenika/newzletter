@@ -87,7 +87,7 @@ On prévoit d'organiser une rétro pour échanger sur la formation et partager l
  * [*Code Mesh 2015*](http://www.codemesh.io/) - Londre 2-4 novembre 2015
  * [*Cassandra Summit 2015*](http://www.cassandrasummit-datastax.com/) - Santa Clara 22-24 septembre 2015
  * [*EclipseCon France 2015*](https://www.eclipsecon.org/france2015/) - Toulouse 24-25 juin 2015
- * [*AWS Summit PARIS*](http://aws.amazon.com/fr/summits/paris/inscriptions/) - Paris-La défense 24-25 juin 2015
+ * [*AWS Summit PARIS*](http://aws.amazon.com/fr/summits/paris/inscriptions/) - Paris-La défense 23 juin 2015
  
 ---
 
