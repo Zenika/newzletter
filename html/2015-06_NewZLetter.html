@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generated-by" content="Markdown PRO, http://markdownpro.com"/>
+<title></title>
+<style type="text/css">
+html,body{margin:0;padding:0;}
+body {padding: 20px}
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none;}
+q:before,q:after,blockquote:before,blockquote:after{content:"";}
+html{overflow-y:scroll;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+a:focus{outline:thin dotted;}
+a:hover,a:active{outline:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
+audio:not([controls]){display:none;}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+img{border:0;-ms-interpolation-mode:bicubic;}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle;}
+button,input{line-height:normal;*overflow:visible;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;}
+input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+textarea{overflow:auto;vertical-align:top;}
+html,body{background-color:#ffffff;}
+body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:18px;color:#404040;}
+.container{width:940px;margin-left:auto;margin-right:auto;zoom:1;}.container:before,.container:after{display:table;content:"";zoom:1;*display:inline;}
+.container:after{clear:both;}
+.container-fluid{position:relative;min-width:940px;padding-left:20px;padding-right:20px;zoom:1;}.container-fluid:before,.container-fluid:after{display:table;content:"";zoom:1;*display:inline;}
+.container-fluid:after{clear:both;}
+.container-fluid>.sidebar{float:left;width:220px;}
+.container-fluid>.content{margin-left:240px;}
+a{color:#0069d6;text-decoration:none;line-height:inherit;font-weight:inherit;}a:hover{color:#00438a;text-decoration:underline;}
+.pull-right{float:right;}
+.pull-left{float:left;}
+.hide{display:none;}
+.show{display:block;}
+.row{zoom:1;margin-left:-20px;}.row:before,.row:after{display:table;content:"";zoom:1;*display:inline;}
+.row:after{clear:both;}
+p{font-size:13px;font-weight:normal;line-height:18px;margin-bottom:9px;}p small{font-size:11px;color:#bfbfbf;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;color:#404040;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{color:#bfbfbf;}
+h1{margin-bottom:18px;font-size:30px;line-height:36px;}h1 small{font-size:18px;}
+h2{font-size:24px;line-height:36px;}h2 small{font-size:14px;}
+h3,h4,h5,h6{line-height:36px;}
+h3{font-size:18px;}h3 small{font-size:14px;}
+h4{font-size:16px;}h4 small{font-size:12px;}
+h5{font-size:14px;}
+h6{font-size:13px;color:#bfbfbf;text-transform:uppercase;}
+ul,ol{margin:0 0 18px 25px;}
+ul ul,ul ol,ol ol,ol ul{margin-bottom:0;}
+ul{list-style:disc;}
+ol{list-style:decimal;}
+li{line-height:18px;color:#808080;}
+ul.unstyled{list-style:none;margin-left:0;}
+dl{margin-bottom:18px;}dl dt,dl dd{line-height:18px;}
+dl dt{font-weight:bold;}
+dl dd{margin-left:9px;}
+hr{margin:20px 0 19px;border:0;border-bottom:1px solid #eee;}
+strong{font-style:inherit;font-weight:bold;}
+em{font-style:italic;font-weight:inherit;line-height:inherit;}
+.muted{color:#bfbfbf;}
+blockquote{margin-bottom:18px;border-left:5px solid #eee;padding-left:15px;}blockquote p{font-size:14px;font-weight:300;line-height:18px;margin-bottom:0;}
+blockquote small{display:block;font-size:12px;font-weight:300;line-height:18px;color:#bfbfbf;}blockquote small:before{content:'\2014 \00A0';}
+address{display:block;line-height:18px;margin-bottom:18px;}
+code,pre{padding:0 3px 2px;font-family:Monaco, Andale Mono, Courier New, monospace;font-size:12px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+code{padding:1px 3px;}
+pre{background-color:#f5f5f5;display:block;padding:8.5px;margin:0 0 18px;line-height:18px;font-size:12px;border:1px solid #ccc;border:1px solid rgba(0, 0, 0, 0.15);-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
+form{margin-bottom:18px;}
+fieldset{margin-bottom:18px;padding-top:18px;}fieldset legend{display:block;padding-left:150px;font-size:19.5px;line-height:1;color:#404040;*padding:0 0 5px 145px;*line-height:1.5;}
+form .clearfix{margin-bottom:18px;zoom:1;}form .clearfix:before,form .clearfix:after{display:table;content:"";zoom:1;*display:inline;}
+form .clearfix:after{clear:both;}
+label,input,select,textarea{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:normal;}
+label{padding-top:6px;font-size:13px;line-height:18px;float:left;width:130px;text-align:right;color:#404040;}
+form .input{margin-left:150px;}
+input[type=checkbox],input[type=radio]{cursor:pointer;}
+input,textarea,select,.uneditable-input{display:inline-block;width:210px;height:18px;padding:4px;font-size:13px;line-height:18px;color:#808080;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+input[type=checkbox],input[type=radio]{width:auto;height:auto;padding:0;margin:3px 0;*margin-top:0;line-height:normal;border:none;}
+input[type=file]{background-color:#ffffff;padding:initial;border:initial;line-height:initial;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+input[type=button],input[type=reset],input[type=submit]{width:auto;height:auto;}
+select,input[type=file]{height:27px;line-height:27px;*margin-top:4px;}
+select[multiple]{height:inherit;}
+textarea{height:auto;}
+.uneditable-input{background-color:#ffffff;display:block;border-color:#eee;-webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);-moz-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);cursor:not-allowed;}
+:-moz-placeholder{color:#bfbfbf;}
+::-webkit-input-placeholder{color:#bfbfbf;}
+input,textarea{-webkit-transition:border linear 0.2s,box-shadow linear 0.2s;-moz-transition:border linear 0.2s,box-shadow linear 0.2s;-ms-transition:border linear 0.2s,box-shadow linear 0.2s;-o-transition:border linear 0.2s,box-shadow linear 0.2s;transition:border linear 0.2s,box-shadow linear 0.2s;-webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);-moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);}
+input:focus,textarea:focus{outline:0;border-color:rgba(82, 168, 236, 0.8);-webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);-moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);}
+input[type=file]:focus,input[type=checkbox]:focus,select:focus{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:1px dotted #666;}
+form div.clearfix.error{background:#fae5e3;padding:10px 0;margin:-10px 0 10px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}form div.clearfix.error>label,form div.clearfix.error span.help-inline,form div.clearfix.error span.help-block{color:#9d261d;}
+form div.clearfix.error input,form div.clearfix.error textarea{border-color:#c87872;-webkit-box-shadow:0 0 3px rgba(171, 41, 32, 0.25);-moz-box-shadow:0 0 3px rgba(171, 41, 32, 0.25);box-shadow:0 0 3px rgba(171, 41, 32, 0.25);}form div.clearfix.error input:focus,form div.clearfix.error textarea:focus{border-color:#b9554d;-webkit-box-shadow:0 0 6px rgba(171, 41, 32, 0.5);-moz-box-shadow:0 0 6px rgba(171, 41, 32, 0.5);box-shadow:0 0 6px rgba(171, 41, 32, 0.5);}
+form div.clearfix.error .input-prepend span.add-on,form div.clearfix.error .input-append span.add-on{background:#f4c8c5;border-color:#c87872;color:#b9554d;}
+table{width:100%;margin-bottom:18px;padding:0;border-collapse:separate;*border-collapse:collapse;font-size:13px;border:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left;}
+table th{padding-top:9px;font-weight:bold;vertical-align:middle;border-bottom:1px solid #ddd;}
+table td{vertical-align:top;}
+table th+th,table td+td{border-left:1px solid #ddd;}
+table tr+tr td{border-top:1px solid #ddd;}
+table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0;}
+table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0;}
+table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px;}
+table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0;}
+.zebra-striped tbody tr:nth-child(odd) td{background-color:#f9f9f9;}
+.zebra-striped tbody tr:hover td{background-color:#f5f5f5;}
+.zebra-striped .header{cursor:pointer;}.zebra-striped .header:after{content:"";float:right;margin-top:7px;border-width:0 4px 4px;border-style:solid;border-color:#000 transparent;visibility:hidden;}
+.zebra-striped .header:hover:after{visibility:visible;}
+footer{margin-top:17px;padding-top:17px;border-top:1px solid #eee;}
+.page-header{margin-bottom:17px;border-bottom:1px solid #ddd;-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);-moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);}.page-header h1{margin-bottom:8px;}
+.close{float:right;color:#000000;font-size:20px;font-weight:bold;line-height:13.5px;text-shadow:0 1px 0 #ffffff;filter:alpha(opacity=20);-khtml-opacity:0.2;-moz-opacity:0.2;opacity:0.2;}.close:hover{color:#000000;text-decoration:none;filter:alpha(opacity=40);-khtml-opacity:0.4;-moz-opacity:0.4;opacity:0.4;}
+
+pre {
+	padding: 0;
+	margin: 10px 0px 10px;
+	overflow: auto; /*--If the Code exceeds the width, a scrolling is available--*/
+	overflow-Y: hidden;  /*--Hides vertical scroll created by IE--*/
+}
+pre code {
+	margin: 5px;  /*--Left Margin--*/
+	padding: 0px;
+	display: block;
+    line-height: 18px;
+}
+.center { text-align:center}
+.left {text-align:left}
+.right {text-align:right}
+
+</style><style type="text/css">
+body {
+	font-family: "Geneva", Arial, sans-serif;
+	font-size: 13px;
+	margin: 10px;
+}
+
+a, a:visited {
+	color: #09c;
+}
+
+a:hover {
+	color: #336699;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0px 0px 10px;	
+	font-weight: bold;
+}
+
+h2 {
+	border-bottom: 2px dotted #ccc;
+	margin: 5px 0px 15px;	
+}
+
+h6 {
+	color: #09c;
+}
+
+blockquote {
+	font-family: "Georgia", Courier New, courier, sans-serif;
+	background: #efefef;
+	padding: 5px 10px;
+	border: solid 1px #ddd;
+	margin: 15px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	color:  #333;
+	
+}
+
+ul, ol {
+	margin-bottom: 15px;
+}
+
+li {
+	padding: 3px;
+}
+
+
+
+code {
+	background-color: #f1f1f1;
+    color: #336699;
+}
+
+pre {
+	background-color: #f1f1f1;
+}
+
+pre > code {
+	margin: 0px;
+	padding: 5px;
+	border: 0px;
+	background-color: #f1f1f1;
+}
+
+
+</style></head>
+<body>
+<p><img src="http://www.zenika.com/images/signature/simple.png" alt="Zenika"/></p>
+
+<h1 id="toc_0">NewZLetter</h1>
+
+<h5 id="toc_1">juin 2015</h5>
+
+<hr/>
+
+<p><em>Distribution mensuelle de stimulus techniques</em> </p>
+
+<h2 id="toc_2">Mon tool à moi</h2>
+
+<p>En tant que développeur, on a tous nos petits &#39;trucs&#39; pour optimiser notre workflow de travail. 
+L&#39;outil dont on ne pourrait pas se passer sous peine de perdre de précieuses secondes au quotidien.</p>
+
+<p>Je vous propose dans cette rubrique de vous présenter un outil que j&#39;utilise aussi souvent que je tape sur la touche Enter. </p>
+
+<h3 id="toc_3">Ditto</h3>
+
+<p><a href="http://ditto-cp.sourceforge.net/">Ditto</a> est un petit utilitaire qui se charge de gérer l&#39;historique de mes copier/coller. 
+C&#39;est outil qui tourne exclusivement sous windows, mais je suis sur que l&#39;on peut trouver un équivalent sur d&#39;autres plateformes.</p>
+
+<p>Il est complètement intégré à l&#39;OS et s&#39;active au moyen d&#39;un raccourci clavier. </p>
+
+<p>Je trouve très pratique le fait de pouvoir garder l&#39;historique de tous les copiers. Evidement cet historique est conservé de manière permanente et survie donc à un redémarrage de la machine.</p>
+
+<p>C&#39;est vrai que certain outil (comme l&#39;IDE)  propose ce genre de fonctionnalité. La petite différence c&#39;est que Ditto est actif de manière transverse sur l&#39;OS.</p>
+
+<h3 id="toc_4">Le gain</h3>
+
+<p>Cet utilitaire me fait gagner du temps lorsque dans mon travail je dois switcher de contexte. Le copier archiver me permet de passer à autre chose temporairement et revenir dessus plus tard (un peu comme un git stash)</p>
+
+<p>Aussi, lorsque j&#39;ai un petit trou de mémoire sur une information (comme un path, un login ou autre), il propose un moteur qui permet de faire des recherches.</p>
+
+<p>Et vous votre outil magique, c&#39;est quoi? 
+<em>N&#39;hésitez pas à proposer une présentation via une issue.</em></p>
+
+<hr/>
+
+<h2 id="toc_5">MOOCs &amp; challenges</h2>
+
+<ul>
+<li><a href="https://spark-summit.org/east-2015/">Spark Summit 2015 en vidéos</a> - Toutes les vidéos de l&#39;événement<br/></li>
+<li><a href="https://www.edx.org/course/ignorance-anux-igno101x">Apprendre ce qu&#39;est l&#39;ignorance</a> - original comme idée.</li>
+</ul>
+
+<h2 id="toc_6">Revue de presse</h2>
+
+<ul>
+<li><a href="http://devo.ps/blog/vagrant-docker-and-ansible-wtf/"><em>Vagrant, Docker and Ansible. WTF?</em></a> - Vieux mais qui montre que ces outils sont complémentaires, pas antinomique<br/></li>
+<li><a href="https://github.com/jasongoodwin/better-java-monads"><em>Plus de monade dans Java 8</em></a> - Un projet intéressant à regarder</li>
+<li><a href="http://pcottle.github.io/learnGitBranching/"><em>Branch &amp; Git : apprendre ou redécouvrir</em></a> - très réussi</li>
+<li><a href="http://ktoso.github.io/scala-types-of-types/"><em>Approfondir les types de Scala</em></a> - C&#39;est l&#39;histoire d&#39;un type</li>
+</ul>
+
+<h2 id="toc_7">Conférences</h2>
+
+<ul>
+<li><a href="http://cfp.codeursenseine.com"><em>Codeur en Seine - cfp ouvert</em></a> - Rouen 26 novembre 2015</li>
+<li><a href="https://devfest.gdgnantes.com/"><em>Dev Fest Nantes - cfp ouvert</em></a> - Nantes 6 novembre 2015</li>
+<li><a href="http://www.blendwebmix.com/"><em>Blend Web Mix</em></a> - Lyon 28 et 29 octobre 2015</li>
+<li><a href="http://europe.dockercon.com/"><em>DockerCon</em></a> - Barcelone 16 et 17 novembre  2015</li>
+<li><a href="http://www.bdx.io/"><em>Bdx io</em></a> - Bordeaux 16 octobre  2015</li>
+<li><a href="http://linuxfr.org/news/paris-open-source-summit-les-18-et-19-novembre-l-owf-et-solutions-linux-unissent-leurs-forces"><em>Paris Open Source Summit</em></a> - Paris 18 et 19 novembre  2015</li>
+</ul>
+
+<hr/>
+
+<h2 id="toc_8">Le mot des tribus</h2>
+
+<p><em>Ce mois-ci, les tribus réfléchissent ;)</em></p>
+
+<h2 id="toc_9">Les stats du Blog</h2>
+
+<h5 id="toc_10">Juin 2015</h5>
+
+<table><thead>
+<tr>
+<th>Titre de page</th>
+<th>Pages vues</th>
+<th>Consultations uniques</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Setting up a development environment using Docker and Vagrant - Zenika</td>
+<td>8826</td>
+<td>7640</td>
+</tr>
+<tr>
+<td>Documenting a REST API with Swagger and Spring MVC - Zenika</td>
+<td>5660</td>
+<td>5220</td>
+</tr>
+<tr>
+<td>Premiers pas avec ElasticSearch (Partie 1) - Zenika</td>
+<td>2700</td>
+<td>2350</td>
+</tr>
+<tr>
+<td>REST Web Services testing with Spring MVC - Zenika</td>
+<td>1790</td>
+<td>1684</td>
+</tr>
+<tr>
+<td>Using Tomcat JDBC connection pool in a standalone environment - Zenika</td>
+<td>1735</td>
+<td>1626</td>
+</tr>
+<tr>
+<td>Tutoriel sur l&#39;installation et la configuration d&#39;ElasticSearch (partie 1)</td>
+<td>1711</td>
+<td>1550</td>
+</tr>
+<tr>
+<td>Docker meets the IDE - Zenika</td>
+<td>1708</td>
+<td>1554</td>
+</tr>
+<tr>
+<td>Zenika</td>
+<td>1354</td>
+<td>1101</td>
+</tr>
+<tr>
+<td>A Full Javascript Architecture, Part One - NodeJS - Zenika</td>
+<td>1224</td>
+<td>1109</td>
+</tr>
+<tr>
+<td>Using Thymeleaf with Spring MVC - Zenika</td>
+<td>896</td>
+<td>857</td>
+</tr>
+<tr>
+<td>Introducing Spring MVC test framework - Zenika</td>
+<td>881</td>
+<td>835</td>
+</tr>
+<tr>
+<td>Java 8 et les Lambda - Zenika</td>
+<td>780</td>
+<td>743</td>
+</tr>
+<tr>
+<td>AngularJS : Les directives - Zenika</td>
+<td>778</td>
+<td>738</td>
+</tr>
+<tr>
+<td>Testing SQL queries with Spring and DbUnit, part 1 - Zenika</td>
+<td>654</td>
+<td>609</td>
+</tr>
+<tr>
+<td>HATEOAS paging with Spring MVC and Spring Data JPA - Zenika</td>
+<td>580</td>
+<td>537</td>
+</tr>
+<tr>
+<td>Retour sur le Google I/O 2015 - Zenika</td>
+<td>556</td>
+<td>403</td>
+</tr>
+<tr>
+<td>Introducing the Thymeleaf template engine - Zenika</td>
+<td>507</td>
+<td>476</td>
+</tr>
+<tr>
+<td>Premier aperçu d&#39;AngularJS 2.0 - Zenika</td>
+<td>503</td>
+<td>474</td>
+</tr>
+<tr>
+<td>HTML5 et les WebSockets - Zenika</td>
+<td>492</td>
+<td>437</td>
+</tr>
+<tr>
+<td>Passer d&#39;une application Angular-Bootstrap à Angular-Material Design - Zenika</td>
+<td>482</td>
+<td>453</td>
+</tr>
+<tr>
+<td>Error handling with REST - Zenika</td>
+<td>460</td>
+<td>444</td>
+</tr>
+<tr>
+<td>Docker 1.6 et son écosystème - Zenika</td>
+<td>438</td>
+<td>404</td>
+</tr>
+<tr>
+<td>Intégrer ElasticSearch dans une application Java - Zenika</td>
+<td>426</td>
+<td>394</td>
+</tr>
+<tr>
+<td>HATEOAS with Spring MVC REST - Zenika</td>
+<td>386</td>
+<td>356</td>
+</tr>
+<tr>
+<td>Introduction à la programmation concurrente en Java (1/2) - Zenika</td>
+<td>363</td>
+<td>319</td>
+</tr>
+<tr>
+<td>Introduction à RabbitMQ - RabbitMQ, le vif du sujet - Zenika</td>
+<td>340</td>
+<td>315</td>
+</tr>
+<tr>
+<td>Pourquoi pas ReactJS ? - Zenika</td>
+<td>340</td>
+<td>319</td>
+</tr>
+<tr>
+<td>A Full Javascript Architecture, Part Three - MongoDB - Zenika</td>
+<td>318</td>
+<td>295</td>
+</tr>
+<tr>
+<td>Tutoriel sur Pattern Command : Undo, variations Compensation/Replay/Memento</td>
+<td>276</td>
+<td>257</td>
+</tr>
+<tr>
+<td>L’agilité selon Zenika : se concentrer sur ce qui compte. - Zenika</td>
+<td>249</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Storm - Ajouter du temps réel à votre BigData - Zenika</td>
+<td>237</td>
+<td>218</td>
+</tr>
+<tr>
+<td>Edition de maquettes IHM avec Balsamiq Mockups - Zenika</td>
+<td>232</td>
+<td>193</td>
+</tr>
+<tr>
+<td>Overview of Spring Data MongoDB - Zenika</td>
+<td>222</td>
+<td>217</td>
+</tr>
+<tr>
+<td>Introducing the ElasticSearch View Plugin - Zenika</td>
+<td>221</td>
+<td>213</td>
+</tr>
+<tr>
+<td>AngularJS : Getting Started - Zenika</td>
+<td>220</td>
+<td>209</td>
+</tr>
+<tr>
+<td>Testing SQL queries with Spring and DbUnit, part 2 - Zenika</td>
+<td>212</td>
+<td>193</td>
+</tr>
+<tr>
+<td>Failover with RabbitMQ, the sender&#39;s story - Zenika</td>
+<td>208</td>
+<td>188</td>
+</tr>
+<tr>
+<td>Java : @SuppressWarnings démystifié - Zenika</td>
+<td>207</td>
+<td>201</td>
+</tr>
+<tr>
+<td>Hadoop, première partie : Le système de fichier et le MapReduce au service des gros volumes de données - Zenika</td>
+<td>205</td>
+<td>180</td>
+</tr>
+<tr>
+<td>Retour sur la première édition de la conférence Best Of Web - Zenika</td>
+<td>205</td>
+<td>165</td>
+</tr>
+<tr>
+<td>Gestion de session avancée avec Hibernate - Zenika</td>
+<td>200</td>
+<td>178</td>
+</tr>
+<tr>
+<td>HTML5: le mode Offline - Zenika</td>
+<td>196</td>
+<td>167</td>
+</tr>
+<tr>
+<td>Retour sur la conférence &quot;Le management par la confiance&quot; par J.F. Zobrist - Zenika</td>
+<td>191</td>
+<td>168</td>
+</tr>
+<tr>
+<td>World Cup Challenge sur CodinGame - Zenika</td>
+<td>191</td>
+<td>156</td>
+</tr>
+<tr>
+<td>Tutoriel sur des patterns d&#39;implémentation avec les enums Java</td>
+<td>188</td>
+<td>178</td>
+</tr>
+<tr>
+<td>Quelques patterns d&#39;implémentation avec les enums java - Zenika</td>
+<td>175</td>
+<td>159</td>
+</tr>
+<tr>
+<td>AngularJS : la philosophie - Zenika</td>
+<td>165</td>
+<td>149</td>
+</tr>
+<tr>
+<td>Tutoriel sur le développement Java avec Cassandra 2</td>
+<td>165</td>
+<td>160</td>
+</tr>
+<tr>
+<td>A Full Javascript Architecture, Part Two - Chrome Extension - Zenika</td>
+<td>154</td>
+<td>139</td>
+</tr>
+<tr>
+<td>Repenser la propagation des exceptions avec Java 8 - Zenika</td>
+<td>153</td>
+<td>138</td>
+</tr>
+</tbody></table>
+
+<h2 id="toc_11">LoL</h2>
+
+<ul>
+<li><a href="http://digitalsynopsis.com/design/34-css-puns-web-design-funny-jokes/">Css Fun !!</a> - Lorsque le CSS a la parole</li>
+<li><a href="http://lesjoiesducode.fr/post/121739269479/quand-je-realise-que-je-viens-de-casser-la-prod"><em>Ce petit moment de solitude</em></a> - On l&#39;a tous vécu un jour... </li>
+<li><a href="http://lesjoiesducode.fr/post/122167797489/quand-je-ne-comprends-pas-completement-mon-code">Va comprendre...</a> - ...Charles !</li>
+</ul>
+
+</body>
+</html>
