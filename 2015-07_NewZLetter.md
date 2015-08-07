@@ -17,7 +17,7 @@ Pendant ces derniers mois j'ai suivi pas mal de MOOC sur des sujets liés au *Bi
 
 Je n'ai pas encore tout à fait terminé la lecture de l'ouvrage, mais je peux déjà donner mes impressions sur les trois quart du livre. 
 
-Le livre est très bien, il est un bon complément à cours en ligne que j'ai suivi. Les premiers chapitres du livre se concentre sur les concepts fondamentaux de Spark. 
+Le livre est très bien, il est un bon complément à cours en ligne que j'ai suivie. Les premiers chapitres du livre se concentrent sur les concepts fondamentaux de Spark. 
 Cette première partie permet de fixer les notions vue d'un point de vue pratique pendant le cours. 
 
 Ensuite ce sont les problématiques de chargement et de sauvegarde de données. C'est un point essentiel naturellement car sans données Spark ne sert pas à grand chose :P.
@@ -38,9 +38,9 @@ Les 3 modules sont
 - **Spark Streaming** : Librairie permettant de traiter des flux en temps réel
 - **Spark MLib** : Librairie dédiée au Machine Learning 
 
-Le tour d'horizon proposé par l'ouvrage donne une vision très clair sur Spark. Le spectre couvert est large et approfondi et permet de démarrer très rapidement un projet.
+Le tour d'horizon proposé par l'ouvrage donne une vision très claire sur Spark. Le spectre couvert est large et approfondi et permet de démarrer très rapidement un projet.
 
-Bien que l'outil soit écrit en Scala, l'outil est polyglotte. Il est possible décrire ses programmes sur la base de 3 langages : 
+Bien que l'outil soit écrit en Scala, l'outil est polyglotte. Il est possible d'écrire ses programmes sur la base de 3 langages : 
 
 - Scala
 - Python
@@ -48,7 +48,7 @@ Bien que l'outil soit écrit en Scala, l'outil est polyglotte. Il est possible d
 
 Etant complètement partial... Je préfère écrire mes programmes en Scala ;) plus concis, expressif, etc... (troll ;))
 
-En résumé, un très bon ouvrage qui se lit très bien. Pas de pré-requis nécessaire pour lire ce livre. Je recommande se livre à qui veut se plonger dans l'univers de Spark! 
+En résumé, un très bon ouvrage qui se lit très bien. Pas de prérequis nécessaire pour lire ce livre. Je recommande se livre à qui veut se plonger dans l'univers de Spark! 
 
 Suite à la lecture de ce livre, j'ai commandé le livre : **Advanded Analytics with Spark** pour aller plus loin.
 
@@ -56,18 +56,40 @@ _Si vous avez un livre de référence intéressant n'hésitez pas à partager vo
 
 ---
 
+## Breaking news
+
+###Bientôt le nouveau blog
+
+Le blog Zenika fait peau neuve. La pré-prod est accessible [ici](http://blog.zenika-offres.com/)
+
+Actuellement, la nouvelle plateforme est en cours de finalisation. Il est quand même possible de se connecter à la partie admin via ce [lien](http://blog.zenika-offres.com/wp-admin)
+
+En cas de problème, n'hésitez pas à le remonter à l'équipe marketing.
+
+
+**Petit rappel du mail d'annonce envoyer récemment :**
+
+	Pour votre photo de profil, il suffit de vous créer un compte sur gravatar avec votre adresse mail zenika : https://fr.gravatar.com/
+
+	Nous rencontrons un problème avec les lignes de code présentes au sein des articles, un nettoyage de ces derniers est nécessaire et si vous pouviez faire un tour sur vos articles respectifs (et/ou tout autres articles qui vous bottent) afin de cleaner le code au besoin cela nous serait d'une grande aide étant donné que mes connaissances en Java se résument à un simple Hello World :)
+
+	En parallèle de ces actions, je prépare également l'abécédaire du bon bloggeur Wordpress :) que je vous ferai parvenir par la suite.
+Petite nouveauté : le blog communique avec notre compte GitHub ce qui facilitera la collaboration lors de la relecture, correction ou validation des articles. 
+
+
 ##MOOCs & challenges
 
-  * [Spark Summit 2015 en vidéos](https://spark-summit.org/east-2015/) - Toutes les vidéos de l'événement       
-  * [Apprendre ce qu'est l'ignorance](https://www.edx.org/course/ignorance-anux-igno101x) - original comme idée.
+  * [Ranger clavier et bouquins](http://s.wallpaperhere.com/wallpapers/1440x900/20110628/19741-1440x900-38155.jpg) - C'est les vacances ;)
+  
 
 
 ##Revue de presse
 
- * [*Vagrant, Docker and Ansible. WTF?*](http://devo.ps/blog/vagrant-docker-and-ansible-wtf/) - Vieux mais qui montre que ces outils sont complémentaires, pas antinomique  
- * [*Plus de monade dans Java 8*](https://github.com/jasongoodwin/better-java-monads) - Un projet intéressant à regarder
- * [*Branch & Git : apprendre ou redécouvrir*](http://pcottle.github.io/learnGitBranching/) - très réussi
- * [*Approfondir les types de Scala*](http://ktoso.github.io/scala-types-of-types/) - C'est l'histoire d'un type
+ * [*Maven en couleur*](https://github.com/jcgay/maven-color) - Plus facile de décrypter les logs  
+ * [*The website is unknown*](https://howdns.works/) - Explications (ludiques) du fonctionnement d'un DNS
+ * [*Record and share your terminal sessions, the right way.*](https://asciinema.org/) - gratuit et efficace
+ * [*Streamex*](https://github.com/amaembo/streamex) - Enrichissez l'API Stream de Java8
+ * [*Top 100 des livrairies en Scala*](https://dzone.com/articles/the-top-100-scala-libraries-in-2015-based-on-64562-1?oid=top_cta) - Enrichissez l'API Stream de Java8
 
 
   
@@ -75,81 +97,70 @@ _Si vous avez un livre de référence intéressant n'hésitez pas à partager vo
  
 ##Conférences
 
- * [*Codeur en Seine - cfp ouvert*](http://cfp.codeursenseine.com) - Rouen 26 novembre 2015
- * [*Dev Fest Nantes - cfp ouvert*](https://devfest.gdgnantes.com/) - Nantes 6 novembre 2015
- * [*Blend Web Mix*](http://www.blendwebmix.com/) - Lyon 28 et 29 octobre 2015
- * [*DockerCon*](http://europe.dockercon.com/) - Barcelone 16 et 17 novembre  2015
- * [*Bdx io*](http://www.bdx.io/) - Bordeaux 16 octobre  2015
- * [*Paris Open Source Summit*](http://linuxfr.org/news/paris-open-source-summit-les-18-et-19-novembre-l-owf-et-solutions-linux-unissent-leurs-forces) - Paris 18 et 19 novembre  2015
+ * [*Scala World*](https://scala.world/) - Lake District 20-22 septembre 2015
+ * [*Spark Summit Europe*](https://spark-summit.org/eu-2015/) - Amsterdam 27-29 octobre 2015
+ * [*DDD Europe*](http://dddeurope.com/) - Brussels 28-29 janvier 2016
+ * [*AWS re:Invent*](https://reinvent.awsevents.com/) - Las Vegas 6-9 octobre 2015
+ * [*OSCON 2015*](http://www.oscon.com/open-source-eu-2015) - Amsterdam 24 septembre 2015
+ * [*Varnish Summit Paris 2015*](https://www.eventbrite.com/e/varnish-summit-paris-tickets-17098692650) - Paris 26-28 octobre 2015
+ * [*Couchbase live in France*](http://www.cvent.com/events/couchbase-live-france-2015/event-summary-059ec7a7041d401c845356bec46b7c35.aspx) - Paris 29 septembre.
  
 ---
+
+##La Direction Technique
+
+### Exercices entretiens techniques
+Déjà 3 exercices ont été ajoutés dans le repo [**"entretien-technique"**](https://github.com/Zenika/entretien-technique)
+
+Pour rappel ce repo vous fourni des exercices prêt à l'emploi pour tester vos candidats lors des entretiens techniques. Ils ne remplacent pas l'entretien oral ou théorique mais sont un excellent complément.
+
+Merci à Manuel Verriez et Fabrice Sznajderman pour leurs exercices ainsi qu'à Ludovic Fernandez pour ses revues de code !
+
+A vos IDE pour proposer les vôtres :)
+
 
 
 ##Le mot des tribus
 
-_Ce mois-ci, les tribus réfléchissent ;)_
+### La _(nouvelle)_ tribu IoT
+
+La tribu Multicanal est morte, vive la tribu IoT :).
+Tel le Phénix, la tribu multicanal renaît des cendres qu'elle aurait pu avoir si elle était morte :)
+
+La tribu Multicanal portait à la fois les offres d'architecture multicanal, de développement mobile et autres objets connectés, ainsi que la stratégie multicanale des entreprises.
+Bref, trop de sujets et de flous.
+
+On simplifie les choses pour les améliorer et on se recentre uniquement sur les développements des objets connectés : mobiles, mais aussi bornes, connected wearables, et tout autre IoT.
+Et pour accompagner ce lifting, on adapte le nom pour devenir la Tribu IoT :)
+
+Quant à l'architecture, ben il y a une très bonne tribu pour ça désormais ;)
  
 ##Les stats du Blog
-#####Juin 2015
+#####juillet 2015 (top15)
 
 Titre de page |	Pages vues	| Consultations uniques
 --------------|-------------|--------------------
-Setting up a development environment using Docker and Vagrant - Zenika|8826|7640
-Documenting a REST API with Swagger and Spring MVC - Zenika|5660|5220
-Premiers pas avec ElasticSearch (Partie 1) - Zenika|2700|2350
-REST Web Services testing with Spring MVC - Zenika|1790|1684
-Using Tomcat JDBC connection pool in a standalone environment - Zenika|1735|1626
-Tutoriel sur l'installation et la configuration d'ElasticSearch (partie 1)|1711|1550
-Docker meets the IDE - Zenika|1708|1554
-Zenika|1354|1101
-A Full Javascript Architecture, Part One - NodeJS - Zenika|1224|1109
-Using Thymeleaf with Spring MVC - Zenika|896|857
-Introducing Spring MVC test framework - Zenika|881|835
-Java 8 et les Lambda - Zenika|780|743
-AngularJS : Les directives - Zenika|778|738
-Testing SQL queries with Spring and DbUnit, part 1 - Zenika|654|609
-HATEOAS paging with Spring MVC and Spring Data JPA - Zenika|580|537
-Retour sur le Google I/O 2015 - Zenika|556|403
-Introducing the Thymeleaf template engine - Zenika|507|476
-Premier aperçu d'AngularJS 2.0 - Zenika|503|474
-HTML5 et les WebSockets - Zenika|492|437
-Passer d'une application Angular-Bootstrap à Angular-Material Design - Zenika|482|453
-Error handling with REST - Zenika|460|444
-Docker 1.6 et son écosystème - Zenika|438|404
-Intégrer ElasticSearch dans une application Java - Zenika|426|394
-HATEOAS with Spring MVC REST - Zenika|386|356
-Introduction à la programmation concurrente en Java (1/2) - Zenika|363|319
-Introduction à RabbitMQ - RabbitMQ, le vif du sujet - Zenika|340|315
-Pourquoi pas ReactJS ? - Zenika|340|319
-A Full Javascript Architecture, Part Three - MongoDB - Zenika|318|295
-Tutoriel sur Pattern Command : Undo, variations Compensation/Replay/Memento|276|257
-L’agilité selon Zenika : se concentrer sur ce qui compte. - Zenika|249|200
-Storm - Ajouter du temps réel à votre BigData - Zenika|237|218
-Edition de maquettes IHM avec Balsamiq Mockups - Zenika|232|193
-Overview of Spring Data MongoDB - Zenika|222|217
-Introducing the ElasticSearch View Plugin - Zenika|221|213
-AngularJS : Getting Started - Zenika|220|209
-Testing SQL queries with Spring and DbUnit, part 2 - Zenika|212|193
-Failover with RabbitMQ, the sender's story - Zenika|208|188
-Java : @SuppressWarnings démystifié - Zenika|207|201
-Hadoop, première partie : Le système de fichier et le MapReduce au service des gros volumes de données - Zenika|205|180
-Retour sur la première édition de la conférence Best Of Web - Zenika|205|165
-Gestion de session avancée avec Hibernate - Zenika|200|178
-HTML5: le mode Offline - Zenika|196|167
-Retour sur la conférence "Le management par la confiance" par J.F. Zobrist - Zenika|191|168
-World Cup Challenge sur CodinGame - Zenika|191|156
-Tutoriel sur des patterns d'implémentation avec les enums Java|188|178
-Quelques patterns d'implémentation avec les enums java - Zenika|175|159
-AngularJS : la philosophie - Zenika|165|149
-Tutoriel sur le développement Java avec Cassandra 2|165|160
-A Full Javascript Architecture, Part Two - Chrome Extension - Zenika|154|139
-Repenser la propagation des exceptions avec Java 8 - Zenika|153|138
+Setting up a development environment using Docker and Vagrant - Zenika|7925|6957
+Documenting a REST API with Swagger and Spring MVC - Zenika|5326|4869
+Premiers pas avec ElasticSearch (Partie 1) - Zenika|2576|2256
+REST Web Services testing with Spring MVC - Zenika|1836|1726
+Using Tomcat JDBC connection pool in a standalone environment - Zenika|1741|1602
+Tutoriel sur l'installation et la configuration d'ElasticSearch (partie 1)|1272|1149
+A Full Javascript Architecture, Part One - NodeJS - Zenika|1117|1024
+Using Thymeleaf with Spring MVC - Zenika|963|895
+Introducing Spring MVC test framework - Zenika|835|792
+AngularJS : Les directives - Zenika|797|742
+Java 8 et les Lambda - Zenika|642|602
+Testing SQL queries with Spring and DbUnit, part 1 - Zenika|630|585
+HATEOAS paging with Spring MVC and Spring Data JPA - Zenika|601|558
+Premier aperçu d'AngularJS 2.0 - Zenika|552|512
+Introducing the Thymeleaf template engine - Zenika|517|491
 
 
 ##LoL
 
- * [Css Fun !!](http://digitalsynopsis.com/design/34-css-puns-web-design-funny-jokes/) - Lorsque le CSS a la parole
- * [*Ce petit moment de solitude*](http://lesjoiesducode.fr/post/121739269479/quand-je-realise-que-je-viens-de-casser-la-prod) - On l'a tous vécu un jour... 
- * [Va comprendre...](http://lesjoiesducode.fr/post/122167797489/quand-je-ne-comprends-pas-completement-mon-code) - ...Charles !
+ * [9 Funniest Code Comments by Programmers](http://www.itaxsmart.com/9-funniest-code-comments-by-programmers/) - Commenter qu'ils disaient...
+ * [*RFC for the 7XX Range of HTTP Status codes - Developer Errors*](https://github.com/joho/7XX-rfc) - Et pourquoi pas ? :) 
+ * [34 CSS Puns That’ll Make You Laugh... ](http://digitalsynopsis.com/design/34-css-puns-web-design-funny-jokes/) - ...Even If You Aren’t A Web Designer !
 
  
