@@ -118,14 +118,7 @@ Le bilan de cette journée est plus que positif. Cette expérience de tournage d
 
 ##Le mot des tribus
 
-![Tribu Craftmanship](http://www.zenika.com/images/signature/craftsmanship.png)  
-
-#### Liens
-
- - [une petite discussion autour du pattern singleton.](http://blog.8thlight.com/uncle-bob/2015/06/30/the-little-singleton.html) 
-
- - [petite "rant" sur "multiple return in oop" :)](http://www.yegor256.com/2015/08/18/multiple-return-statements-in-oop.html) 
-
+*silence radio ce mois-ci ;)*
  
 ##Les stats du Blog
 #####Août 2015 (top15)
