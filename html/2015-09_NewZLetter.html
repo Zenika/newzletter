@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generated-by" content="Markdown PRO, http://markdownpro.com"/>
+<title></title>
+<style type="text/css">
+html,body{margin:0;padding:0;}
+body {padding: 20px}
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,cite,code,del,dfn,em,img,q,s,samp,small,strike,strong,sub,sup,tt,var,dd,dl,dt,li,ol,ul,fieldset,form,label,legend,button,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:normal;font-style:normal;font-size:100%;line-height:1;font-family:inherit;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none;}
+q:before,q:after,blockquote:before,blockquote:after{content:"";}
+html{overflow-y:scroll;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+a:focus{outline:thin dotted;}
+a:hover,a:active{outline:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block;}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1;}
+audio:not([controls]){display:none;}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+img{border:0;-ms-interpolation-mode:bicubic;}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle;}
+button,input{line-height:normal;*overflow:visible;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;}
+input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+textarea{overflow:auto;vertical-align:top;}
+html,body{background-color:#ffffff;}
+body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:18px;color:#404040;}
+.container{width:940px;margin-left:auto;margin-right:auto;zoom:1;}.container:before,.container:after{display:table;content:"";zoom:1;*display:inline;}
+.container:after{clear:both;}
+.container-fluid{position:relative;min-width:940px;padding-left:20px;padding-right:20px;zoom:1;}.container-fluid:before,.container-fluid:after{display:table;content:"";zoom:1;*display:inline;}
+.container-fluid:after{clear:both;}
+.container-fluid>.sidebar{float:left;width:220px;}
+.container-fluid>.content{margin-left:240px;}
+a{color:#0069d6;text-decoration:none;line-height:inherit;font-weight:inherit;}a:hover{color:#00438a;text-decoration:underline;}
+.pull-right{float:right;}
+.pull-left{float:left;}
+.hide{display:none;}
+.show{display:block;}
+.row{zoom:1;margin-left:-20px;}.row:before,.row:after{display:table;content:"";zoom:1;*display:inline;}
+.row:after{clear:both;}
+p{font-size:13px;font-weight:normal;line-height:18px;margin-bottom:9px;}p small{font-size:11px;color:#bfbfbf;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;color:#404040;}h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{color:#bfbfbf;}
+h1{margin-bottom:18px;font-size:30px;line-height:36px;}h1 small{font-size:18px;}
+h2{font-size:24px;line-height:36px;}h2 small{font-size:14px;}
+h3,h4,h5,h6{line-height:36px;}
+h3{font-size:18px;}h3 small{font-size:14px;}
+h4{font-size:16px;}h4 small{font-size:12px;}
+h5{font-size:14px;}
+h6{font-size:13px;color:#bfbfbf;text-transform:uppercase;}
+ul,ol{margin:0 0 18px 25px;}
+ul ul,ul ol,ol ol,ol ul{margin-bottom:0;}
+ul{list-style:disc;}
+ol{list-style:decimal;}
+li{line-height:18px;color:#808080;}
+ul.unstyled{list-style:none;margin-left:0;}
+dl{margin-bottom:18px;}dl dt,dl dd{line-height:18px;}
+dl dt{font-weight:bold;}
+dl dd{margin-left:9px;}
+hr{margin:20px 0 19px;border:0;border-bottom:1px solid #eee;}
+strong{font-style:inherit;font-weight:bold;}
+em{font-style:italic;font-weight:inherit;line-height:inherit;}
+.muted{color:#bfbfbf;}
+blockquote{margin-bottom:18px;border-left:5px solid #eee;padding-left:15px;}blockquote p{font-size:14px;font-weight:300;line-height:18px;margin-bottom:0;}
+blockquote small{display:block;font-size:12px;font-weight:300;line-height:18px;color:#bfbfbf;}blockquote small:before{content:'\2014 \00A0';}
+address{display:block;line-height:18px;margin-bottom:18px;}
+code,pre{padding:0 3px 2px;font-family:Monaco, Andale Mono, Courier New, monospace;font-size:12px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+code{padding:1px 3px;}
+pre{background-color:#f5f5f5;display:block;padding:8.5px;margin:0 0 18px;line-height:18px;font-size:12px;border:1px solid #ccc;border:1px solid rgba(0, 0, 0, 0.15);-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;white-space:pre;white-space:pre-wrap;word-wrap:break-word;}
+form{margin-bottom:18px;}
+fieldset{margin-bottom:18px;padding-top:18px;}fieldset legend{display:block;padding-left:150px;font-size:19.5px;line-height:1;color:#404040;*padding:0 0 5px 145px;*line-height:1.5;}
+form .clearfix{margin-bottom:18px;zoom:1;}form .clearfix:before,form .clearfix:after{display:table;content:"";zoom:1;*display:inline;}
+form .clearfix:after{clear:both;}
+label,input,select,textarea{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:13px;font-weight:normal;line-height:normal;}
+label{padding-top:6px;font-size:13px;line-height:18px;float:left;width:130px;text-align:right;color:#404040;}
+form .input{margin-left:150px;}
+input[type=checkbox],input[type=radio]{cursor:pointer;}
+input,textarea,select,.uneditable-input{display:inline-block;width:210px;height:18px;padding:4px;font-size:13px;line-height:18px;color:#808080;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+input[type=checkbox],input[type=radio]{width:auto;height:auto;padding:0;margin:3px 0;*margin-top:0;line-height:normal;border:none;}
+input[type=file]{background-color:#ffffff;padding:initial;border:initial;line-height:initial;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+input[type=button],input[type=reset],input[type=submit]{width:auto;height:auto;}
+select,input[type=file]{height:27px;line-height:27px;*margin-top:4px;}
+select[multiple]{height:inherit;}
+textarea{height:auto;}
+.uneditable-input{background-color:#ffffff;display:block;border-color:#eee;-webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);-moz-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.025);cursor:not-allowed;}
+:-moz-placeholder{color:#bfbfbf;}
+::-webkit-input-placeholder{color:#bfbfbf;}
+input,textarea{-webkit-transition:border linear 0.2s,box-shadow linear 0.2s;-moz-transition:border linear 0.2s,box-shadow linear 0.2s;-ms-transition:border linear 0.2s,box-shadow linear 0.2s;-o-transition:border linear 0.2s,box-shadow linear 0.2s;transition:border linear 0.2s,box-shadow linear 0.2s;-webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);-moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1);}
+input:focus,textarea:focus{outline:0;border-color:rgba(82, 168, 236, 0.8);-webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);-moz-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);}
+input[type=file]:focus,input[type=checkbox]:focus,select:focus{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;outline:1px dotted #666;}
+form div.clearfix.error{background:#fae5e3;padding:10px 0;margin:-10px 0 10px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}form div.clearfix.error>label,form div.clearfix.error span.help-inline,form div.clearfix.error span.help-block{color:#9d261d;}
+form div.clearfix.error input,form div.clearfix.error textarea{border-color:#c87872;-webkit-box-shadow:0 0 3px rgba(171, 41, 32, 0.25);-moz-box-shadow:0 0 3px rgba(171, 41, 32, 0.25);box-shadow:0 0 3px rgba(171, 41, 32, 0.25);}form div.clearfix.error input:focus,form div.clearfix.error textarea:focus{border-color:#b9554d;-webkit-box-shadow:0 0 6px rgba(171, 41, 32, 0.5);-moz-box-shadow:0 0 6px rgba(171, 41, 32, 0.5);box-shadow:0 0 6px rgba(171, 41, 32, 0.5);}
+form div.clearfix.error .input-prepend span.add-on,form div.clearfix.error .input-append span.add-on{background:#f4c8c5;border-color:#c87872;color:#b9554d;}
+table{width:100%;margin-bottom:18px;padding:0;border-collapse:separate;*border-collapse:collapse;font-size:13px;border:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}table th,table td{padding:10px 10px 9px;line-height:18px;text-align:left;}
+table th{padding-top:9px;font-weight:bold;vertical-align:middle;border-bottom:1px solid #ddd;}
+table td{vertical-align:top;}
+table th+th,table td+td{border-left:1px solid #ddd;}
+table tr+tr td{border-top:1px solid #ddd;}
+table tbody tr:first-child td:first-child{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;border-radius:4px 0 0 0;}
+table tbody tr:first-child td:last-child{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;border-radius:0 4px 0 0;}
+table tbody tr:last-child td:first-child{-webkit-border-radius:0 0 0 4px;-moz-border-radius:0 0 0 4px;border-radius:0 0 0 4px;}
+table tbody tr:last-child td:last-child{-webkit-border-radius:0 0 4px 0;-moz-border-radius:0 0 4px 0;border-radius:0 0 4px 0;}
+.zebra-striped tbody tr:nth-child(odd) td{background-color:#f9f9f9;}
+.zebra-striped tbody tr:hover td{background-color:#f5f5f5;}
+.zebra-striped .header{cursor:pointer;}.zebra-striped .header:after{content:"";float:right;margin-top:7px;border-width:0 4px 4px;border-style:solid;border-color:#000 transparent;visibility:hidden;}
+.zebra-striped .header:hover:after{visibility:visible;}
+footer{margin-top:17px;padding-top:17px;border-top:1px solid #eee;}
+.page-header{margin-bottom:17px;border-bottom:1px solid #ddd;-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);-moz-box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);box-shadow:0 1px 0 rgba(255, 255, 255, 0.5);}.page-header h1{margin-bottom:8px;}
+.close{float:right;color:#000000;font-size:20px;font-weight:bold;line-height:13.5px;text-shadow:0 1px 0 #ffffff;filter:alpha(opacity=20);-khtml-opacity:0.2;-moz-opacity:0.2;opacity:0.2;}.close:hover{color:#000000;text-decoration:none;filter:alpha(opacity=40);-khtml-opacity:0.4;-moz-opacity:0.4;opacity:0.4;}
+
+pre {
+	padding: 0;
+	margin: 10px 0px 10px;
+	overflow: auto; /*--If the Code exceeds the width, a scrolling is available--*/
+	overflow-Y: hidden;  /*--Hides vertical scroll created by IE--*/
+}
+pre code {
+	margin: 5px;  /*--Left Margin--*/
+	padding: 0px;
+	display: block;
+    line-height: 18px;
+}
+.center { text-align:center}
+.left {text-align:left}
+.right {text-align:right}
+
+</style><style type="text/css">
+body {
+	font-family: "Geneva", Arial, sans-serif;
+	font-size: 13px;
+	margin: 10px;
+}
+
+a, a:visited {
+	color: #09c;
+}
+
+a:hover {
+	color: #336699;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0px 0px 10px;	
+	font-weight: bold;
+}
+
+h2 {
+	border-bottom: 2px dotted #ccc;
+	margin: 5px 0px 15px;	
+}
+
+h6 {
+	color: #09c;
+}
+
+blockquote {
+	font-family: "Georgia", Courier New, courier, sans-serif;
+	background: #efefef;
+	padding: 5px 10px;
+	border: solid 1px #ddd;
+	margin: 15px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	color:  #333;
+	
+}
+
+ul, ol {
+	margin-bottom: 15px;
+}
+
+li {
+	padding: 3px;
+}
+
+
+
+code {
+	background-color: #f1f1f1;
+    color: #336699;
+}
+
+pre {
+	background-color: #f1f1f1;
+}
+
+pre > code {
+	margin: 0px;
+	padding: 5px;
+	border: 0px;
+	background-color: #f1f1f1;
+}
+
+
+</style></head>
+<body>
+<p><img src="http://www.zenika.com/images/signature/simple.png" alt="Zenika"/></p>
+
+<h1 id="toc_0">NewZLetter</h1>
+
+<h5 id="toc_1">Septembre 2015</h5>
+
+<hr/>
+
+<p><em>Distribution mensuelle de stimulus techniques</em> </p>
+
+<h2 id="toc_2">ZeniLan à Lyon - Deuxième édition</h2>
+
+<p><strong>Zenika Lyon</strong> a hébergé l’un des meetup les plus attendus du moment ! 
+En effet, une dizaine de zénikiens se sont retrouvés du vendredi (4/09/15) au samedi matin pour participer à la deuxième édition de la #ZeniLan_Lyon. 
+Au programme de cette soirée : <strong>TrackMania, CS:GO, Starcraft 2, Dota 2 sans oublier Heroes of the Storm</strong> !</p>
+
+<p>Cette soirée fut ponctuée de temps forts ! En commençant par les sushis, suivi d’une formidable formation Dota 2 dispensée par le professeur Guybert. Une fois n’est pas coutume, cette édition s’est terminée par une série victorieuse sur Heroes of the Storm.
+À bientôt pour la prochaine édition !</p>
+
+<p><em>Part Brice Buffa</em></p>
+
+<h2 id="toc_3">Ca tourne à Nantes!</h2>
+
+<p>La semaine dernière quelques parisiens ont pris le train pour aller en terre Nantaise. 
+L&#39;objectif de ce déplacement était d&#39;aller réaliser un tournage de plusieurs vidéos. </p>
+
+<p>Cet événement faisait suite au <strong>call for vidéo</strong> qu&#39;avait lancé l&#39;agence de Nantes cet été.
+L&#39;idée : créer du contenu à destination de la chaîne youtube de <em>Zenika</em>.</p>
+
+<p>Si vous n&#39;aviez pas vu la liste des propositions :</p>
+
+<ul>
+<li><strong>[Docker]</strong> &quot;Docker pour les développeurs&quot; by Mario Loriedo</li>
+<li><strong>[Web]</strong> &quot;Promesses -&gt; Générateurs -&gt; Fonctions asynchrones&quot; by Matthieu Lux</li>
+<li><strong>[ALL]</strong> &quot;Cast sur sujets multiples&quot; by Guillaume Lhermitte &amp; Fabrice Sznajderman</li>
+<li><strong>[TDD]</strong> &quot;TDD par l&#39;exemple&quot; by Mario Loriedo</li>
+<li><strong>[ARCHITECTURE]</strong> &quot;Clean Code&quot; by Laurent Claisse</li>
+<li><strong>[DDD]</strong> &quot;Value Objects vs Obsession Primitive&quot; by Laurent Claisse</li>
+<li><strong>[ALL]</strong> &quot;Oeil de Guillaume&quot; by Guillaume Gaulard</li>
+<li><strong>[Java et autres langages]</strong> Sujet non défini* by Xavier Detant</li>
+</ul>
+
+<p>Après un sondage lancé sur la ML @tech, la liste des talks retenus : </p>
+
+<ul>
+<li><strong>[Docker]</strong> &quot;Docker pour les développeurs&quot; by Mario Loriedo</li>
+<li><strong>[Web]</strong> &quot;Promesses -&gt; Générateurs -&gt; Fonctions asynchrones&quot; by Matthieu Lux</li>
+<li><strong>[ALL]</strong> &quot;Cast sur sujets multiples&quot; by Guillaume Lhermitte &amp; Fabrice Sznajderman</li>
+<li><strong>[ARCHITECTURE]</strong> &quot;Clean Code&quot; by Laurent Claisse</li>
+</ul>
+
+<p><em>Suite à une contrainte liée aux dates, Laurent Claisse n&#39;a pas pu venir le jour du tournage.</em></p>
+
+<p>La date du tournage a été fixée au 30 septembre 2015 dans les studios de <a href="http://mstream.fr/index2.php"><strong>mstream</strong></a>. 
+Je crois qu&#39;aucun d&#39;entre nous n&#39;a eu auparavant d&#39;expérience similaire, c&#39;est à dire présenter un sujet face caméra. 
+Pour cette première, nous avons eu le droit à des conditions exceptionnelles! Les vidéos ont été tournées dans un studio professionnel avec une équipe super sympa et pro. </p>
+
+<p>Guillaume, Al et moi avons pu partir la veille au soir et participer à la réunion trimestrielle de l&#39;agence de Nantes. </p>
+
+<p>C&#39;était l&#39;opportunité de rencontrer les zénikéens de Nantes et de passer une soirée très sympa à base de bières locales délicieuses, pizzas et fin de soirée dans un pub. 
+Nous avons été raisonnables et nous sommes rentrés à l&#39;hôtel pas trop tard (1h du matin) et oui par manque de chance le bar de l&#39;hôtel était fermé à cette heure-ci donc, obligation d&#39;aller au lit ;)</p>
+
+<p>Plus sérieusement, la journée du lendemain allait être assez exigeante et il fallait être en forme.</p>
+
+<p>Le lendemain matin, après un bon petit déjeuner, nous quittons l&#39;hôtel pour rejoindre les studios.</p>
+
+<p>Arrivées sur place, nous découvrons le lieu ... la pression monte.</p>
+
+<p>Mario et Mathieu nous rejoignent après quelques échanges autour d&#39;un café, le tournage commence. C&#39;est Mario qui débute avec son sujet autour de Docker. 
+Le timing de la journée a été un peu décalé car pour le premier passage il y a toujours des ajustements à faire. </p>
+
+<p>Après la pause déjeuner, c&#39;est Mathieu qui a fait sa présentation  les Promesses. Comme le format de présentation était le même que celui de Mario, il a bénéficié de tous les réglages et le prise a été assez rapide.</p>
+
+<p>Avec Guillaume, nous avions un format différent que celui proposé par Mario et Mathieu. Pour notre tournage, nous avions un scénario et différentes scènes à jouer. </p>
+
+<p>Initialement, nous devions tourner sur toute l&#39;après-midi, mais avec les imprévus de la journée, nous avons commencé le tournage vers 15h - 15h30. Ils nous restaient environ 2h30 pour tourner l&#39;ensemble de la vidéo. C&#39;était l&#39;heure du SHOW TIME!! </p>
+
+<p>C&#39;est avec un rythme assez soutenu en gardant une super ambiance et du sérieux que nous avons réussi à boucler le tournage. </p>
+
+<p>Finalement, nous avons pu prendre notre train dans les temps et rentrer sereinement au bercail.</p>
+
+<p>Durant la soirée et la journée de tournage, nous avons filmé et pris des photos afin de tenter la réalisation d&#39;un &#39;making off&#39; de la journée. :D
+Bon il y a un peu de boulot, mais dès que c&#39;est prêt nous le diffuserons.</p>
+
+<p>Le bilan de cette journée est plus que positif. Cette expérience de tournage d&#39;une vidéo était assez inédite. Pour ceux qui auraient une appréhension pour se lancer, je vous recommande de ne pas hésiter et de foncer!! :).</p>
+
+<p><em>Part Fabrice Sznajderman</em></p>
+
+<h2 id="toc_4">MOOCs &amp; challenges</h2>
+
+<ul>
+<li><a href="https://www.edx.org/xseries/html5-w3c"><em>HTML5 from W3C</em></a> - Improve your web development</li>
+<li><a href="https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-2"><em>Introduction to Computational Thinking and Data Science</em></a> </li>
+</ul>
+
+<h2 id="toc_5">Revue de presse</h2>
+
+<ul>
+<li><a href="http://www.developpez.com/actu/90422/Un-developpeur-enonce-les-12-regles-a-respecter-pour-ecrire-un-code-JavaScript-professionnel/"><em>12 règles pour écrire du JS</em></a> - suivez le guide...<br/></li>
+<li><a href="http://www.theregister.co.uk/2015/01/08/erik_meijer_agile_is_a_cancer_we_have_to_eliminate_from_the_industry/"><em>Erik Meijer: AGILE must be destroyed, once and for all</em></a> - Attention!! sujet polémique</li>
+<li><a href="http://www.infoworld.com/article/2987529/java/insider-oracle-lost-interest-in-java.html#tk.twt_ifw"><em>Oracle se désintéresse de Java ?</em></a> - Qu&#39;en est il?</li>
+<li><a href="http://www.developpez.com/actu/90623/Git-2-6-est-maintenant-disponible-en-telechargement-avec-des-dizaines-de-nouvelles-fonctionnalites-et-des-corrections-de-bogues/"><em>Git 2.6 disponible</em></a> - Découvrez le détail de cette nouvelle version</li>
+<li><a href="http://blog.cloudera.com/blog/2015/09/making-apache-spark-testing-easy-with-spark-testing-base/"><em>Spark : testing</em></a> - Tester facilement votre Spark</li>
+<li><a href="*%20%5B*Spark%20:%20testing*%5D(http://blog.cloudera.com/blog/2015/09/making-apache-spark-testing-easy-with-spark-testing-base/"><em>Tollé autour des nouvelles IntelliJ</em></a> - Tester facilement votre Spark) - Erreur marketing ?</li>
+<li><a href="http://www.infoq.com/fr/news/2015/09/lean-it-summit-pierre-pezziardi"><em>Lean It Summit : Incubateur de Startups au Gouvernement</em></a> - Ca bouge au gouvernement </li>
+</ul>
+
+<h2 id="toc_6">Conférences</h2>
+
+<ul>
+<li><a href="http://www.webglparis.com/"><em>WebGL Paris</em></a> - Paris 12 octobre 2015</li>
+<li><a href="http://www.paris-web.fr/"><em>Paris Web</em></a> - Paris 1-2 octobre 2015</li>
+<li><a href="http://droidcon.fr/"><em>DroidCon</em></a> - Paris 9-10 novembre 2015</li>
+<li><a href="http://www.blendwebmix.com/"><em>Blend Web Mix</em></a> - Lyon 28-29 octobre 2015 </li>
+<li><a href="http://www.codeursenseine.com/2015/"><em>Codeur en Seine</em></a> - Rouen 26 novembre 2015 </li>
+<li><a href="https://cloudplatformonline.com/NEXT_Google_Cloud_Platform_Experience_Paris.html"><em>Google Next 2015</em></a> - Paris - 13 octobre 2015</li>
+</ul>
+
+<hr/>
+
+<h2 id="toc_7">Le mot des tribus</h2>
+
+<p><em>silence radio ce mois-ci ;)</em></p>
+
+<h2 id="toc_8">Les stats du Blog</h2>
+
+<h5 id="toc_9">Septembre 2015 (top 15)</h5>
+
+<table><thead>
+<tr>
+<th>Titre de page</th>
+<th>Pages vues</th>
+<th>Consultations uniques</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Setting up a development environment using Docker and Vagrant - Zenika</td>
+<td>4690</td>
+<td>4307</td>
+</tr>
+<tr>
+<td>Documenting a REST API with Swagger and Spring MVC - Zenika</td>
+<td>4262</td>
+<td>3907</td>
+</tr>
+<tr>
+<td>Premiers pas avec ElasticSearch (Partie 1) - Zenika</td>
+<td>2471</td>
+<td>2191</td>
+</tr>
+<tr>
+<td>REST Web Services testing with Spring MVC - Zenika</td>
+<td>1893</td>
+<td>1752</td>
+</tr>
+<tr>
+<td>Using Tomcat JDBC connection pool in a standalone environment - Zenika</td>
+<td>1637</td>
+<td>1540</td>
+</tr>
+<tr>
+<td>Zenika - Home</td>
+<td>1578</td>
+<td>1193</td>
+</tr>
+<tr>
+<td>A Full Javascript Architecture, Part One - NodeJS - Zenika</td>
+<td>1341</td>
+<td>1235</td>
+</tr>
+<tr>
+<td>Tutoriel sur l&#39;installation et la configuration d&#39;ElasticSearch (partie 1)</td>
+<td>1095</td>
+<td>976</td>
+</tr>
+<tr>
+<td>Introducing Spring MVC test framework - Zenika</td>
+<td>1016</td>
+<td>965</td>
+</tr>
+<tr>
+<td>Elasticsearch 2.0: ce qui change - Zenika</td>
+<td>883</td>
+<td>794</td>
+</tr>
+<tr>
+<td>Java 8 et les Lambda - Zenika</td>
+<td>877</td>
+<td>828</td>
+</tr>
+<tr>
+<td>Using Thymeleaf with Spring MVC - Zenika</td>
+<td>829</td>
+<td>785</td>
+</tr>
+<tr>
+<td>AngularJS : Les directives - Zenika</td>
+<td>747</td>
+<td>703</td>
+</tr>
+<tr>
+<td>HATEOAS paging with Spring MVC and Spring Data JPA - Zenika</td>
+<td>701</td>
+<td>643</td>
+</tr>
+<tr>
+<td>Testing SQL queries with Spring and DbUnit, part 1 - Zenika</td>
+<td>685</td>
+<td>634</td>
+</tr>
+</tbody></table>
+
+<h2 id="toc_10">LoL</h2>
+
+<ul>
+<li><a href="http://www.developpez.net/forums/d1428236/club-professionnels-informatique/taverne-club-humour-divers/tutoriel-l-art-programmer-salement/">Tuto : L&#39;art de programmer salement</a> - Une fois que l&#39;on sait programmer salement, plus facile de coder proprement</li>
+</ul>
+
+</body>
+</html>

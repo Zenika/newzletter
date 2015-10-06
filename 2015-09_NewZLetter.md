@@ -22,13 +22,13 @@ Cette soirée fut ponctuée de temps forts ! En commençant par les sushis, suiv
 
 ## Ca tourne à Nantes!
 
-La semaine dernière quelques parisien ont pris le train pour aller en terre Nantaise. 
+La semaine dernière quelques parisiens ont pris le train pour aller en terre Nantaise. 
 L'objectif de ce déplacement était d'aller réaliser un tournage de plusieurs vidéos. 
 
-Cet événement faisait suite au **call for vidéos** qu'avait lancé l'agence de Nantes cet été.
+Cet événement faisait suite au **call for vidéo** qu'avait lancé l'agence de Nantes cet été.
 L'idée : créer du contenu à destination de la chaîne youtube de *Zenika*.
 
-Si vous n'aviez pas vu la listes des propositions :
+Si vous n'aviez pas vu la liste des propositions :
 
  - **[Docker]** "Docker pour les développeurs" by Mario Loriedo
  - **[Web]** "Promesses -> Générateurs -> Fonctions asynchrones" by Matthieu Lux
@@ -39,7 +39,7 @@ Si vous n'aviez pas vu la listes des propositions :
  - **[ALL]** "Oeil de Guillaume" by Guillaume Gaulard
  - **[Java et autres langages]** Sujet non défini* by Xavier Detant
 
-Après un sondage lancé sur la ML @tech, la listes des talks retenus : 
+Après un sondage lancé sur la ML @tech, la liste des talks retenus : 
 
  - **[Docker]** "Docker pour les développeurs" by Mario Loriedo
  - **[Web]** "Promesses -> Générateurs -> Fonctions asynchrones" by Matthieu Lux
@@ -55,22 +55,22 @@ Pour cette première, nous avons eu le droit à des conditions exceptionnelles! 
 Guillaume, Al et moi avons pu partir la veille au soir et participer à la réunion trimestrielle de l'agence de Nantes. 
 
 C'était l'opportunité de rencontrer les zénikéens de Nantes et de passer une soirée très sympa à base de bières locales délicieuses, pizzas et fin de soirée dans un pub. 
-Nous avons été raisonnable et nous sommes rentrés à l'hôtel pas trop tard (1h du matin) et oui par manque de chance le bar de l'hôtel était fermé à cette heure-ci donc, obligation d'aller au lit ;)
+Nous avons été raisonnables et nous sommes rentrés à l'hôtel pas trop tard (1h du matin) et oui par manque de chance le bar de l'hôtel était fermé à cette heure-ci donc, obligation d'aller au lit ;)
 
 Plus sérieusement, la journée du lendemain allait être assez exigeante et il fallait être en forme.
 
 Le lendemain matin, après un bon petit déjeuner, nous quittons l'hôtel pour rejoindre les studios.
 
-Arrivée sur place, nous découvrons le lieu ... la pression monte.
+Arrivées sur place, nous découvrons le lieu ... la pression monte.
 
 Mario et Mathieu nous rejoignent après quelques échanges autour d'un café, le tournage commence. C'est Mario qui débute avec son sujet autour de Docker. 
 Le timing de la journée a été un peu décalé car pour le premier passage il y a toujours des ajustements à faire. 
 
-Après la pause déjeuner, c'est Mathieu qui a fait sa présentation  les Promesses. Comme le format de présentation était le même que celui de Mario, il a bénéficié de tout les réglages et le prise a été assez rapide.
+Après la pause déjeuner, c'est Mathieu qui a fait sa présentation  les Promesses. Comme le format de présentation était le même que celui de Mario, il a bénéficié de tous les réglages et le prise a été assez rapide.
 
-Avec Guillaume, nous avions un format différent que celui proposé par Mario et Mathieu. Pour notre tournage, nous avions une scénario et différentes scènes à jouer. 
+Avec Guillaume, nous avions un format différent que celui proposé par Mario et Mathieu. Pour notre tournage, nous avions un scénario et différentes scènes à jouer. 
 
-Initialement, nous devions tourner sur toute l'après midi, mais avec les imprévus de la journée, nous avons commencé le tournage vers 15h - 15h30. Ils nous restaient environ 2h30 pour tourner l'ensemble de la vidéo. C'était l'heure du SHOW TIME!! 
+Initialement, nous devions tourner sur toute l'après-midi, mais avec les imprévus de la journée, nous avons commencé le tournage vers 15h - 15h30. Ils nous restaient environ 2h30 pour tourner l'ensemble de la vidéo. C'était l'heure du SHOW TIME!! 
 
 C'est avec un rythme assez soutenu en gardant une super ambiance et du sérieux que nous avons réussi à boucler le tournage. 
 
@@ -79,7 +79,7 @@ Finalement, nous avons pu prendre notre train dans les temps et rentrer sereinem
 Durant la soirée et la journée de tournage, nous avons filmé et pris des photos afin de tenter la réalisation d'un 'making off' de la journée. :D
 Bon il y a un peu de boulot, mais dès que c'est prêt nous le diffuserons.
 
-Le bilan de cette journée est plus que positif. Cette expérience de tournage d'une vidéo était assez inédite. Pour ceux qui aurait une appréhension pour se lancer, je vous recommande de ne pas hésiter et de foncer!! :).
+Le bilan de cette journée est plus que positif. Cette expérience de tournage d'une vidéo était assez inédite. Pour ceux qui auraient une appréhension pour se lancer, je vous recommande de ne pas hésiter et de foncer!! :).
 
 *Part Fabrice Sznajderman*
 
@@ -121,30 +121,29 @@ Le bilan de cette journée est plus que positif. Cette expérience de tournage d
 *silence radio ce mois-ci ;)*
  
 ##Les stats du Blog
-#####Août 2015 (top15)
+#####Septembre 2015 (top 15)
 
 Titre de page |	Pages vues	| Consultations uniques
 --------------|-------------|--------------------
-Documenting a REST API with Swagger and Spring MVC - Zenika|3041|2742
-Premiers pas avec ElasticSearch (Partie 1) - Zenika|2160|1859
-Using Tomcat JDBC connection pool in a standalone environment - Zenika|1501|1399
-Zenika - Home Blog|1350|1135
-REST Web Services testing with Spring MVC - Zenika|1088|1001
-A Full Javascript Architecture, Part One - NodeJS - Zenika|986|891
-Testing SQL queries with Spring and DbUnit, part 1 - Zenika|713|653
-Passer d'une application Angular-Bootstrap à Angular-Material Design - Zenika|683|606
-AngularJS : Les directives - Zenika|682|614
-HTML5 et les WebSockets - Zenika|565|513
-Introducing Spring MVC test framework - Zenika|554|510
-Introducing the Thymeleaf template engine - Zenika|537|498
-Java 8 et les Lambda - Zenika|502|476
-Error handling with REST - Zenika|492|478
+Setting up a development environment using Docker and Vagrant - Zenika|4690|4307
+Documenting a REST API with Swagger and Spring MVC - Zenika|4262|3907
+Premiers pas avec ElasticSearch (Partie 1) - Zenika|2471|2191
+REST Web Services testing with Spring MVC - Zenika|1893|1752
+Using Tomcat JDBC connection pool in a standalone environment - Zenika|1637|1540
+Zenika - Home|1578|1193
+A Full Javascript Architecture, Part One - NodeJS - Zenika|1341|1235
+Tutoriel sur l'installation et la configuration d'ElasticSearch (partie 1)|1095|976
+Introducing Spring MVC test framework - Zenika|1016|965
+Elasticsearch 2.0: ce qui change - Zenika|883|794
+Java 8 et les Lambda - Zenika|877|828
+Using Thymeleaf with Spring MVC - Zenika|829|785
+AngularJS : Les directives - Zenika|747|703
+HATEOAS paging with Spring MVC and Spring Data JPA - Zenika|701|643
+Testing SQL queries with Spring and DbUnit, part 1 - Zenika|685|634
 
 
 ##LoL
 
  * [Tuto : L'art de programmer salement](http://www.developpez.net/forums/d1428236/club-professionnels-informatique/taverne-club-humour-divers/tutoriel-l-art-programmer-salement/) - Une fois que l'on sait programmer salement, plus facile de coder proprement
- * [*TU & 5ième dimension*](http://lesjoiesducode.fr/post/127224069808/quand-mon-code-foireux-passe-les-tests-contre) - qui l'eu cru? :) 
- * [Venez y a de la place!](http://lesjoiesducode.fr/post/127700158840/quand-les-coll%C3%A8gues-sont-devant-mon-%C3%A9cran-pour) - plus on est de fous...
 
  
