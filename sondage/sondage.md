@@ -1,4 +1,3 @@
-L'année 2015 vient d'être archivée 
 
 Q1 : Connais-tu la NewZletter Zenika ?
 * oui
