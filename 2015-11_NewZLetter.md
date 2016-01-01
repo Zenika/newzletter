@@ -93,6 +93,6 @@ Titre de page |	Pages vues	| Consultations uniques
 ##LoL
 
  * [Simply Explained](http://geek-and-poke.com/geekandpoke/2015/11/29/simply-explained?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:%20GeekAndPoke%20(Geek%20And%20Poke)) - Simplicité > efficacité
- * [Quand des devs senior programment ensemble](http://lesjoiesducode.fr/post/133917476150/quand-des-devs-senior-programment-ensemble
+* [Quand des devs senior programment ensemble](http://lesjoiesducode.fr/post/133917476150/quand-des-devs-senior-programment-ensemble
 ) - Allez les vieux :)
  
