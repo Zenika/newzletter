@@ -95,41 +95,38 @@ Pour les fonctions support c'est utile?
 
 ##Revue de presse
 
- * [*How to kick start spark development on intellij idea in 4 steps*](https://medium.com/large-scale-data-processing/how-to-kick-start-spark-development-on-intellij-idea-in-4-steps-c7c8f5c2fe63#.m1dwh1ilz) - Mettez le contact 
- * [*WordPress.com remplace PHP par JavaScript*](http://www.infoq.com/fr/news/2015/11/wordpress-php-javascript?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global) - Go go go
+ * [*Projet Natick - Microsoft*](http://goo.gl/WGyHR8) - Palmes et tuba de rigueur 
+ * [*Be Lazy With Java 8*](https://goo.gl/fnmZEy) - Cool Lazy tranquille
  * [*Pourquoi choisir Backbone en 2015 ?*](http://www.infoq.com/fr/presentations/bow-florent-duveau?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global) - Pourquoi pas?
- * [*Reading Code Good*](http://www.infoq.com/fr/presentations/mix-it-saron-yitbarek-reading-code-good?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global) - Bien lire avant tout
- * [*La date du JDK9  est elle maintenue?*](http://mail.openjdk.java.net/pipermail/jdk9-dev/2015-December/003149.html) - Suspence
- * [*Multitâches sans thread - Philippe Prados*](https://www.youtube.com/watch?v=mq3mnRzPbOs) - Vidéo très intéressante
- * [*Le développeur aime les scripts*](http://www.developpez.com/actu/93081/Les-developpeurs-abusent-ils-des-scripts-Un-ingenieur-redige-des-scripts-des-qu-une-tache-ennuyeuse-lui-prend-plus-de-90-secondes/) - Et vous?
- * [*Apprendre un language en une nuit*](http://www.developpez.com/actu/91469/Quelles-sont-les-methodes-d-apprentissage-a-la-programmation-les-plus-efficaces-Un-developpeur-propose-une-solution-pour-apprendre-en-une-nuit/). - Bonne nuit :) 
-
-
+ * [*Oracle envisage de passer à un Web sans plugin*](http://goo.gl/mMjpYn) - Plugin c'est has been
+ * [*Shapeless : not a tutorial part 1*](http://goo.gl/KqZgVq) - Côté obscure de Scala
+ * [*Le Modèle Mémoire révisé d'OpenJDK*](http://goo.gl/K2JKWu) - Update memory
+ * [*Customisation de son terminal*](http://goo.gl/zPla63) - Hmmmm!
+ * [*Why Should Java Value Types Be Immutable?*](https://goo.gl/rYNd8x). - oui pourquoi?
 
  
 ##Conférences
 
- * [*Devfest Paris 2016*](http://devfest.gdgparis.com/) - Paris 5 février 2016
+ * [*Kubecon 2016*](https://ti.to/kubecon/kubecon-eu-2016) - Londre 10-11 mars 2016
+
+##Challenges
+
+ * [*# Hash Code*](https://goo.gl/aOHnxP) - Oneline 11 février 2016
   
  
 ---
 
-
-##Le mot des tribus
-
-*silence radio ce mois-ci ;)*
- 
 ##Les stats du Blog
-#####Novembre 2015 (top 15)
+#####Janvier 2016 (top 15)
 
 Titre de page |	Pages vues	| Consultations uniques
 --------------|-------------|--------------------
 
 **HTTP 404** - *Stats not found this month! :-/*
 
+
 ##LoL
 
- * [Simply Explained](http://geek-and-poke.com/geekandpoke/2015/11/29/simply-explained?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:%20GeekAndPoke%20(Geek%20And%20Poke)) - Simplicité > efficacité
-* [Quand des devs senior programment ensemble](http://lesjoiesducode.fr/post/133917476150/quand-des-devs-senior-programment-ensemble
-) - Allez les vieux :)
+ * [Les joies de l'infomatique](http://goo.gl/b8ZaQN) - déjà vu
+ *  [Ces petites joies de notre métier ](http://goo.gl/vtPL0c) - yeah!
  
