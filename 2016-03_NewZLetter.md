@@ -46,9 +46,9 @@ Bonne lecture!
 
 ###Matinale Angular
 
-Après le succès des matinales Angular2 dans les différentes agences, le NG2 Tour c'est terminé le 10 mars dans notre toute nouvelle agence, à Bordeaux. Emmanuel DEMEY a présenté la session.
+Après le succès des matinales Angular2 dans les différentes agences, le *NG2 Tour* s'est terminé le 10 mars dans notre toute nouvelle agence, à Bordeaux. Emmanuel DEMEY a présenté la session.
 
- Cette année les Zenikas ont investi les conférences techniques : 
+Cette année les Zenikas ont investi les conférences techniques : 
  
 ###DevoxxFR 2016 : 
   
@@ -74,7 +74,7 @@ Cela permet à tout le monde de consulter les slides en ligne ou en PDF, d'étud
 
 ## Vidéos ZenikaTV 
 
-Beaucoup d'activité sur la chaîne ZenikaTV. Depuis le mois dans janvier 4 vidéos sont soirties : 
+Beaucoup d'activité sur la chaîne ZenikaTV. Depuis le mois de janvier, 4 vidéos sont sorties : 
 
  * [[Hub] Les Codes Smells(Par Guillaume Lhermitte & Fabrice Sznajderman)](https://www.youtube.com/watch?v=EmrCI3MZLs4)
  * [[Concept et Parallèle] Inapropriate Intimacy (Guillaume Lhermitte & Fabrice Sznajderman)](https://www.youtube.com/watch?v=zwPlScTTL7M)
@@ -86,7 +86,6 @@ La chaine ZenikaTV a vu la sortie d'une vidéo en Mars :
  * [HTTP2 : ce qui va changer (Par Julien Landuré)](https://www.youtube.com/watch?v=v8R4TpD6u3Y)
  
 D'autres vidéos techniques 
-
 
  * Qu'apporte Angular2, 
  * Reactive programming
