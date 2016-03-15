@@ -58,10 +58,21 @@ Après le succès des matinales Angular2 dans les différentes agences, le NG2 T
 
  - **Hands On: Angular2** *par Emmanuel Demey*
  - **// TODO Implémenter le modèle de l’entreprise [de service] de demain** *par Carl Azoury*
+ - **Kill all the REST with the Falcor** *par Hugo Wood*
 
 ###BreitzCamp 2016 :  
+
+ - **Traefik, a modern reverse-proxy** *par Emile Vauge*
+ - **Rancher, le (petit) orchestrateur docker qui vous veut du bien** *par Christophe Furmaniak et Youcef Yekhlef*
+ - **HTTP2, ce qui va changer !** *par Julien Landuré*
+ - **Continuous Delivery en contexte Breton** *par Mathieu Pousse, Julie Bourhis et Maxime Odye*
+ - **Une plateforme de continuous delivery en 45 minutes** *par Sylvain Révéreault et Mathieu Pousse*
+ - **Docker pour développeurs : 5 conteneurs pour 5 langages** *par Mario Loriedo
+Web Dev Experience par Matthieu Lux*
+ - **Codons une pompe à Bière connectée sur Arduino Yùn** *par Gwennaël Buchet*
+ - **Kill all the REST with the Falcor** *par Hugo Wood*
+ - **UX 4 DEV** *par Guillaume Gaulard*
  
- //Je n'ai pas retrouvé la liste des talks accepter ...
 
 ##ZenApp
 
