@@ -29,8 +29,6 @@ Prochainement, une version Scala sera proposée.
 
 Lagom met en oeuvre pas mal de librairies externes pour adresser les différentes problématiques techniques. Voici une liste des librairies que l'on peut trouver : 
 
-
-
 Librairie |	  Objectif |
 ---------|-------------|
 Immutable| Objet immuable |
@@ -86,6 +84,17 @@ Depuis un peu plus d'un mois, nous avons mis en place **les Mardi du Web** chez 
 Le but est de proposer des mini conférences, afin de présenter différents sujets liées à la meilleure des tribus. Deux rendez-vous ont déjà eu lieu : 
  * le premier autour de l'approche Mobile-First (avec en invité [Angéla Ricci](https://twitter.com/gericci)), 
  * le second autour de Wordpress (présenté par [Aurélien Loyer](https://twitter.com/T3kstiil3))
+ 
+###Université des langages : Clojure - Zenika Lille
+
+Le 03 mai prochain s'organise une nouvelle session de l'université des langages. Cette nouvelle édition aura pour objectif de présenter le langage **Clojure**. 
+
+Durant cette soirée **Eric Dvorsak** vous présentera un tour d'horizon du langage. 
+
+La soirée commencera pour une introduction au langage puis continuera sur les fonctionnalités avancées.
+
+Si Clojure est langage que vous ne connaissez pas encore ou que vous souhaitez approfondir vos connaissances, alors réservez votre soirée! 
+ 
 
 
 ## Vidéos ZenikaTV 
