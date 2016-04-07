@@ -85,7 +85,7 @@ Le but est de proposer des mini conférences, afin de présenter différents suj
  * le premier autour de l'approche Mobile-First (avec en invité [Angéla Ricci](https://twitter.com/gericci)), 
  * le second autour de Wordpress (présenté par [Aurélien Loyer](https://twitter.com/T3kstiil3))
  
-###Université des langages : Clojure - Zenika Lille
+###Université des langages : Clojure - Zenika Paris
 
 Le 03 mai prochain s'organise une nouvelle session de l'université des langages. Cette nouvelle édition aura pour objectif de présenter le langage **Clojure**. 
 
@@ -94,8 +94,14 @@ Durant cette soirée **Eric Dvorsak** vous présentera un tour d'horizon du lang
 La soirée commencera pour une introduction au langage puis continuera sur les fonctionnalités avancées.
 
 Si Clojure est langage que vous ne connaissez pas encore ou que vous souhaitez approfondir vos connaissances, alors réservez votre soirée! 
- 
 
+###Technozaure 29 avril 2016 - Zenika Rennes
+
+Le programme de la journée se trouve [ici](http://app.zenika.com/#/conferences/276700)
+
+Une Technozaure est une journée entière ou vous êtes invité chez Zenika pour participer à échanger avec d'autres Zenika sur les différents sujets qui nous sont chers.
+
+Différents format d'échange ont lieu dans la journée comme les T. Rex (Retours d'expériences), des présentations, des ateliers, des quickies voir même une chanson.
 
 ## Vidéos ZenikaTV 
 
