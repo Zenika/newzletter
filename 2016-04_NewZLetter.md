@@ -95,9 +95,10 @@ La soirée commencera pour une introduction au langage puis continuera sur les f
 
 Si Clojure est langage que vous ne connaissez pas encore ou que vous souhaitez approfondir vos connaissances, alors réservez votre soirée! 
 
-###Technozaure 29 avril 2016 - Zenika Rennes
+###Technozaure - Zenika Rennes
 
-Le programme de la journée se trouve [ici](http://app.zenika.com/#/conferences/276700)
+Le 29 avril 2016 se tiendra une technozaure à Zenika Rennes
+**A l'heure ou j'écris les votes sont encore ouverts (jusqu'au 9 avril)**  [ici](http://app.zenika.com/#/conferences/276700)
 
 Une Technozaure est une journée entière ou vous êtes invité chez Zenika pour participer à échanger avec d'autres Zenika sur les différents sujets qui nous sont chers.
 
