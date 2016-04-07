@@ -14,7 +14,7 @@
 ##Mettez Lagom : Architecture micro-service réactive
 
 Au mois de mars, Lightbend (ex typesafe) sortait son framework de microservice. Un de plus me direz-vous? oui peut être.. mais car il y a toujours un mais :) Ce framework propose quelques petites choses intéressantes. Je vous propose dans ce cours article de faire le point!
-Le créateur du Lagom, *Jonas boner*, met en avant les points suivants pour parler de son framework et décrire les différenciateurs par rapport à l'écosystème existant : 
+Le créateur du Lagom, *Jonas Boner*, met en avant les points suivants pour parler de son framework et décrire les différenciateurs par rapport à l'écosystème existant : 
 
  * par défaut la communication est asynchrone entre chaque service. Evidemment, il est possible de faire du synchrone également si nécessaire. 
  * côté persistence, le framework se base sur les patterns d'**Event sourcing** et **CQRS**. Par défaut.
